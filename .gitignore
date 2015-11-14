@@ -1,5 +1,6 @@
 *.vip
 .hgignore
+.hgtags
 .hg
 src/LICENSE.txt
 src/COPYRIGHT.txt

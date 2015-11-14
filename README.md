@@ -10,6 +10,17 @@ You can download and install Caraya with VI Package Manager
 [Get Caraya](http://vipm.jki.net/#!/package/jki_lib_caraya)
 
 ## Usage
+Caraya is a LabVIEW toolkit providing a library of assertion VIs to validate run-time conditions of any LabVIEW 
+application and a Define Test VI to construct unit test cases from any VI using these assertions either directly or 
+anywhere in the VI call hierarchy.
+
+###Palette
+To create unit tests or to validate runtime conditions in your application, you need to drop the corresponding Caraya VIs
+to the block diagrams of your application. The Caraya toolkit VIs are located under the JKI Toolkits functions
+palette menu 
+
+![Functions palette](https://github.com/JKISoftware/caraya/raw/master/img/functions-palette.png "Functions palette")
+
 
 ###Assertions
 Caraya provides a library of assertion functions that return an error if the condition provided is not true. 
@@ -85,4 +96,21 @@ The Define Test Suite VI tells Caraya where to write the report and if you want 
 Suite tells Caraya that the test suite has completed executing. Caraya passes the outcome of the whole test suite in the error 
 wire of the Destroy Test Suite i.e. if any of the tests failed the error output would contain an error.
 
+## Contributing
 
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+To contribute to Caraya, you will need 32-bit LabVIEW 2009 SP1 professional development environment. 
+
+## Credits
+
+Caraya is an open source project maintained by [JKI](http://jki.net).
+
+## License
+
+Caraya is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code 
+and compiled versions of Caraya. See LICENSE.md file for details.

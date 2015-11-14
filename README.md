@@ -1,33 +1,40 @@
 ![Caraya](https://github.com/JKISoftware/caraya/raw/master/img/caraya-logo.png)
 
 Caraya is an assertion and unit test framework for LabVIEW that is simple and fast. 
-It takes a whole new view to unit testing. Your VI is your unit test.
+It takes a whole new approach to unit testing; your VI is your test. Caraya 
+allows you to convert your manual test VIs you use to debug your code into
+unit test cases with nearly no effort. This significantly lowers the barrier to
+systematicaly write unit tests for your project leading into better overall code quality
+for real-world projects where developers don't always have the luxury to 
+write unit test cases first. Caraya allows you to compose your test cases into 
+into hierarchical test suites allowing you to quickly run tests for the part of the 
+code you are developing and allowing you to automate the unit testing as part of your
+build process.
 
 ## Installation
 
-You can download and install Caraya with VI Package Manager
+You can download and install Caraya with VI Package Manager.
 
 [Get Caraya](http://vipm.jki.net/#!/package/jki_lib_caraya)
 
 ## Usage
-Caraya is a LabVIEW toolkit providing a library of assertion VIs to validate run-time conditions of any LabVIEW 
-application and a Define Test VI to construct unit test cases from any VI using these assertions either directly or 
-anywhere in the VI call hierarchy.
+Caraya is a LabVIEW toolkit providing a library of assertion VIs to validate run-time constraints of any LabVIEW 
+application and support VIs to construct unit test cases from any VI using these assertions.
 
 ###Palette
-To create unit tests or to validate runtime conditions in your application, you need to drop the corresponding Caraya VIs
-to the block diagrams of your application. The Caraya toolkit VIs are located under the JKI Toolkits functions
-palette menu 
+To create unit tests or to validate runtime conditions in your application, you need to drop the corresponding Caraya toolkit 
+VIs to the block diagrams of your application or your test case. The Caraya toolkit VIs are located under the JKI Toolkits functions
+palette menu.
 
 ![Functions palette](https://github.com/JKISoftware/caraya/raw/master/img/functions-palette.png "Functions palette")
 
 
 ###Assertions
-Caraya provides a library of assertion functions that return an error if the condition provided is not true. 
+Caraya provides a library of assertion VIs that return an error if the corresponding constraint is not met. 
 You can use these anywhere in your application to verify that values are within meaningful range and error 
 your VI if values don't make sense. For example if you are setting the speed for a pump, you may want to make 
-sure that the speed is never negative. Assertation functions execute fast in your executable and provide only 
-minimal performance penalty and as such can be used nearly everywhere in your code.
+sure that the speed is never negative and is below the maximum allowed pump speed. Assertation functions 
+execute fast in your executable and provide only small performance penalty and as such can be used nearly everywhere in your code.
 
 ![Validate pump speed](https://github.com/JKISoftware/caraya/raw/master/img/validate-pump-speed.png "Validate pump speed")
 
@@ -40,24 +47,23 @@ Caraya allows you to turn any VI into a unit test case simply by dropping a Defi
 The unit test is executed simply by clicking the run arrow of the VI. To define pass and fail criteria, simply drop 
 one or more assertion VIs to your unit test VI and wire your test conditions to these assertion VIs. 
 
-For example to define a test case for addition operation, drop a Define Test and a Assert Equal VIs to the block diagram. 
-Wire your test case condition to the Assert Equal as shown in the picture below. Now you're complete with your first test 
-case, nothing else is required. Simply click  the run button of your VI and the Caraya user interface pops up with the results 
+For example to define a test case for an addition operation, drop th Define Test VI and the Assert Equal VI to your block diagram. 
+Wire your test case condition to the Assert Equal node as shown in the picture below. Now you're complete with your first test 
+case, nothing else is required. Simply click the run button of your VI and the Caraya user interface pops up with the results 
 of your test. 
 
 ![Test addition](https://github.com/JKISoftware/caraya/raw/master/img/test-addition.png "Test addition")
 
-
 ####Hierarchical Tests
-It makes sense to divide your tests into multiple logical entities or each testing a single relatively trivial aspect 
-of your system. You can compose of hierarchical tests consisting of multiple simple test cases simply by adding your 
-test cases as SubVIs. When running the top level test VI, all the subVIs containing test cases will also be executed. 
-You can have as many levels of of VI hierarchy as you see necessary. Caraya doesn't limit the number of levels in your 
-hierarchy.
+It makes sense to divide your tests into multiple logical entities each testing a single relatively trivial aspect 
+of your application. You can compose test hierarchies consisting of multiple simple test cases simply by adding your 
+test cases as SubVIs of a "parent" test case. When running the top level test VI, all the subVIs containing test cases will 
+also be executed. You can have as many levels of of VI hierarchy as you see necessary. Caraya doesn't limit the 
+number of levels in your  hierarchy.
 
-In the previous section we created a test case for addition. Create a test case for subtraction the same way. Now you 
-can create VI consisting both tests simply by dropping each of the two individual test cases on the block diagram of a 
-third test case as shown below.
+In the previous section we created a test case for addition operation. Now create a test case for subtraction the same way. You 
+can create higher level test VI consisting both addition and subtraction tests simply by dropping each of the two individual 
+test cases on the block diagram of a the parent test case as shown below.
 
 ![Test math](https://github.com/JKISoftware/caraya/raw/master/img/test-math.png "Test math")
 
@@ -67,40 +73,40 @@ first test fails.
 
 ####Test Result Dialog
 When you run a VI with unit tests, a dialog will pop up reporting you the results of the unit tests. The results are being 
-reported in the same hierarchy as your constructed you tests. 
+reported in the hierarchy as your constructed your tests. 
 
 ![Caraya test UI](https://github.com/JKISoftware/caraya/raw/master/img/caraya-ui.png "Caraya test UI")
 
-If your tests pass, you can simply close the dialog and continue your development. If your tests fail, you can edit your 
-test cases and rerun them without closing the dialog. Feel free to close the dialog, you can simply open it by rerunning 
-your test.
+If your tests pass, you can simply close the dialog and continue your development. If your tests fail, you can debug and 
+edit your test cases and source code without closing the dialog. Feel free to close the dialog, you can simply open it 
+by rerunning any of your tests.
 
-####Test Suites & Batch Testing
-Sometimes you want to run your tests as part of automated build process. When automating the unit testing, you typically 
-want your test results to be written into a report file. You also probably don't want to see the interactive window but 
-rather run your application headless. Most automated build systems also need some sort of indication when the tests are 
-completed and if they passed or failed. Caraya supports these scenarios with a concept of Test Suites. A test suite is a 
-unit of automation for Caraya. 
+####Automated Tests
+Sometimes you want to run your tests as part of an automated build process. When automating the execution of the unit tests, 
+you typically want your test results to be written into a report file. You also probably don't want to see the interactive 
+window but rather run your tests completely headless. Most automated build systems also need some sort of indication when the tests are 
+completed and if they passed or failed. Caraya supports these scenarios with a concept of test suites. A test suite is a 
+unit of automation for Caraya that provides you more fine grained control of how the test cases are being executed.
 
-A Test Suite is nothing more than a typical test case with few differences. As test suites are the unit of automation, 
-you should only define one test suite for your whole unit test battery. Use normal test cases if you need more granularity 
-within the automated battery.
+A test suite is nothing more than a typical test case with few differences. As test suites are the unit of automation, 
+you should only define only one test suite for your whole unit test hierarchy that simply calls your top level test case. 
 
-To define a test case, you provide a path for the report file as well as define if you want the dialog to pop up or stay hidden. 
-For example to run the test case for the mathematical functions that we defined above, you simply drop the top level test case 
-to your block diagram together with Define Test Suite VI and Destroy Test Suite VI.
+To define a test suite you may provide a path for the report file as well as define if you want the test cases to be executed in
+a headless mode. For example to run the test cases for the mathematical functions that we defined above, you simply drop the 
+top level test case  to your block diagram together with Define Test Suite VI and Destroy Test Suite VI.
 
 ![Test suite](https://github.com/JKISoftware/caraya/raw/master/img/test-suite.png "Test suite")
 
-The Define Test Suite VI tells Caraya where to write the report and if you want to run in an interactive mode. The Destroy Test 
+The Define Test Suite VI tells Caraya to generate a report file and to run the tests in a headless mode. The Destroy Test 
 Suite tells Caraya that the test suite has completed executing. Caraya passes the outcome of the whole test suite in the error 
-wire of the Destroy Test Suite i.e. if any of the tests failed the error output would contain an error.
+wire of the Destroy Test Suite i.e. if any of the tests failed the error output would contain an error. You can use this error
+to tell your automated build if the unit tests succeeded or failed.
 
 ### Examples
 
 You can find examples on how to use Caraya under the LabVIEW examples directory
 
-<LabVIEW>\examples\JKI Toolkits\Caraya
+`<LabVIEW>\examples\JKI Toolkits\Caraya`
 
 ## Contributing
 

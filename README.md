@@ -1,4 +1,4 @@
-# Caraya
+![Caraya](https://github.com/JKISoftware/caraya/raw/master/img/caraya-logo.png)
 
 Caraya is an assertion and unit test framework for LabVIEW that is simple and fast. 
 It takes a whole new view to unit testing. Your VI is your unit test.

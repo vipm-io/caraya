@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2015-11-13 17:16:52" Creator="Tomi Maila" Comments="" ID="0645bdddf4b05d769fdf52b5d332c060">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2015-11-13 18:53:03" Creator="Tomi Maila" Comments="" ID="40ac641d4b28a6aa194ce1f11413cec0">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.1.0.14</Library_Version>
+    <Library_Version>0.1.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,11 +34,15 @@
     <VI_Package_Configuration_File>Caraya.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Assertion &amp; Unit Test Framework for LabVIEW</One_Line_Description_Summary>
-      <Description>Caraya is an assertion and unit test framework for LabVIEW that is simple and fast. It takes a whole new view to unit testing. Your VI is your unit test.</Description>
+      <Description>Caraya is an assertion and unit test framework for LabVIEW that is simple and fast. It takes a whole new view to unit testing. Your VI is your unit test.
+
+To get started, read the documentation at the project home page below:
+
+https://github.com/JKISoftware/Caraya</Description>
       <Copyright/>
       <Packager/>
-      <URL/>
-      <Release_Notes>Initial public release</Release_Notes>
+      <URL>https://github.com/JKISoftware/Caraya</URL>
+      <Release_Notes>Improved examples and documentation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -137,7 +141,7 @@
         <Namespace/>
       </Namespace_Overrides>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -195,7 +199,8 @@
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
-      <Text_to_Add>{product_name} {version_number}
+      <Text_to_Add>
+{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
     </VI_Docs>
@@ -389,7 +394,7 @@
         <Path>Batch Testing</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>672318C0B1AFB423D2BD1DEEE1C5B805</GUID>
+      <GUID>012072DF6E82519EFF0E88A9D6529A6F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -438,7 +443,7 @@
         <Path>classes\Test Suite\Destroy Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>102229A34BFF2F7C3D0566746BDCAD5D</GUID>
+      <GUID>6A3769C0FC2CAE077BBF70B96597247E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

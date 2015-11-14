@@ -18,7 +18,7 @@ your VI if values don't make sense. For example if you are setting the speed for
 sure that the speed is never negative. Assertation functions execute fast in your executable and provide only 
 minimal performance penalty and as such can be used nearly everywhere in your code.
 
-![Validate pump speed](https://github.com/jki/caraya/raw/master/img/validate-pump-speed.png "Validate pump speed")
+![Validate pump speed](https://github.com/JKISoftware/caraya/raw/master/img/validate-pump-speed.png "Validate pump speed")
 
 If the condition is not true, the assertion returns an error. If the input already is an error, the assertion doesn't 
 run and the preceding error will pass forward.
@@ -34,7 +34,7 @@ Wire your test case condition to the Assert Equal as shown in the picture below.
 case, nothing else is required. Simply click  the run button of your VI and the Caraya user interface pops up with the results 
 of your test. 
 
-![Test addition](https://github.com/jki/caraya/raw/master/img/test-addition.png "Test addition")
+![Test addition](https://github.com/JKISoftware/caraya/raw/master/img/test-addition.png "Test addition")
 
 
 ####Hierarchical Tests
@@ -48,7 +48,7 @@ In the previous section we created a test case for addition. Create a test case 
 can create VI consisting both tests simply by dropping each of the two individual test cases on the block diagram of a 
 third test case as shown below.
 
-![Test math](https://github.com/jki/caraya/raw/master/img/test-math.png "Test math")
+![Test math](https://github.com/JKISoftware/caraya/raw/master/img/test-math.png "Test math")
 
 Normal execution rules apply. If you add your tests in parallel as above, both tests run in parallel and independent of 
 each other. If you place your tests sequentially, normal error wire behavior applies and the second test won't run if the 
@@ -58,7 +58,7 @@ first test fails.
 When you run a VI with unit tests, a dialog will pop up reporting you the results of the unit tests. The results are being 
 reported in the same hierarchy as your constructed you tests. 
 
-![Caraya test UI](https://github.com/jki/caraya/raw/master/img/caraya-ui.png "Caraya test UI")
+![Caraya test UI](https://github.com/JKISoftware/caraya/raw/master/img/caraya-ui.png "Caraya test UI")
 
 If your tests pass, you can simply close the dialog and continue your development. If your tests fail, you can edit your 
 test cases and rerun them without closing the dialog. Feel free to close the dialog, you can simply open it by rerunning 
@@ -79,7 +79,7 @@ To define a test case, you provide a path for the report file as well as define 
 For example to run the test case for the mathematical functions that we defined above, you simply drop the top level test case 
 to your block diagram together with Define Test Suite VI and Destroy Test Suite VI.
 
-![Test suite](https://github.com/jki/caraya/raw/master/img/test-suite.png "Test suite")
+![Test suite](https://github.com/JKISoftware/caraya/raw/master/img/test-suite.png "Test suite")
 
 The Define Test Suite VI tells Caraya where to write the report and if you want to run in an interactive mode. The Destroy Test 
 Suite tells Caraya that the test suite has completed executing. Caraya passes the outcome of the whole test suite in the error 

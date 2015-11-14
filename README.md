@@ -96,6 +96,12 @@ The Define Test Suite VI tells Caraya where to write the report and if you want 
 Suite tells Caraya that the test suite has completed executing. Caraya passes the outcome of the whole test suite in the error 
 wire of the Destroy Test Suite i.e. if any of the tests failed the error output would contain an error.
 
+### Examples
+
+You can find examples on how to use Caraya under the LabVIEW examples directory
+
+<LabVIEW>\examples\JKI Toolkits\Caraya
+
 ## Contributing
 
 1. Fork it!

@@ -9,33 +9,30 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Assert Factory" Type="Folder">
+			<Item Name="Assert Factory.lvclass" Type="LVClass" URL="../classes/Assert Factory/Assert Factory.lvclass"/>
+			<Item Name="Test Assert Factory.lvclass" Type="LVClass" URL="../classes/Test Assert Factory/Test Assert Factory.lvclass"/>
+		</Item>
+		<Item Name="Assert Factory Manager" Type="Folder">
+			<Item Name="Assert Factory Manager.lvclass" Type="LVClass" URL="../classes/Assert Factory Manager/Assert Factory Manager.lvclass"/>
+		</Item>
+		<Item Name="Test Manager" Type="Folder">
+			<Item Name="Test Manager.lvclass" Type="LVClass" URL="../classes/Test Manager/Test Manager.lvclass"/>
+			<Item Name="Basic Test Manager.lvclass" Type="LVClass" URL="../classes/Basic Test Manager/Basic Test Manager.lvclass"/>
+		</Item>
+		<Item Name="Test Event Storage" Type="Folder">
+			<Item Name="Test Event Storage.lvclass" Type="LVClass" URL="../classes/Test Event Storage/Test Event Storage.lvclass"/>
+		</Item>
+		<Item Name="Assert" Type="Folder">
+			<Item Name="Test Assert.lvclass" Type="LVClass" URL="../classes/Test Assert/Test Assert.lvclass"/>
+		</Item>
+		<Item Name="Call Chain To Hash.vi" Type="VI" URL="../subVIs/Call Chain To Hash.vi"/>
 		<Item Name="VI Name.vi" Type="VI" URL="../subVIs/VI Name.vi"/>
 		<Item Name="Custom or Standard Message.vi" Type="VI" URL="../subVIs/Custom or Standard Message.vi"/>
+		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
+		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
 	</Item>
-	<Item Name="Assert Factory" Type="Folder">
-		<Item Name="Assert Factory.lvclass" Type="LVClass" URL="../classes/Assert Factory/Assert Factory.lvclass"/>
-		<Item Name="Test Assert Factory.lvclass" Type="LVClass" URL="../classes/Test Assert Factory/Test Assert Factory.lvclass"/>
-	</Item>
-	<Item Name="Assert Factory Global" Type="Folder">
-		<Item Name="Assert Factory Global.lvclass" Type="LVClass" URL="../classes/Assert Factory Global/Assert Factory Global.lvclass"/>
-	</Item>
-	<Item Name="Assert" Type="Folder">
-		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
-		<Item Name="Test Assert.lvclass" Type="LVClass" URL="../classes/Test Assert/Test Assert.lvclass"/>
-	</Item>
-	<Item Name="Test Manager" Type="Folder">
-		<Item Name="Test Manager.lvclass" Type="LVClass" URL="../classes/Test Manager/Test Manager.lvclass"/>
-		<Item Name="Basic Test Manager.lvclass" Type="LVClass" URL="../classes/Basic Test Manager/Basic Test Manager.lvclass"/>
-	</Item>
-	<Item Name="Test" Type="Folder">
-		<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
-	</Item>
-	<Item Name="Test Event Storage" Type="Folder">
-		<Item Name="Test Event Storage.lvclass" Type="LVClass" URL="../classes/Test Event Storage/Test Event Storage.lvclass"/>
-	</Item>
-	<Item Name="Test Suite" Type="Folder">
-		<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
-	</Item>
-	<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
-	<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
+	<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
+	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
+	<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
 </Library>

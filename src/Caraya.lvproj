@@ -22,6 +22,14 @@
 			<Item Name="Test Suite" Type="Folder">
 				<Item Name="Math Test Suite.vi" Type="VI" URL="../examples/suites/Math Test Suite.vi"/>
 			</Item>
+			<Item Name="Integer Dictionary" Type="Folder">
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Test Empty Dictionary.vi" Type="VI" URL="../examples/integer dictionary/Tests/Test Empty Dictionary.vi"/>
+					<Item Name="Test Write and Read.vi" Type="VI" URL="../examples/integer dictionary/Tests/Test Write and Read.vi"/>
+					<Item Name="Test All.vi" Type="VI" URL="../examples/integer dictionary/Tests/Test All.vi"/>
+				</Item>
+				<Item Name="Integer Dictionary.lvclass" Type="LVClass" URL="../examples/integer dictionary/Classes/Integer Dictionary.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="asserts" Type="Folder">
@@ -98,11 +106,6 @@
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

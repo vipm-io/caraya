@@ -2,9 +2,5 @@
 .hgignore
 .hgtags
 .hg
-src/LICENSE.txt
-src/COPYRIGHT.txt
-src/name.txt
-src/version.txt
 src/*.lvlps
 src/*.aliases

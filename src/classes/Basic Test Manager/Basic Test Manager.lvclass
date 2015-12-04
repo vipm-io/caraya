@@ -213,6 +213,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
 		</Item>
+		<Item Name="Open Block Diagram.vi" Type="VI" URL="../Open Block Diagram.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!J$%.B=G&amp;Z93ZM&gt;GRJ9BJ#98.J9S"5:8.U)%VB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!71G&amp;T;7-A6'6T&gt;#".97ZB:W6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"V:*)%ZB&lt;75!3%"Q!"Y!!#E-1W&amp;S98FB,GRW&lt;'FC'E*B=WFD)&amp;2F=X1A47&amp;O97&gt;F=CZM&gt;G.M98.T!"6#98.J9S"5:8.U)%VB&lt;G&amp;H:8)A;7Y!31$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y$1A!!!!!$1M!!!!!!!!!!!I!!!!)!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="Defined Passed To State.vi" Type="VI" URL="../Defined Passed To State.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#M!!!!"!"U!0%!!!!!!!!!!QR$98*B?7%O&lt;(:M;7);1G&amp;T;7-A6'6T&gt;#".97ZB:W6S,GRW9WRB=X-/6'6T&gt;#"4&gt;'&amp;U:3ZD&gt;'Q!.5!7!!9&amp;27VQ&gt;(E(67ZL&lt;G^X&lt;A2'97FM"&amp;"B=X-%5WNJ=!6&amp;=H*P=A!!"6.U982F!!R!)1&gt;%:7:J&lt;G6E!!R!)1:198.T:71!!"A!]!!$!!!!!1!#!A!!%!E!#!!)!!!!!!%!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -284,6 +293,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
+		</Item>
+		<Item Name="Separator.vi" Type="VI" URL="../Separator.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!K!!!!!A!31$$`````#6.F='&amp;S982P=A!1!0!!!1!!!A!!!!E!!!!!!1!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">

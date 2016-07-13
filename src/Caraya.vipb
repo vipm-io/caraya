@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2015-12-04 00:04:02" Creator="Tomi Maila" Comments="" ID="e3dd6c8a6abc88748b0e82a73afd1273">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2016-07-12 17:42:08" Creator="Tomi Maila" Comments="" ID="1696c0a4f6e54facd8738bfee3711eb1">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.3.0.21</Library_Version>
+    <Library_Version>0.4.1.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -42,8 +42,7 @@ https://github.com/JKISoftware/Caraya</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>- Open block diagram when results are double clicked
-</Release_Notes>
+      <Release_Notes>No longer returns an error when using empty test suites.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -410,7 +409,7 @@ https://github.com/JKISoftware/Caraya</Description>
         <Path>Batch Testing</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54F7E18A552048DCBB68AD9E7B3EA6AB</GUID>
+      <GUID>A094484DE63E83F7C72A7793795965F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -459,7 +458,7 @@ https://github.com/JKISoftware/Caraya</Description>
         <Path>classes\Test Suite\Destroy Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>785EF5DDFE8D1E3D3B4ECE85FE34FFD7</GUID>
+      <GUID>0B1D2AC9F81A4D000DFD227941B41245</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

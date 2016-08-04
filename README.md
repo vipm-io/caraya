@@ -44,7 +44,7 @@ Caraya allows you to turn any VI into a unit test case simply by dropping a Defi
 The unit test is executed simply by clicking the run arrow of the VI. To define pass and fail criteria, simply drop 
 one or more assertion VIs to your unit test VI and wire your test conditions to these assertion VIs. 
 
-For example to define a test case for an addition operation, drop th Define Test VI and the Assert Equal VI to your block diagram. 
+For example to define a test case for an addition operation, drop the Define Test VI and the Assert Equal VI to your block diagram. 
 Wire your test case condition to the Assert Equal node as shown in the picture below. Now you're complete with your first test 
 case, nothing else is required. Simply click the run button of your VI and the Caraya user interface pops up with the results 
 of your test. 

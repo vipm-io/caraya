@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2017-04-27 12:39:49" Creator="Tomi Maila" Comments="" ID="a6ea835976c81001e5e62baf70b5532e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2017-05-04 18:49:59" Creator="Tomi Maila" Comments="" ID="9b50e75074337a0a6ac2cce21a7b76fc">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.4.2.24</Library_Version>
+    <Library_Version>0.5.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,15 +34,15 @@
     <VI_Package_Configuration_File>Caraya.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Caraya Unit Test Framework by JKI</One_Line_Description_Summary>
-      <Description>Caraya is an assertion and unit test framework for LabVIEW that is simple and fast. It takes a whole new approach to unit testing; your VI is your test. Caraya allows you to convert your manual test VIs you use to debug your code into unit test cases with nearly no effort. This significantly lowers the barrier to systematicaly write unit tests for your project leading into improved overall code quality for real-world projects where developers don't always have the luxury to write unit test cases first.
+      <Description>Caraya Unit Test Framework is a new open source unit testing framework for LabVIEW. It takes a whole new approach to unit testing; your VI is your test. Caraya allows you to convert your manual test VIs you use for debugging into unit test cases with nearly no effort. Even running the tests is easy, just run the test case VI. Caraya significantly lowers the barrier for developers to write unit tests leading into improved overall code quality in real-world projects where developers don’t always have the luxury to write unit test cases first.
 
-To get started, read the documentation at the project home page below:
+To learn more visit
 
-https://github.com/JKISoftware/Caraya</Description>
+http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>Added keyboard shortcut Ctrl+W to close Caraya UI. </Release_Notes>
+      <Release_Notes>Updated UI design.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -53,7 +53,7 @@ https://github.com/JKISoftware/Caraya</Description>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\examples\JKI Toolkits\Caraya</Path>
+        <Path>&lt;application&gt;\examples\JKI\Caraya</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -66,7 +66,7 @@ https://github.com/JKISoftware/Caraya</Description>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;help&gt;\JKI Toolkits\Caraya</Path>
+        <Path>&lt;help&gt;\JKI\Caraya</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -139,6 +139,18 @@ https://github.com/JKISoftware/Caraya</Description>
       <Destination_Overrides>
         <Path>examples/README.txt</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JKI Caraya HELP.pdf</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JKI Caraya HELP.txt</Path>
+        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -409,7 +421,7 @@ https://github.com/JKISoftware/Caraya</Description>
         <Path>Batch Testing</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEEEBA10F6616AA813A76FF4714243C1</GUID>
+      <GUID>EE28C360F1DD238501C8ABA37B36BE81</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,7 +470,7 @@ https://github.com/JKISoftware/Caraya</Description>
         <Path>classes\Test Suite\Destroy Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBA60812E6735C469BE33B1D8B7A0DEE</GUID>
+      <GUID>24D2EC9B8A7EFCDEF1EABB12944C759E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

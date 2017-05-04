@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2017-05-03 16:26:56" Creator="Tomi Maila" Comments="" ID="d825f2737b14e4cd2ad79601a9f815a4">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2017-05-04 18:49:59" Creator="Tomi Maila" Comments="" ID="9b50e75074337a0a6ac2cce21a7b76fc">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.5.0.25</Library_Version>
+    <Library_Version>0.5.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -66,7 +66,7 @@ http://jki.net/tools#caraya</Description>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;help&gt;\JKI Toolkits\Caraya</Path>
+        <Path>&lt;help&gt;\JKI\Caraya</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
@@ -139,6 +139,18 @@ http://jki.net/tools#caraya</Description>
       <Destination_Overrides>
         <Path>examples/README.txt</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JKI Caraya HELP.pdf</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JKI Caraya HELP.txt</Path>
+        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -409,7 +421,7 @@ http://jki.net/tools#caraya</Description>
         <Path>Batch Testing</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38BF5CD9CFC05A99DFCC86512A3B68D6</GUID>
+      <GUID>EE28C360F1DD238501C8ABA37B36BE81</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,7 +470,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Suite\Destroy Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E790217921BCB4954D3AF7BEA48489E9</GUID>
+      <GUID>24D2EC9B8A7EFCDEF1EABB12944C759E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

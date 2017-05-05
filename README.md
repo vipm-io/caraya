@@ -118,11 +118,20 @@ Suite tells Caraya that the test suite has completed executing. Caraya passes th
 wire of the Destroy Test Suite i.e. if any of the tests failed the error output would contain an error. You can use this error
 to tell your automated build if the unit tests succeeded or failed.
 
+#### Building Tests into Executables
+
+Building tests into deployable applications is not currently supported. We are looking into adding support for executable environments.
+
 ### Examples
 
 You can find examples on how to use Caraya under the LabVIEW examples directory
 
 `<LabVIEW>\examples\JKI Toolkits\Caraya`
+
+## Support
+
+If you encounter incorrect or undocumented behavior or would like to file a new feature request, you can do so by filing a new issue on
+[GitHub](https://github.com/JKISoftware/Caraya/issues). For paid customized support, please contact [JKI](http://jki.net).
 
 ## Contributing
 

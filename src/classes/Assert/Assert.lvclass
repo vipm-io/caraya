@@ -104,6 +104,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
+	<Item Name="Assert Equal_Float.vi" Type="VI" URL="../Assert Equal_Float.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2&gt;6=W5A5'6S9W6O&gt;'&amp;H:3"P:C"9)#B'+1!71#%118.T:8*U)%^O&lt;(E`)#B'+1!!&amp;5!$!!ZF=H*P=C"D&lt;W2F)#AR+1!!$E!Q`````Q6-97*F&lt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!#Q!*6'^M:8*B&lt;G.F!!&gt;!#Q!"71!(1!M!!6A!0!$Q!!Q!!Q!%!!1!"!!&amp;!!9!"Q!)!!E!#A!,!!Q$!!"Y$1A!!!!!!!!)!!)!!A!+!!I!#A!1!"!!!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+	</Item>
 	<Item Name="Assert Not Equal_Variant.vi" Type="VI" URL="../Assert Not Equal_Variant.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$K!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!)2""=X.F=H1A4WZM?4]A+%9J!!!61!-!$G6S=G^S)'.P:'5A+$%J!!!/1$$`````"5RB9G6M!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!"E"4!6E!"E"4!6A!0!$Q!!Q!!Q!%!!1!"!!%!!5!"A!(!!A!"!!*!!I$!!"Y$1A!!!!!!!!!!!)!!A!+!!I!!!!1!"!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

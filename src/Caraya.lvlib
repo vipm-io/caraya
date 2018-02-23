@@ -31,6 +31,7 @@
 		<Item Name="Custom or Standard Message.vi" Type="VI" URL="../subVIs/Custom or Standard Message.vi"/>
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
 		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
+		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
 	</Item>
 	<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>

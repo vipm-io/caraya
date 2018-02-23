@@ -18,6 +18,8 @@ You can download and install Caraya with VI Package Manager.
 Caraya is a LabVIEW toolkit providing a library of assertion VIs to validate run-time constraints of any LabVIEW
 application and providing support VIs to construct unit test cases from any VI using assertions.
 
+[Watch this NIWeek Presentation video on Caraya by Jim Kring at JKI](http://content.jki.net/caraya-new-take-on-labview-unit-testing-niweek-2016-presentation)
+
 ### Palette
 To create unit tests or to validate runtime conditions in your application, you need to drop the corresponding Caraya toolkit
 VIs to the block diagrams. The Caraya toolkit VIs are located under the JKI Toolkits functions

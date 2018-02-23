@@ -137,6 +137,8 @@ If you encounter incorrect or undocumented behavior or would like to file a new 
 
 ## Contributing
 
+First, please complete the [JKI Contributor License Agreement](https://cla-assistant.io/JKISoftware/) form, which is required for JKI to include any of your contributions into the project.
+
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`

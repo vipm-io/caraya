@@ -135,7 +135,11 @@ You can find examples on how to use Caraya under the LabVIEW examples directory
 If you encounter incorrect or undocumented behavior or would like to file a new feature request, you can do so by filing a new issue on
 [GitHub](https://github.com/JKISoftware/Caraya/issues). For paid customized support, please contact [JKI](http://jki.net).
 
+You can also join the [Caraya Community Discussion Forums](https://forums.jki.net/forum/65-caraya-unit-tester/) to discuss Caraya and unit testing with other LabVIEW developers.
+
 ## Contributing
+
+First, please complete the [JKI Contributor License Agreement](https://cla-assistant.io/JKISoftware/) form, which is required for JKI to include any of your contributions into the project.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

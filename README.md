@@ -1,3 +1,5 @@
+*Do you have Caraya or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [Caraya Community Discussion Forums](https://forums.jki.net/forum/65-caraya-unit-tester/).*
+
 ![Caraya](https://github.com/JKISoftware/caraya/raw/master/img/caraya-logo.png)
 
 Caraya is an assertion and unit test framework for LabVIEW that is simple and fast.

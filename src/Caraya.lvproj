@@ -35,8 +35,13 @@
 			<Item Name="asserts" Type="Folder">
 				<Item Name="Test Assert True.vi" Type="VI" URL="../tests/asserts/Test Assert True.vi"/>
 				<Item Name="Test Assert False.vi" Type="VI" URL="../tests/asserts/Test Assert False.vi"/>
-				<Item Name="Test Assert Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Equal.vi"/>
-				<Item Name="Test Assert Not Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal.vi"/>
+				<Item Name="Test Assert Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value and Type.vi"/>
+				<Item Name="Test Assert Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value.vi"/>
+				<Item Name="Test Assert Equal (Float).vi" Type="VI" URL="../tests/asserts/Test Assert Equal (Float).vi"/>
+				<Item Name="Test Assert Not Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value and Type.vi"/>
+				<Item Name="Test Assert Not Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value.vi"/>
+				<Item Name="Test Assert Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Equal - deprecated.vi"/>
+				<Item Name="Test Assert Not Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal - deprecated.vi"/>
 				<Item Name="Test Assert Error.vi" Type="VI" URL="../tests/asserts/Test Assert Error.vi"/>
 				<Item Name="Test Assert Not Error.vi" Type="VI" URL="../tests/asserts/Test Assert Not Error.vi"/>
 				<Item Name="Test Assert Greater.vi" Type="VI" URL="../tests/asserts/Test Assert Greater.vi"/>
@@ -106,6 +111,7 @@
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

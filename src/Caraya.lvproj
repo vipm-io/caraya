@@ -35,10 +35,13 @@
 			<Item Name="asserts" Type="Folder">
 				<Item Name="Test Assert True.vi" Type="VI" URL="../tests/asserts/Test Assert True.vi"/>
 				<Item Name="Test Assert False.vi" Type="VI" URL="../tests/asserts/Test Assert False.vi"/>
-				<Item Name="Test Assert Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Equal.vi"/>
+				<Item Name="Test Assert Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value and Type.vi"/>
 				<Item Name="Test Assert Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value.vi"/>
-				<Item Name="Test Assert Not Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal.vi"/>
+				<Item Name="Test Assert Equal (Float).vi" Type="VI" URL="../tests/asserts/Test Assert Equal (Float).vi"/>
+				<Item Name="Test Assert Not Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value and Type.vi"/>
 				<Item Name="Test Assert Not Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value.vi"/>
+				<Item Name="Test Assert Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Equal - deprecated.vi"/>
+				<Item Name="Test Assert Not Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal - deprecated.vi"/>
 				<Item Name="Test Assert Error.vi" Type="VI" URL="../tests/asserts/Test Assert Error.vi"/>
 				<Item Name="Test Assert Not Error.vi" Type="VI" URL="../tests/asserts/Test Assert Not Error.vi"/>
 				<Item Name="Test Assert Greater.vi" Type="VI" URL="../tests/asserts/Test Assert Greater.vi"/>

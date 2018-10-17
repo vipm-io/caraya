@@ -30,6 +30,7 @@
 		<Item Name="VI Name.vi" Type="VI" URL="../subVIs/VI Name.vi"/>
 		<Item Name="Custom or Standard Message.vi" Type="VI" URL="../subVIs/Custom or Standard Message.vi"/>
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
+		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
 		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
 	</Item>
 	<Item Name="Reporting" Type="Folder">

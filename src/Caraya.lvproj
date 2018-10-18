@@ -35,8 +35,15 @@
 			<Item Name="asserts" Type="Folder">
 				<Item Name="Test Assert True.vi" Type="VI" URL="../tests/asserts/Test Assert True.vi"/>
 				<Item Name="Test Assert False.vi" Type="VI" URL="../tests/asserts/Test Assert False.vi"/>
-				<Item Name="Test Assert Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Equal.vi"/>
-				<Item Name="Test Assert Not Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal.vi"/>
+				<Item Name="Test Assert Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value and Type.vi"/>
+				<Item Name="Test Assert Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value.vi"/>
+				<Item Name="Test Assert Equal Value (Arrays).vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value (Arrays).vi"/>
+				<Item Name="Test Assert Equal (Float).vi" Type="VI" URL="../tests/asserts/Test Assert Equal (Float).vi"/>
+				<Item Name="Test Assert Equal (Float Units).vi" Type="VI" URL="../tests/asserts/Test Assert Equal (Float Units).vi"/>
+				<Item Name="Test Assert Not Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value and Type.vi"/>
+				<Item Name="Test Assert Not Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value.vi"/>
+				<Item Name="Test Assert Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Equal - deprecated.vi"/>
+				<Item Name="Test Assert Not Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal - deprecated.vi"/>
 				<Item Name="Test Assert Error.vi" Type="VI" URL="../tests/asserts/Test Assert Error.vi"/>
 				<Item Name="Test Assert Not Error.vi" Type="VI" URL="../tests/asserts/Test Assert Not Error.vi"/>
 				<Item Name="Test Assert Greater.vi" Type="VI" URL="../tests/asserts/Test Assert Greater.vi"/>
@@ -48,6 +55,15 @@
 				<Item Name="Assert Test SubVI.vi" Type="VI" URL="../tests/asserts/Assert Test SubVI.vi"/>
 			</Item>
 			<Item Name="test suite" Type="Folder">
+				<Item Name="Test Report Hierarchy" Type="Folder">
+					<Item Name="TopLevel.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/TopLevel.vi"/>
+					<Item Name="Level_A.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_A.vi"/>
+					<Item Name="Level_B.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_B.vi"/>
+					<Item Name="Level_C.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_C.vi"/>
+					<Item Name="Level_1.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_1.vi"/>
+					<Item Name="Level_2.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_2.vi"/>
+					<Item Name="Level_3.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_3.vi"/>
+				</Item>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 			</Item>
@@ -106,6 +122,7 @@
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
@@ -132,8 +149,63 @@
 				<Item Name="Conditional Auto-Indexing Tunnel (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (I64)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (U64)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (LVObject)__ogtk.vi"/>
+				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
+				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="Get Physical Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Physical Units__ogtk.vi"/>
+				<Item Name="Physical Units__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Physical Units__ogtk.ctl"/>
+				<Item Name="Get Physical Units from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Physical Units from TD__ogtk.vi"/>
+				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
+				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Test EXE shows Caraya GUI" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{EC3B2FC8-6BEE-4420-B360-990835EC94B8}</Property>
+				<Property Name="App_applicationName" Type="Str">Fix15_Test.exe</Property>
+				<Property Name="App_companyName" Type="Str">DESIM</Property>
+				<Property Name="App_fileDescription" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{627D3151-E388-4E03-9AAF-397DE5190C4D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7355240D-8C4A-4DED-AE33-3983E7D4E69C}</Property>
+				<Property Name="App_internalName" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2018 DESIM</Property>
+				<Property Name="App_productName" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.DESIM.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">Fix15_Test.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Fix15_Test/Fix15_Test.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Fix15_Test/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F269775-F98F-42D8-96AF-5345585D69D2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/tests/All Tests.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

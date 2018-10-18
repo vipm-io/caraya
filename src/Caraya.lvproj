@@ -55,6 +55,15 @@
 				<Item Name="Assert Test SubVI.vi" Type="VI" URL="../tests/asserts/Assert Test SubVI.vi"/>
 			</Item>
 			<Item Name="test suite" Type="Folder">
+				<Item Name="Test Report Hierarchy" Type="Folder">
+					<Item Name="TopLevel.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/TopLevel.vi"/>
+					<Item Name="Level_A.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_A.vi"/>
+					<Item Name="Level_B.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_B.vi"/>
+					<Item Name="Level_C.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_C.vi"/>
+					<Item Name="Level_1.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_1.vi"/>
+					<Item Name="Level_2.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_2.vi"/>
+					<Item Name="Level_3.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_3.vi"/>
+				</Item>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 			</Item>

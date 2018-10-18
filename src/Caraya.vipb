@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-16 17:53:49" Creator="Tomi Maila" Comments="" ID="7a29572b672da4c2ef720354a8bba2e0">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-17 16:09:31" Creator="Tomi Maila" Comments="" ID="25927d2c2dd4ce726b2daede2376fca5">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.6.0.32</Library_Version>
+    <Library_Version>0.6.0.34</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,8 +17,6 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2.0.0</External_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 3.0.0</External_Dependencies>
       <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2.0.0-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-3.0.0-1</Direct_Dependencies>
@@ -114,6 +112,11 @@ James Powell (@drjdpowell)
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -473,7 +476,7 @@ James Powell (@drjdpowell)
         <Path>classes\Assert\Assert Not Equal Value and Type_Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9CB3E02B083B353B2FBD86B0A18D2E1</GUID>
+      <GUID>3DF19CC6E8715AD5730DFC3576F6D801</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -522,7 +525,7 @@ James Powell (@drjdpowell)
         <Path>classes\Test Suite\Destroy Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C11C25940F43F087EF5985F2748C11E</GUID>
+      <GUID>DAB4E55EB81777C3DF0E976187B3927F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

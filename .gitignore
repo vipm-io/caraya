@@ -4,3 +4,4 @@
 .hg
 src/*.lvlps
 src/*.aliases
+builds/

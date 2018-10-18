@@ -67,8 +67,11 @@
 					<Item Name="Level_2.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_2.vi"/>
 					<Item Name="Level_3.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_3.vi"/>
 				</Item>
-				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
+				<Item Name="Test Export Reports" Type="Folder">
+					<Item Name="Export JUnit.vi" Type="VI" URL="../tests/test-exports/Export JUnit.vi"/>
+				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
+				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>

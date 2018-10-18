@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-16 17:53:49" Creator="Tomi Maila" Comments="" ID="7a29572b672da4c2ef720354a8bba2e0">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-17 08:01:35" Creator="Tomi Maila" Comments="" ID="622f32c0afc5092e015f70b318e8d250">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>0.6.0.32</Library_Version>
@@ -45,6 +45,7 @@ http://jki.net/tools#caraya</Description>
       <Release_Notes>[Feature: 11] Adding an "Assert Equal_Float" assertion to compare float representation within a certain precision
 [Feature: 14] Hook to inject an alternate "Export" format
 [Fix: 15] Running Caraya Assertions in EXE builds
+[Fix: 24] Default report generation now fixes hierarchy of assertions
 [Feature: 25] Change of specification for Assert Equal to separate "Value" and "Value and Type" assertions
 
 Thanks to the community members for their issue reports, feature requests and/or code contributions for this release: 
@@ -473,7 +474,7 @@ James Powell (@drjdpowell)
         <Path>classes\Assert\Assert Not Equal Value and Type_Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9CB3E02B083B353B2FBD86B0A18D2E1</GUID>
+      <GUID>9AC61E4A4FAE1D28426D9BE4102B1BCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -522,7 +523,7 @@ James Powell (@drjdpowell)
         <Path>classes\Test Suite\Destroy Test Suite.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C11C25940F43F087EF5985F2748C11E</GUID>
+      <GUID>A2EFAB3455FFFF8724A9689BD2530292</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

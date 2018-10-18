@@ -142,7 +142,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
 	</Item>
-	<Item Name="Assert Equal_Float.vi" Type="VI" URL="../Assert Equal_Float.vi">
+	<Item Name="Assert Almost Equal_Float.vi" Type="VI" URL="../Assert Almost Equal_Float.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2&gt;6=W5A5'6S9W6O&gt;'&amp;H:3"P:C"9)#B'+1!71#%118.T:8*U)%^O&lt;(E`)#B'+1!!&amp;5!$!!ZF=H*P=C"D&lt;W2F)#AR+1!!$E!Q`````Q6-97*F&lt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!#Q!*6'^M:8*B&lt;G.F!!&gt;!#Q!"71!(1!M!!6A!0!$Q!!Q!!Q!%!!1!"!!&amp;!!9!"Q!)!!E!#A!,!!Q$!!"Y$1A!!!!!!!!)!!)!!A!+!!I!#A!1!"!!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>

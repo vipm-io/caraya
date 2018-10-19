@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-19 19:47:02" Creator="Tomi Maila" Comments="" ID="7a7511662d20de649e81981d9ae3bd12">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-19 19:56:29" Creator="Tomi Maila" Comments="" ID="d6ecf16998f273171ecbbcd1603922ad">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>0.6.0.34</Library_Version>
@@ -50,6 +50,7 @@ http://jki.net/tools#caraya</Description>
 [Fix: 15] Running Caraya Assertions in EXE builds
 [Fix: 24] Default report generation now fixes hierarchy of assertions
 [Feature: 25] Change of specification for Assert Equal to separate "Value" and "Value and Type" assertions
+[Fix: 27] Double-clicking on empty space in the tree of the Test Manager UI no longer generates an error.
 [Fix: 28] Fixed the issue where opening a test VI after it had left memory would give an error.
 
 
@@ -479,7 +480,7 @@ James Powell (@drjdpowell)
         <Path>classes\Assert\Assert Almost Equal_Float.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40E015599F23CA19CD884E63295F8B0D</GUID>
+      <GUID>F493C01135B398755D7D855866E59D5C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -528,7 +529,7 @@ James Powell (@drjdpowell)
         <Path>classes\Test Suite\Define Test Suite (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>636BE1161532E1B2FD95ADD64139C59A</GUID>
+      <GUID>E0FC295F75C8FA71A8AF95D60F397A08</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

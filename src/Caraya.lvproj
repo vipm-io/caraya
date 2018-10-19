@@ -30,6 +30,9 @@
 				</Item>
 				<Item Name="Integer Dictionary.lvclass" Type="LVClass" URL="../examples/integer dictionary/Classes/Integer Dictionary.lvclass"/>
 			</Item>
+			<Item Name="Reporting" Type="Folder">
+				<Item Name="Injecting Report Class.vi" Type="VI" URL="../examples/reporting/Injecting Report Class.vi"/>
+			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="asserts" Type="Folder">
@@ -55,8 +58,20 @@
 				<Item Name="Assert Test SubVI.vi" Type="VI" URL="../tests/asserts/Assert Test SubVI.vi"/>
 			</Item>
 			<Item Name="test suite" Type="Folder">
-				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
+				<Item Name="Test Report Hierarchy" Type="Folder">
+					<Item Name="TopLevel.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/TopLevel.vi"/>
+					<Item Name="Level_A.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_A.vi"/>
+					<Item Name="Level_B.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_B.vi"/>
+					<Item Name="Level_C.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_C.vi"/>
+					<Item Name="Level_1.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_1.vi"/>
+					<Item Name="Level_2.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_2.vi"/>
+					<Item Name="Level_3.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_3.vi"/>
+				</Item>
+				<Item Name="Test Export Reports" Type="Folder">
+					<Item Name="Export JUnit.vi" Type="VI" URL="../tests/test-exports/Export JUnit.vi"/>
+				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
+				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
@@ -114,6 +129,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
@@ -160,8 +176,48 @@
 				<Item Name="Get Physical Units from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Physical Units from TD__ogtk.vi"/>
 				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+			</Item>
+			<Item Name="property -- cluster.ctl" Type="VI" URL="../classes/Test Report.JUnit/property -- cluster.ctl"/>
+			<Item Name="Call Chain To Indent.vi" Type="VI" URL="../classes/Test Report.JUnit/Call Chain To Indent.vi"/>
+			<Item Name="Indent.vi" Type="VI" URL="../classes/Test Report.JUnit/Indent.vi"/>
+		</Item>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Test EXE shows Caraya GUI" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{EC3B2FC8-6BEE-4420-B360-990835EC94B8}</Property>
+				<Property Name="App_applicationName" Type="Str">Fix15_Test.exe</Property>
+				<Property Name="App_companyName" Type="Str">DESIM</Property>
+				<Property Name="App_fileDescription" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{627D3151-E388-4E03-9AAF-397DE5190C4D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7355240D-8C4A-4DED-AE33-3983E7D4E69C}</Property>
+				<Property Name="App_internalName" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2018 DESIM</Property>
+				<Property Name="App_productName" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.DESIM.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test EXE shows Caraya GUI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">Fix15_Test.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Fix15_Test/Fix15_Test.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Fix15_Test/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F269775-F98F-42D8-96AF-5345585D69D2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/tests/All Tests.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

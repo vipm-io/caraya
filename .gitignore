@@ -4,5 +4,5 @@
 .hg
 src/*.lvlps
 src/*.aliases
-.src/*
+.src/
 builds/

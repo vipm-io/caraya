@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-19 20:37:09" Creator="Tomi Maila" Comments="" ID="15a9eeabd321d7ce0376ce39282b9a00">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-20 17:49:26" Creator="Tomi Maila" Comments="" ID="0c87acccbe1e5d1c4424dc1cc3618210">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>0.6.0.34</Library_Version>
@@ -42,7 +42,7 @@ To learn more visit
 
 http://jki.net/tools#caraya</Description>
       <Copyright/>
-      <Packager/>
+      <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
       <Release_Notes>[Feature: 7] Adding support for JUnit-compatible XML file export
 [Feature: 11] Adding an "Assert Equal_Float" assertion to compare float representation within a certain precision
@@ -65,6 +65,7 @@ Omar Mussa (@omarmussa)
 Jim Kring (@jimkring)
 OlivierLabo (@OlivierLabo)
 James Powell (@drjdpowell)
+Neil Pate (@neilpate)
 
 </Release_Notes>
     </Description>
@@ -481,7 +482,7 @@ James Powell (@drjdpowell)
         <Path>classes\Assert\Assert Almost Equal_Float.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A74E02D60BB9AD7CBDD4175CB658F1C6</GUID>
+      <GUID>8EC997DE5B1A125669EE9B168210F581</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +531,7 @@ James Powell (@drjdpowell)
         <Path>classes\Test Suite\Define Test Suite (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33C79E25F0D335985A4F38718B541E29</GUID>
+      <GUID>E599D5F3646A7371CF05D221A889FD87</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

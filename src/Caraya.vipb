@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-20 17:49:26" Creator="Tomi Maila" Comments="" ID="0c87acccbe1e5d1c4424dc1cc3618210">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-23 20:08:51" Creator="Tomi Maila" Comments="" ID="f3a084d4983967f7ddde600449318469">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>0.6.0.34</Library_Version>
@@ -51,6 +51,7 @@ http://jki.net/tools#caraya</Description>
 [Feature: 20] Double-click on test result in Test Manager GUI now points to the Assertion node if Text of label attached to assertion node matches the exact name of the test.
 [Fix: 24] Default report generation now fixes hierarchy of assertions
 [Feature: 25] Change of specification for Assert Equal to separate "Value" and "Value and Type" assertions
+[Feature: 26] Assertions are now grouped in a polymorphic VIfor palette menu.
 [Fix: 27] Double-clicking on empty space in the tree of the Test Manager UI no longer generates an error.
 [Fix: 28] Fixed the issue where opening a test VI after it had left memory would give an error.
 
@@ -482,7 +483,7 @@ Neil Pate (@neilpate)
         <Path>classes\Assert\Assert Almost Equal_Float.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8EC997DE5B1A125669EE9B168210F581</GUID>
+      <GUID>68EABF331112E1138057EF73A1368CD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +532,7 @@ Neil Pate (@neilpate)
         <Path>classes\Test Suite\Define Test Suite (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E599D5F3646A7371CF05D221A889FD87</GUID>
+      <GUID>CA5DC363B423FDCF0684E715599218E9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

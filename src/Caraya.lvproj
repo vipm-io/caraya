@@ -58,6 +58,7 @@
 				<Item Name="Test Asserts.vi" Type="VI" URL="../classes/Assert/Test Asserts.vi"/>
 				<Item Name="Test Assert In SubVI.vi" Type="VI" URL="../tests/asserts/Test Assert In SubVI.vi"/>
 				<Item Name="Assert Test SubVI.vi" Type="VI" URL="../tests/asserts/Assert Test SubVI.vi"/>
+				<Item Name="test-lvlib.lvlib" Type="Library" URL="../tests/test-lvlib/test-lvlib.lvlib"/>
 			</Item>
 			<Item Name="test suite" Type="Folder">
 				<Item Name="Test Report Hierarchy" Type="Folder">

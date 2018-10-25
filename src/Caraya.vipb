@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-24 21:41:53" Creator="Tomi Maila" Comments="" ID="101ec777f0f6e7b77e9f4d98f7c8c008">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-25 08:09:12" Creator="Tomi Maila" Comments="" ID="70b035080c35ddac2e3c167907cb3e5b">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.6.0.35</Library_Version>
+    <Library_Version>0.6.0.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -525,7 +525,7 @@ Neil Pate (@neilpate)
         <Path>classes\Assert\Assert (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66259AF1A293E1DD29E269B100F0253D</GUID>
+      <GUID>7C29FA1D295756491144CD5F7E2E0D0F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -574,7 +574,7 @@ Neil Pate (@neilpate)
         <Path>classes\Test Suite\Define Test Suite (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>319EFDEF192828BB92D56540978E2829</GUID>
+      <GUID>F07E166A5FDC936D6E8E9B0E08B67986</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

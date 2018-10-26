@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-25 19:48:07" Creator="Tomi Maila" Comments="" ID="a457296a4c2e958dd711bd5aef88e0e6">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-10-26 19:35:23" Creator="Tomi Maila" Comments="" ID="2b44c03599121b3eb6c6e4c2dcc5d2c0">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.6.0.36</Library_Version>
+    <Library_Version>0.6.0.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -107,7 +107,7 @@ Neil Pate (@neilpate)
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\Caraya</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -171,6 +171,12 @@ Neil Pate (@neilpate)
       <Destination_Overrides>
         <Path>README.html</Path>
         <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>project/Caraya/Create Test Report from Template.vi</Path>
+        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -525,7 +531,7 @@ Neil Pate (@neilpate)
         <Path>classes\Assert\Assert (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC70EF2E5A7626024D42BD549773DB84</GUID>
+      <GUID>C9E9982D059A5EC3A746234980FD441B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -588,7 +594,7 @@ Neil Pate (@neilpate)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE75FC56055D9219D2D5BC2C0043359B</GUID>
+      <GUID>DAF30B88B50400E31E5E01A96488661B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -651,7 +657,7 @@ Neil Pate (@neilpate)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>486C7474DEC2C7DC1112DDC0C6EDD47B</GUID>
+      <GUID>FCD4838BCB8D6971765477653F1BBF6E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

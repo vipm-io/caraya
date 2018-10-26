@@ -37,6 +37,7 @@
 		<Item Name="Test Report.lvclass" Type="LVClass" URL="../classes/Test Report/Test Report.lvclass"/>
 		<Item Name="Test Report.Default.lvclass" Type="LVClass" URL="../classes/Test Report.Default/Test Report.Default.lvclass"/>
 		<Item Name="Test Report.JUnit.lvclass" Type="LVClass" URL="../classes/Test Report.JUnit/Test Report.JUnit.lvclass"/>
+		<Item Name="Test Report.Template.lvclass" Type="LVClass" URL="../classes/Test Report.Template/Test Report.Template.lvclass"/>
 	</Item>
 	<Item Name="Results" Type="Folder">
 		<Item Name="Test Result.lvclass" Type="LVClass" URL="../classes/Test Result/Test Result.lvclass"/>

@@ -30,7 +30,17 @@
 		<Item Name="VI Name.vi" Type="VI" URL="../subVIs/VI Name.vi"/>
 		<Item Name="Custom or Standard Message.vi" Type="VI" URL="../subVIs/Custom or Standard Message.vi"/>
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
+		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
 		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
+	</Item>
+	<Item Name="Reporting" Type="Folder">
+		<Item Name="Test Report.lvclass" Type="LVClass" URL="../classes/Test Report/Test Report.lvclass"/>
+		<Item Name="Test Report.Default.lvclass" Type="LVClass" URL="../classes/Test Report.Default/Test Report.Default.lvclass"/>
+		<Item Name="Test Report.JUnit.lvclass" Type="LVClass" URL="../classes/Test Report.JUnit/Test Report.JUnit.lvclass"/>
+		<Item Name="Test Report.Template.lvclass" Type="LVClass" URL="../classes/Test Report.Template/Test Report.Template.lvclass"/>
+	</Item>
+	<Item Name="Results" Type="Folder">
+		<Item Name="Test Result.lvclass" Type="LVClass" URL="../classes/Test Result/Test Result.lvclass"/>
 	</Item>
 	<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>

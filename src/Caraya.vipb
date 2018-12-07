@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-12-06 16:17:25" Creator="Tomi Maila" Comments="" ID="c05315f2eaa3d0b35fc79a0468ef5c2e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2018-12-07 10:24:58" Creator="Tomi Maila" Comments="" ID="818de78401fc7084a219ed0e3d26bb3c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.6.0.49</Library_Version>
+    <Library_Version>0.6.0.50</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -124,11 +124,6 @@ Neil Pate (@neilpate)
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
-      <QuickDrop_Plugins>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
-      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -340,7 +335,7 @@ Neil Pate (@neilpate)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30DCBD4B917B206A2B3537D660CAA9E0</GUID>
+      <GUID>C60B20B9758E5A724A1EC40F53C21B55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -403,7 +398,7 @@ Neil Pate (@neilpate)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE3BF1B92186A1DC4FF6AD7271F3FC0E</GUID>
+      <GUID>132AD8E25DCD8871EFB30C796DBE8CF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -466,7 +461,7 @@ Neil Pate (@neilpate)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2A0962882E020AF9D5DA2D382AD61FB</GUID>
+      <GUID>7A4E275DAE0E95D5E414C5C2AB816D46</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -697,7 +692,7 @@ Neil Pate (@neilpate)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>B00963CE591842B6CA7BF8C8BD05C915</GUID>
+      <GUID>41C28EEF5669CCA04C9190C36AF53C87</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

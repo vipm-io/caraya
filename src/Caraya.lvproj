@@ -40,6 +40,7 @@
 				<Item Name="Test Assert False.vi" Type="VI" URL="../tests/asserts/Test Assert False.vi"/>
 				<Item Name="Test Assert Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value and Type.vi"/>
 				<Item Name="Test Assert Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value.vi"/>
+				<Item Name="Test Assert Equal Value (Typedef).vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value (Typedef).vi"/>
 				<Item Name="Test Assert Equal Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Type.vi"/>
 				<Item Name="Test Assert Equal Value (Arrays).vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value (Arrays).vi"/>
 				<Item Name="Test Assert Almost Equal (Float).vi" Type="VI" URL="../tests/asserts/Test Assert Almost Equal (Float).vi"/>

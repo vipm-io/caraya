@@ -1,3 +1,5 @@
+*Do you have Caraya or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [Caraya Community Discussion Forums](https://forums.jki.net/forum/65-caraya-unit-tester/).*
+
 ![Caraya](https://github.com/JKISoftware/caraya/raw/master/img/caraya-logo.png)
 
 Caraya is an assertion and unit test framework for LabVIEW that is simple and fast.
@@ -12,7 +14,7 @@ write unit test cases first.
 
 You can download and install Caraya with VI Package Manager.
 
-[Get Caraya](http://vipm.jki.net/#!/package/jki_lib_caraya)
+[Get Caraya](https://resources.jki.net/caraya)
 
 ## Usage
 Caraya is a LabVIEW toolkit providing a library of assertion VIs to validate run-time constraints of any LabVIEW

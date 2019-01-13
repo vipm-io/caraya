@@ -86,6 +86,7 @@
 		<Item Name="VI Tree - Caraya.vi" Type="VI" URL="../VI Tree - Caraya.vi"/>
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
 		<Item Name="Caraya.vipc" Type="Document" URL="../Caraya.vipc"/>
+		<Item Name="Test Assert Not Equal Value (Typedef).vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value (Typedef).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

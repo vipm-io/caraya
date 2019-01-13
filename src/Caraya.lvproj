@@ -40,12 +40,14 @@
 				<Item Name="Test Assert False.vi" Type="VI" URL="../tests/asserts/Test Assert False.vi"/>
 				<Item Name="Test Assert Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value and Type.vi"/>
 				<Item Name="Test Assert Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value.vi"/>
+				<Item Name="Test Assert Equal Value (Typedef).vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value (Typedef).vi"/>
 				<Item Name="Test Assert Equal Type.vi" Type="VI" URL="../tests/asserts/Test Assert Equal Type.vi"/>
 				<Item Name="Test Assert Equal Value (Arrays).vi" Type="VI" URL="../tests/asserts/Test Assert Equal Value (Arrays).vi"/>
 				<Item Name="Test Assert Almost Equal (Float).vi" Type="VI" URL="../tests/asserts/Test Assert Almost Equal (Float).vi"/>
 				<Item Name="Test Assert Equal (Float Units).vi" Type="VI" URL="../tests/asserts/Test Assert Equal (Float Units).vi"/>
 				<Item Name="Test Assert Not Equal Value and Type.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value and Type.vi"/>
 				<Item Name="Test Assert Not Equal Value.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value.vi"/>
+				<Item Name="Test Assert Not Equal Value (Typedef).vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Value (Typedef).vi"/>
 				<Item Name="Test Assert Not Equal Type.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal Type.vi"/>
 				<Item Name="Test Assert Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Equal - deprecated.vi"/>
 				<Item Name="Test Assert Not Equal - deprecated.vi" Type="VI" URL="../tests/asserts/Test Assert Not Equal - deprecated.vi"/>
@@ -405,6 +407,9 @@
 				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 			</Item>
 			<Item Name="property -- cluster.ctl" Type="VI" URL="../classes/Test Report.JUnit/property -- cluster.ctl"/>
 			<Item Name="Call Chain To Indent.vi" Type="VI" URL="../classes/Test Report.JUnit/Call Chain To Indent.vi"/>

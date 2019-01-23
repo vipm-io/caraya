@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-01-13 08:37:46" Creator="Tomi Maila" Comments="" ID="5a8fa4131f22b587846ba3ad333352a6">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-01-23 14:28:47" Creator="Tomi Maila" Comments="" ID="1318415cd26485409d5d9dd69f0ef2d7">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>0.6.1.52</Library_Version>
+    <Library_Version>0.6.3.55</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -56,7 +56,8 @@ http://jki.net/tools#caraya</Description>
 [Fix: 28] Fixed the issue where opening a test VI after it had left memory would give an error.
 [Fix: 31] Equal Value Comparison now asserts correctly when comparing equal typedef with non-typedef values
 [Fix: 32] Added recursive verification inside cluster to assert value equality for nested values with different type representations
-
+[Feature: 5] Added ability to show only failed tests on the main UI
+[Fix: 3] Clicking on expand/collapse (+/-) tree node quickly will no longer open the test VI (as a double-click on test does)
 
 Thanks to the community members for their issue reports, feature requests and/or code contributions for this release: 
 
@@ -126,6 +127,11 @@ Neil Pate (@neilpate)
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -334,7 +340,7 @@ Neil Pate (@neilpate)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AC77F4DEC4251EC0BF919475C2763BF</GUID>
+      <GUID>0589FBBFD0D32DF00A70186491444862</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -397,7 +403,7 @@ Neil Pate (@neilpate)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E9921679DE1CAC61990C48459116AAE</GUID>
+      <GUID>B4C0ACAB911D77098C34EF413C97D13B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -460,7 +466,7 @@ Neil Pate (@neilpate)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82161E742B38869522CC7C92563EC9B6</GUID>
+      <GUID>29B56ACB5F27820BD3277FEEA35D651F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -691,7 +697,7 @@ Neil Pate (@neilpate)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>D77BAE6C0732EE696F255F26BB0504AC</GUID>
+      <GUID>F07067C917340E5BDCDDA55AFFC437AE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

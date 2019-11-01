@@ -149,7 +149,10 @@ First, please complete the [JKI Contributor License Agreement](https://cla-assis
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-To contribute to Caraya, you will need 32-bit LabVIEW 2009 SP1 professional development environment.
+To contribute to Caraya, you will need 32-bit LabVIEW 2013 professional development environment. You will also need the following packages:
+
++ OpenG Toolkits
++ JKI State Machine
 
 ## Credits
 

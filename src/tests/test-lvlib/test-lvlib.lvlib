@@ -7,4 +7,5 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Assert Test In Library.vi" Type="VI" URL="../Assert Test In Library.vi"/>
 	<Item Name="Assert Test In Loop.vi" Type="VI" URL="../Assert Test In Loop.vi"/>
+	<Item Name="test-nested-lvlib.lvlib" Type="Library" URL="../test-nested-lvlib/test-nested-lvlib.lvlib"/>
 </Library>

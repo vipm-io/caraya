@@ -95,24 +95,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342714368</Property>
 		</Item>
-		<Item Name="Call Chain To Indent.vi" Type="VI" URL="../Call Chain To Indent.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#9!!!!"1!%!!!!%%!Q`````Q:*&lt;G2F&lt;H1!!""!-0````]'5X2S;7ZH!!!91%!!!@````]!!AJ$97RM)%.I97FO!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!"!!1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554440</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
-		</Item>
-		<Item Name="Indent.vi" Type="VI" URL="../Indent.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!^!!!!!Q!11$$`````"H.U=GFO:Q!!$5!$!!&gt;/&gt;7VF=GFD!"A!]!!#!!!!!1)!!!A!!!E!!!!+!!!!!!%!!A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
-		</Item>
 	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="testsuite -- cluster.ctl" Type="VI" URL="../testsuite -- cluster.ctl">

@@ -35,6 +35,7 @@
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
 		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
 		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
+		<Item Name="private_iterator.vi" Type="VI" URL="../subVIs/private_iterator.vi"/>
 	</Item>
 	<Item Name="Reporting" Type="Folder">
 		<Item Name="Test Report.lvclass" Type="LVClass" URL="../classes/Test Report/Test Report.lvclass"/>

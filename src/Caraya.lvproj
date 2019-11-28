@@ -82,6 +82,7 @@
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test SuiteDestructionError.vi" Type="VI" URL="../tests/test-suite/Test SuiteDestructionError.vi"/>
+				<Item Name="Test Assertion Report Ordering.vi" Type="VI" URL="../tests/test-suite/Test Assertion Report Ordering.vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>

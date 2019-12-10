@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-02-28 14:23:41" Creator="Tomi Maila" Comments="" ID="61326ab0bd074556355a337a3476a6a9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-12-09 21:36:33" Creator="Tomi Maila" Comments="" ID="8aca6d067f71d1a4acd23546a1a9c753">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.55</Library_Version>
+    <Library_Version>1.0.0.56</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -18,6 +18,10 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
       <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
@@ -44,11 +48,28 @@ http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>[Feature: ] Upgraded sources to LV2013
-[Feature: ] Separated compiled code from source VIs
+      <Release_Notes>[Fix: 4] Fixed the intermittent error 1 when destroying Test Suites
+[Fix: 34] Added an optional "Execution Time (us)" terminal to assertion methods for reporting
+[Feature: 34] Time is filtered from the JUnit report if execution time is not provided
+[Fix: 40] Assertions are now sorted in order they occur instead of ascending alphabetically
+[Feature: 41] Upgraded sources to LV2013
+[Fix: 44] Fixed the conditions that overewrote assertions when test names were identical
+[Feature: 45] Attribute a unique identifier to each assertions performed
+[Fix: 47] Double-clicking on assertion result in Test Manager now works after VI has left memory for lvlibs inside lvlibs.
+[Fix: 50] Updated the Math Test Suite to use non-deprecated method for Test Report
 
-Francois Normandin (@francois-normandin)
+
+
+Thanks for all the contributions that led to this release, whether by reporting or fixing issues:
+
+Cyril Gambini (@CygaLV)
 Jim Kring (@jimkring)
+OlivierLabo (@OlivierLabo)
+Matthew Jacobson (@jacobson3)
+Omar Mussa (@omarmussa)
+Francois Normandin (@francois-normandin)
+James D. Powell (@drjdpowell)
+Sam Taggart (@stagg54)
 
 </Release_Notes>
     </Description>
@@ -319,7 +340,7 @@ Jim Kring (@jimkring)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF9F766D8F2FDCB8520B1AA9C28E8992</GUID>
+      <GUID>2902EB7B18A6870FB4C8B9C64EB03BF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +403,7 @@ Jim Kring (@jimkring)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1330D2461A1DF11093282206E1EF1EFA</GUID>
+      <GUID>90EA4E59B3A6B6ED36EBC6D146EF1010</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -445,7 +466,7 @@ Jim Kring (@jimkring)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95C63E2E0B5CBD0F6CAA7DF518A1E171</GUID>
+      <GUID>0BE2E2357D6287368D0547494348C4BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -676,7 +697,7 @@ Jim Kring (@jimkring)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>BA46545EB6788E707706093E214722B9</GUID>
+      <GUID>EB7E6A57431E87175A87283337A8EE75</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

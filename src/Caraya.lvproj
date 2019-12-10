@@ -22,6 +22,7 @@
 				<Item Name="Test Math.vi" Type="VI" URL="../examples/tests/Test Math.vi"/>
 				<Item Name="Test Subtraction.vi" Type="VI" URL="../examples/tests/Test Subtraction.vi"/>
 				<Item Name="Test Addition.vi" Type="VI" URL="../examples/tests/Test Addition.vi"/>
+				<Item Name="Test Verbose Report.vi" Type="VI" URL="../examples/suites/Test Verbose Report.vi"/>
 			</Item>
 			<Item Name="Test Suite" Type="Folder">
 				<Item Name="Math Test Suite.vi" Type="VI" URL="../examples/suites/Math Test Suite.vi"/>

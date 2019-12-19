@@ -80,6 +80,9 @@
 				<Item Name="Test Export Reports" Type="Folder">
 					<Item Name="Export JUnit.vi" Type="VI" URL="../tests/test-exports/Export JUnit.vi"/>
 				</Item>
+				<Item Name="Test Verbose Failures" Type="Folder">
+					<Item Name="Verbosity Test.vi" Type="VI" URL="../tests/test-suite/Test Verbose Failures/Verbosity Test.vi"/>
+				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Duplicate Names for Different Assertions.vi" Type="VI" URL="../tests/test-suite/Test Duplicate Names for Different Assertions.vi"/>

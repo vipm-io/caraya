@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-12-19 16:32:38" Creator="Tomi Maila" Comments="" ID="f5fb80d1564ae176d4812991b9158b85">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-12-19 17:05:14" Creator="Tomi Maila" Comments="" ID="f7c0d75727f7d2ed1a6d8f730500239f">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.56</Library_Version>
+    <Library_Version>1.0.0.58</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -49,20 +49,28 @@ http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>[Fix: 4] Fixed the intermittent error 1 when destroying Test Suites
+      <Release_Notes>Fixes: 
+
+[Fix: 4] Fixed the intermittent error 1 when destroying Test Suites
 [Fix: 34] Added an optional "Execution Time (us)" terminal to assertion methods for reporting
-[Feature: 34] Time is filtered from the JUnit report if execution time is not provided
 [Fix: 40] Assertions are now sorted in order they occur instead of ascending alphabetically
-[Feature: 41] Upgraded sources to LV2013
 [Fix: 44] Fixed the conditions that overewrote assertions when test names were identical
-[Feature: 45] Attribute a unique identifier to each assertions performed
 [Fix: 47] Double-clicking on assertion result in Test Manager now works after VI has left memory for lvlibs inside lvlibs.
 [Fix: 50] Updated the Math Test Suite to use non-deprecated method for Test Report
+[Fix: 53] Fixed issues with comparison (greater/less) of variant representations when integers and floats were compared
 
+New Features: 
+
+[Feature: 34] Time is filtered from the JUnit report if execution time is not provided
+[Feature: 41] Upgraded sources to LV2013
+[Feature: 43] Added a verbose option the the Test Suite to export detailed explanation of failures
+[Feature: 45] Attribute a unique identifier to each assertions performed
+[Feature: 48] Added a Rerun All Tests menu in the Test Manager UI.
 
 
 Thanks for all the contributions that led to this release, whether by reporting or fixing issues:
 
+Carlo (@carlodri)
 Cyril Gambini (@CygaLV)
 Jim Kring (@jimkring)
 OlivierLabo (@OlivierLabo)
@@ -341,7 +349,7 @@ Sam Taggart (@stagg54)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7B34CDBE1859BC5870366C962C6A5E4</GUID>
+      <GUID>D77A879CB532EB12B2F9DAED6EFCA3BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -404,7 +412,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D29BEBCF037A6C683C1FC578002FA1F7</GUID>
+      <GUID>3BB6B004E66872EFA6CCD91A2378A74A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -467,7 +475,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E4F33202625E04D5D348E283947DF4F</GUID>
+      <GUID>EC945A99FFBB76B9D95B26AC0E021FEF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -698,7 +706,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>343CD4088968A1582E60735DB3B78BF9</GUID>
+      <GUID>6E034EBA6806942AF7C06FFCA201C363</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

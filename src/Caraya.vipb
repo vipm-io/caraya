@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-12-09 21:36:33" Creator="Tomi Maila" Comments="" ID="8aca6d067f71d1a4acd23546a1a9c753">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-12-19 16:32:38" Creator="Tomi Maila" Comments="" ID="f5fb80d1564ae176d4812991b9158b85">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.0.0.56</Library_Version>
@@ -17,17 +17,18 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
+      <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
-      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
+      <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build Custom Action.vi</Pre-Build_VI>
@@ -340,7 +341,7 @@ Sam Taggart (@stagg54)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2902EB7B18A6870FB4C8B9C64EB03BF4</GUID>
+      <GUID>F7B34CDBE1859BC5870366C962C6A5E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -403,7 +404,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90EA4E59B3A6B6ED36EBC6D146EF1010</GUID>
+      <GUID>D29BEBCF037A6C683C1FC578002FA1F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -466,7 +467,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BE2E2357D6287368D0547494348C4BA</GUID>
+      <GUID>0E4F33202625E04D5D348E283947DF4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -697,7 +698,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>EB7E6A57431E87175A87283337A8EE75</GUID>
+      <GUID>343CD4088968A1582E60735DB3B78BF9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

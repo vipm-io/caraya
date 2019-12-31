@@ -85,6 +85,7 @@
 				</Item>
 				<Item Name="Test Runner" Type="Folder">
 					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/Unit Tests for Runner.lvclass"/>
+					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>

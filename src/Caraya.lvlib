@@ -49,4 +49,5 @@
 	<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
 	<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
+	<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
 </Library>

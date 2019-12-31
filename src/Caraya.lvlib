@@ -46,6 +46,10 @@
 	<Item Name="Results" Type="Folder">
 		<Item Name="Test Result.lvclass" Type="LVClass" URL="../classes/Test Result/Test Result.lvclass"/>
 	</Item>
+	<Item Name="Utilities" Type="Folder">
+		<Item Name="SearchForAllTests (In Memory).vi" Type="VI" URL="../subVIs/SearchForAllTests (In Memory).vi"/>
+		<Item Name="SearchForAllTests (Folder).vi" Type="VI" URL="../subVIs/SearchForAllTests (Folder).vi"/>
+	</Item>
 	<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
 	<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>

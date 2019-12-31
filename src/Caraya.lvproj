@@ -489,43 +489,6 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EC3B2FC8-6BEE-4420-B360-990835EC94B8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Fix15_Test.exe</Property>
 			</Item>
-			<Item Name="Caraya" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{4F182838-42DA-469A-B922-1188351C8F0F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Caraya</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Caraya</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F9FF580F-41A3-4889-8DD7-E87D333CEDF9}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Caraya.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Caraya/Caraya.lvlibp</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Caraya</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1DDAC650-7FAD-4AC6-AA58-BB13FE690ABB}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Caraya.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Hiller Measurements</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Caraya</Property>
-				<Property Name="TgtF_internalName" Type="Str">Caraya</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Hiller Measurements</Property>
-				<Property Name="TgtF_productName" Type="Str">Caraya</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F4E17CA8-7BE8-47E0-84B9-4CC2E29237CF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Caraya.lvlibp</Property>
-			</Item>
 		</Item>
 	</Item>
 </Project>

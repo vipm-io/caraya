@@ -86,13 +86,4 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1109918224</Property>
 	</Item>
-	<Item Name="Find Test and Suite Index.vi" Type="VI" URL="../Find Test and Suite Index.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-W!!!!&amp;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&gt;!!Q!22'6G;7ZF)&amp;2F=X1A;7ZE:8A!(5!$!"&gt;%:7:J&lt;G5A6'6T&gt;#"4&gt;7FU:3"J&lt;G2F?!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-P````]%='&amp;U;!!!'%!Q`````QZE:7RJ&lt;7FU:71A&lt;G&amp;N:1!"&gt;A$R!!!!!!!!!!)24EF@2GFM:62Z='5O&lt;(:M;7)/4&amp;:';7RF6(FQ:3ZD&gt;'Q"45!8!"E-37ZW97RJ:#"G;7RF$&amp;6O;WZP&gt;WYA&gt;(FQ:1J*&lt;H.U=H6N:7ZU"U.P&lt;H2S&lt;WQ/5'^M?7VP=H"I;7-A6EE(5(*P;G6D&gt;!&gt;-;7*S98*Z"UR71WRB=X-)7%.P&lt;H2S&lt;WQ&amp;7%ZP:'5/5WBB=G6E)'RJ9H*B=HE.,EZ&amp;6#"B=X.F&lt;7*M?2&amp;"9X2J&gt;G69)'FO&gt;'6S:G&amp;D:1.$35Y.5H6O,82J&lt;75A&lt;76O&gt;1R197RF&gt;(2F)'VF&lt;H5*3'6M=#"G;7RF!UR-1B694G^E:3"&amp;:'FU)%2F='6O:'6O9XE;1WRB=X-A5(*J&gt;G&amp;U:3"%982B)%.P&lt;H2S&lt;WQ+5X2B&gt;'6D;'&amp;S&gt;"*.982I5W.S;8"U)#ZN)':J&lt;'5/4'&amp;E:'6S)%2J97&gt;S97U'4&amp;:-;7*Q&amp;FB/&lt;W2F)%*V;7RE)%2F='6O:'6O9XE!!!2U?8"F!!!.1!=!"GF4&gt;'&amp;U:1!!$5!'!!:J5X2Z&lt;'5!!!V!"A!'&gt;V.U?7RF!!!.1!9!"W*V&gt;(2P&lt;H-!$5!(!!&gt;W;7:M97&gt;T!!^!"Q!)&gt;GFG&lt;'&amp;H=T)!!!5!"Q!!%E"!!!(`````!"%&amp;&lt;'FO;X-!'A"1!!I!#!!*!!I!#Q!-!!U!$A!0!"!!%A!I1%!!!@````]!%RJ-;7ZL:8)O5G6B:#"*&lt;G:P)%:S&lt;WUA2GFM:1!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!"1$!!"Y!!!.#!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!AA!!!!!!1!6!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
-	</Item>
 </LVClass>

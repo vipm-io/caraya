@@ -102,12 +102,14 @@
 			<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Create Test Report from Template.vi"/>
 			<Item Name="Run Tests Programmatically.vi" Type="VI" URL="../project/Caraya/Run Tests Programmatically.vi"/>
 		</Item>
+		<Item Name="Command Line Support" Type="Folder">
+			<Item Name="Caraya CLI.vi" Type="VI" URL="../Caraya CLI.vi"/>
+		</Item>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
 		<Item Name="VI Tree - Caraya.vi" Type="VI" URL="../VI Tree - Caraya.vi"/>
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
 		<Item Name="Caraya.vipc" Type="Document" URL="../Caraya.vipc"/>
 		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
-		<Item Name="Caraya CLI.vi" Type="VI" URL="../Caraya CLI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

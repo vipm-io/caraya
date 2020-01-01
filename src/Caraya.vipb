@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-01 10:36:25" Creator="Tomi Maila" Comments="" ID="3f3c19bcb76e7f35e0b1d603dada2d12">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-01 11:21:49" Creator="Tomi Maila" Comments="" ID="c3584fee1314696a27fa823775eacd5d">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.58</Library_Version>
+    <Library_Version>1.0.0.60</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -357,7 +357,7 @@ Sam Taggart (@stagg54)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4ACF961B2946D7CBC5D20446C50117EC</GUID>
+      <GUID>7838D19AFA82E31D34175729C9E3D67D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -420,7 +420,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3595E4D12ACEE58CECD7892732FEF2E6</GUID>
+      <GUID>0636370C921BB5A0934B933B556D2B8E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -483,7 +483,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA7C7E6279545E462ECBFE5279D40625</GUID>
+      <GUID>83EF8C7124469C214BDA41CAA8AA90DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -714,7 +714,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>4E6921CA353AD4E5DF64925B6E52712B</GUID>
+      <GUID>D3DC8E2F48AFACC08683455DB8077181</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

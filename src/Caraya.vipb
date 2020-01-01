@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2019-12-19 17:05:14" Creator="Tomi Maila" Comments="" ID="f7c0d75727f7d2ed1a6d8f730500239f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-01 10:36:25" Creator="Tomi Maila" Comments="" ID="3f3c19bcb76e7f35e0b1d603dada2d12">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.0.0.58</Library_Version>
@@ -59,6 +59,7 @@ http://jki.net/tools#caraya</Description>
 [Fix: 50] Updated the Math Test Suite to use non-deprecated method for Test Report
 [Fix: 53] Fixed issues with comparison (greater/less) of variant representations when integers and floats were compared
 
+
 New Features: 
 
 [Feature: 34] Time is filtered from the JUnit report if execution time is not provided
@@ -66,11 +67,12 @@ New Features:
 [Feature: 43] Added a verbose option the the Test Suite to export detailed explanation of failures
 [Feature: 45] Attribute a unique identifier to each assertions performed
 [Feature: 48] Added a Rerun All Tests menu in the Test Manager UI.
-
+[Feature: 55] Creation of a Test Runner class to search and execute tests programmatically. Includes a pre-build action for build integration.
 
 Thanks for all the contributions that led to this release, whether by reporting or fixing issues:
 
 Carlo (@carlodri)
+Chris Stryker (@ChrisStrykesAgain)
 Cyril Gambini (@CygaLV)
 Jim Kring (@jimkring)
 OlivierLabo (@OlivierLabo)
@@ -193,6 +195,12 @@ Sam Taggart (@stagg54)
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>project/Caraya/Create Test Report from Template.vi</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>project/Caraya/Run Tests Programmatically.vi</Path>
         <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -349,7 +357,7 @@ Sam Taggart (@stagg54)
         <Path>Assert Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D77A879CB532EB12B2F9DAED6EFCA3BA</GUID>
+      <GUID>4ACF961B2946D7CBC5D20446C50117EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -412,7 +420,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BB6B004E66872EFA6CCD91A2378A74A</GUID>
+      <GUID>3595E4D12ACEE58CECD7892732FEF2E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -475,7 +483,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC945A99FFBB76B9D95B26AC0E021FEF</GUID>
+      <GUID>BA7C7E6279545E462ECBFE5279D40625</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -706,7 +714,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>6E034EBA6806942AF7C06FFCA201C363</GUID>
+      <GUID>4E6921CA353AD4E5DF64925B6E52712B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

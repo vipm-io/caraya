@@ -102,6 +102,8 @@
 			</Item>
 			<Item Name="error codes" Type="Folder">
 				<Item Name="Error Code tests.vi" Type="VI" URL="../tests/test-errorcodes/Error Code tests.vi"/>
+				<Item Name="Test Report Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Report Error Codes.vi"/>
+				<Item Name="Test Runner Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Runner Error Codes.vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
@@ -117,7 +119,6 @@
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
 		<Item Name="Caraya.vipc" Type="Document" URL="../Caraya.vipc"/>
 		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
-		<Item Name="Test Report Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Report Error Codes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

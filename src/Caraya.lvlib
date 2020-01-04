@@ -36,7 +36,6 @@
 		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
 		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
 		<Item Name="private_iterator.vi" Type="VI" URL="../subVIs/private_iterator.vi"/>
-		<Item Name="Test Notifier.ctl" Type="VI" URL="../classes/Basic Test Manager/Test Notifier.ctl"/>
 		<Item Name="Test Notification.ctl" Type="VI" URL="../subVIs/Test Notification.ctl"/>
 	</Item>
 	<Item Name="Reporting" Type="Folder">

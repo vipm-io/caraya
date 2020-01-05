@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-01 19:48:47" Creator="Tomi Maila" Comments="" ID="8a14f874ba00651404e43298d3f3aaf9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-05 11:24:44" Creator="Tomi Maila" Comments="" ID="3e9e6ab493c96fe59c902f4f80ba378f">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.62</Library_Version>
+    <Library_Version>1.0.0.64</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -69,17 +69,20 @@ New Features:
 [Feature: 48] Added a Rerun All Tests menu in the Test Manager UI.
 [Feature: 52] Added support for Command Line Interface which allows discovery and execution of all tests found under a folder. Outputs to a J-Unit compatible report or a plain text report.
 [Feature: 55] Creation of a Test Runner class to search and execute tests programmatically. Includes a pre-build action for build integration.
+[Feature: 62] Defined error code range (7000-7999) for Caraya framework
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
 Carlo (@carlodri)
 Cyril Gambini (@CygaLV)
 Jim Kring (@jimkring)
+kosist (@kosist)
 Piotr Kruczkowski (@Primary-Key)
 OlivierLabo (@OlivierLabo)
 Matthew Jacobson (@jacobson3)
 Omar Mussa (@omarmussa)
 Francois Normandin (@francois-normandin)
+Matt Pollock (@pollockm)
 James D. Powell (@drjdpowell)
 Chris Stryker (@ChrisStrykesAgain)
 Sam Taggart (@stagg54)
@@ -379,7 +382,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>097FC324D54EC7653BD15ECE27EBAC72</GUID>
+      <GUID>B1E52F614992C46EA1C8F6B034A6CB7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -442,7 +445,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>807D9D0E435A689818BE71C9DB5D6351</GUID>
+      <GUID>C7119ECFA97DB34E4438383B8A52B602</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -505,7 +508,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>004497A48E0C7D71675388D796B5463D</GUID>
+      <GUID>AC9EBCF484949ECC7FD50D75E372525C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -736,7 +739,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>29FD86400614E81D6CF819034A19C86F</GUID>
+      <GUID>F3EB5AD8783285B4DD4437202DE812EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -785,7 +788,7 @@ Sam Taggart (@stagg54)
         <Path>examples\CLI\Example Caraya CLI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7A28E17E0A7E713ED00C8D42A848C31</GUID>
+      <GUID>5C68FD4AABCF2D9411748581382DDD58</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

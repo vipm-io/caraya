@@ -109,7 +109,7 @@
 		</Item>
 		<Item Name="project" Type="Folder">
 			<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Create Test Report from Template.vi"/>
-			<Item Name="Run Tests Programmatically.vi" Type="VI" URL="../project/Caraya/Run Tests Programmatically.vi"/>
+			<Item Name="Caraya Batch Testing.vi" Type="VI" URL="../project/Caraya/Caraya Batch Testing.vi"/>
 		</Item>
 		<Item Name="Command Line Support" Type="Folder">
 			<Item Name="Caraya CLI.vi" Type="VI" URL="../Caraya CLI.vi"/>

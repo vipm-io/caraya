@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-05 11:24:44" Creator="Tomi Maila" Comments="" ID="3e9e6ab493c96fe59c902f4f80ba378f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-05 12:48:44" Creator="Tomi Maila" Comments="" ID="0e68e6fe06fabeb12add9a7b469205ed">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.64</Library_Version>
+    <Library_Version>1.0.0.65</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -205,14 +205,14 @@ Sam Taggart (@stagg54)
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>project/Caraya/Run Tests Programmatically.vi</Path>
-        <Destination>7</Destination>
+        <Path>examples/CLI</Path>
+        <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>examples/CLI</Path>
-        <Destination>0</Destination>
+        <Path>project/Caraya/Caraya Batch Testing.vi</Path>
+        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -382,7 +382,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1E52F614992C46EA1C8F6B034A6CB7B</GUID>
+      <GUID>CBD56182710437EB1511BBD5A09B25A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -445,7 +445,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7119ECFA97DB34E4438383B8A52B602</GUID>
+      <GUID>FC390A9319E356368F27546F94EB8BB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -508,7 +508,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC9EBCF484949ECC7FD50D75E372525C</GUID>
+      <GUID>3024B9A7BF7D54D189D59AFA6CA3320C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -739,7 +739,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>F3EB5AD8783285B4DD4437202DE812EF</GUID>
+      <GUID>A858A4E1CF5B7E1B915821193DAF26F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -788,7 +788,7 @@ Sam Taggart (@stagg54)
         <Path>examples\CLI\Example Caraya CLI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C68FD4AABCF2D9411748581382DDD58</GUID>
+      <GUID>8AA0DEF2D98FDB1F4E2795C82E48C0B5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

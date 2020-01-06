@@ -99,6 +99,7 @@
 			<Item Name="batch tester" Type="Folder">
 				<Item Name="All Batch Testing tool tests.vi" Type="VI" URL="../tests/batch-tester/All Batch Testing tool tests.vi"/>
 				<Item Name="Test Read Linker Info.vi" Type="VI" URL="../tests/batch-tester/Test Read Linker Info.vi"/>
+				<Item Name="Test Nested Read Linker Info.vi" Type="VI" URL="../tests/batch-tester/Test Nested Read Linker Info.vi"/>
 			</Item>
 			<Item Name="error codes" Type="Folder">
 				<Item Name="Error Code tests.vi" Type="VI" URL="../tests/test-errorcodes/Error Code tests.vi"/>
@@ -113,6 +114,9 @@
 		</Item>
 		<Item Name="Command Line Support" Type="Folder">
 			<Item Name="Caraya CLI.vi" Type="VI" URL="../Caraya CLI.vi"/>
+		</Item>
+		<Item Name="QD Plugins" Type="Folder">
+			<Item Name="Run Project Unit Tests.vi" Type="VI" URL="../qd-plugin/Run Project Unit Tests.vi"/>
 		</Item>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
 		<Item Name="VI Tree - Caraya.vi" Type="VI" URL="../VI Tree - Caraya.vi"/>
@@ -195,6 +199,8 @@
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
+				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

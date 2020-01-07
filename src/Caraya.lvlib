@@ -56,6 +56,7 @@
 	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
 	<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
 	<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
-	<Item Name="Test Runner.Project.lvclass" Type="LVClass" URL="../classes/Test Runner.Project/Test Runner.Project.lvclass"/>
 	<Item Name="Test Runner.Folder.lvclass" Type="LVClass" URL="../classes/Test Runner.Folder/Test Runner.Folder.lvclass"/>
+	<Item Name="Test Runner.Project.lvclass" Type="LVClass" URL="../classes/Test Runner.Project/Test Runner.Project.lvclass"/>
+	<Item Name="Test Runner.Collection.lvclass" Type="LVClass" URL="../classes/Test Runner.Collection/Test Runner.Collection.lvclass"/>
 </Library>

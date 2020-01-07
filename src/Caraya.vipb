@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-05 14:03:05" Creator="Tomi Maila" Comments="" ID="976ff867df2017d194719eac266d8e04">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-07 08:12:46" Creator="Tomi Maila" Comments="" ID="ea9b2572927c698cd27f11ee3253db2c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.68</Library_Version>
+    <Library_Version>1.0.0.69</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -58,6 +58,7 @@ http://jki.net/tools#caraya</Description>
 [Fix: 47] Double-clicking on assertion result in Test Manager now works after VI has left memory for lvlibs inside lvlibs.
 [Fix: 50] Updated the Math Test Suite to use non-deprecated method for Test Report
 [Fix: 53] Fixed issues with comparison (greater/less) of variant representations when integers and floats were compared
+[Fix: 65] Restored RT compatibility for Process VI after CLI integration
 
 
 New Features: 
@@ -382,7 +383,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17913CDD702203BC1A38BFDD5ED4EAA4</GUID>
+      <GUID>3592CD9C6E354C7A6066528B2446D8E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -445,7 +446,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6DC717AFDE969E9D0A43CB5C68A09299</GUID>
+      <GUID>F1F73E22FBB3908061E5162D96CE76C9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -508,7 +509,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3D60B2F2C49A09039D36D85B9242A09</GUID>
+      <GUID>41C54485924E59B173AD12935FA2D9D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -739,7 +740,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>262EFD5FD956B73E614A992B90D67BA8</GUID>
+      <GUID>CE1331E55676750596A227D8044733E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -802,7 +803,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>217B7AD6BEA01BBA643BB4BA17B11B66</GUID>
+      <GUID>4648F74ED12610FD6023F84F92B6DBD9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

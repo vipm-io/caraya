@@ -119,10 +119,10 @@
 			<Item Name="Run Project Unit Tests.vi" Type="VI" URL="../qd-plugin/Run Project Unit Tests.vi"/>
 		</Item>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
+		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
 		<Item Name="VI Tree - Caraya.vi" Type="VI" URL="../VI Tree - Caraya.vi"/>
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
 		<Item Name="Caraya.vipc" Type="Document" URL="../Caraya.vipc"/>
-		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

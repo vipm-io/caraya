@@ -48,7 +48,6 @@
 		<Item Name="Test Result.lvclass" Type="LVClass" URL="../classes/Test Result/Test Result.lvclass"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="SearchForAllTests (In Memory).vi" Type="VI" URL="../subVIs/SearchForAllTests (In Memory).vi"/>
 		<Item Name="SearchForAllTests (Folder).vi" Type="VI" URL="../subVIs/SearchForAllTests (Folder).vi"/>
 		<Item Name="Run Tests Programmatically.vi" Type="VI" URL="../subVIs/Run Tests Programmatically.vi"/>
 	</Item>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-07 08:12:46" Creator="Tomi Maila" Comments="" ID="ea9b2572927c698cd27f11ee3253db2c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-11 13:12:51" Creator="Tomi Maila" Comments="" ID="2b1d47acce69a49c6b33e71cf26c97f8">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.69</Library_Version>
+    <Library_Version>1.0.0.71</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -71,6 +71,7 @@ New Features:
 [Feature: 52] Added support for Command Line Interface which allows discovery and execution of all tests found under a folder. Outputs to a J-Unit compatible report or a plain text report.
 [Feature: 55] Creation of a Test Runner class to search and execute tests programmatically. Includes a pre-build action for build integration.
 [Feature: 62] Defined error code range (7000-7999) for Caraya framework
+[Feature: 64] Support for QuickDrop plugin to run all unit tests in active project (Ctrl-U)
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
@@ -217,6 +218,12 @@ Sam Taggart (@stagg54)
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>qd-plugin</Path>
+        <Destination>11</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -285,7 +292,7 @@ Sam Taggart (@stagg54)
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>true</Edit_VI_Description>
+      <Edit_VI_Description>false</Edit_VI_Description>
       <Text_to_Add>
 {product_name} {version_number}
 {author_name} - {company_name}
@@ -383,7 +390,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3592CD9C6E354C7A6066528B2446D8E0</GUID>
+      <GUID>BD0B74111E5EC0D418C349259C3A4504</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -446,7 +453,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1F73E22FBB3908061E5162D96CE76C9</GUID>
+      <GUID>D1E71ADE3FE5C1533A8AE941996D62BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -509,7 +516,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41C54485924E59B173AD12935FA2D9D7</GUID>
+      <GUID>193C1CC6E42FAE31D957BDE80DD12620</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -740,7 +747,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>CE1331E55676750596A227D8044733E0</GUID>
+      <GUID>6C9FB9421E8A165F3FBE093BCF6DE172</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -803,7 +810,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4648F74ED12610FD6023F84F92B6DBD9</GUID>
+      <GUID>700F39AD4DEA59E714580ABD2816DCF3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

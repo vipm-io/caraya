@@ -111,12 +111,13 @@
 		<Item Name="project" Type="Folder">
 			<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Create Test Report from Template.vi"/>
 			<Item Name="Caraya Batch Testing.vi" Type="VI" URL="../project/Caraya/Caraya Batch Testing.vi"/>
+			<Item Name="Run Active Project Unit Tests.vi" Type="VI" URL="../project/Caraya/Run Active Project Unit Tests.vi"/>
 		</Item>
 		<Item Name="Command Line Support" Type="Folder">
 			<Item Name="Caraya CLI.vi" Type="VI" URL="../Caraya CLI.vi"/>
 		</Item>
 		<Item Name="QD Plugins" Type="Folder">
-			<Item Name="Run Project Unit Tests.vi" Type="VI" URL="../qd-plugin/Run Project Unit Tests.vi"/>
+			<Item Name="Run Project Unit Tests (Caraya).vi" Type="VI" URL="../qd-plugin/Run Project Unit Tests (Caraya).vi"/>
 		</Item>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
 		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
@@ -200,7 +201,6 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-11 13:12:51" Creator="Tomi Maila" Comments="" ID="2b1d47acce69a49c6b33e71cf26c97f8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-13 18:42:07" Creator="Tomi Maila" Comments="" ID="75bb25f261148a80fc51e76142569c0f">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.71</Library_Version>
+    <Library_Version>1.0.0.72</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -390,7 +390,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD0B74111E5EC0D418C349259C3A4504</GUID>
+      <GUID>5805F696EDD00A9C4CFE77F903A4F12A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +453,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1E71ADE3FE5C1533A8AE941996D62BB</GUID>
+      <GUID>950583D229627D239AB1C1087B62808F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -516,7 +516,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>193C1CC6E42FAE31D957BDE80DD12620</GUID>
+      <GUID>263973FC9C65979FF885DA743F6C316B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -747,7 +747,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>6C9FB9421E8A165F3FBE093BCF6DE172</GUID>
+      <GUID>07689AE3FB1BC836ED381554507A13C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +810,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>700F39AD4DEA59E714580ABD2816DCF3</GUID>
+      <GUID>FF1775318C227D4671D50D177F1EFDE7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

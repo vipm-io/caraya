@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-13 18:42:07" Creator="Tomi Maila" Comments="" ID="75bb25f261148a80fc51e76142569c0f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-20 19:05:50" Creator="Tomi Maila" Comments="" ID="120696e3dbcb1d9b15a11b2c515860b1">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.0.0.72</Library_Version>
@@ -390,7 +390,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5805F696EDD00A9C4CFE77F903A4F12A</GUID>
+      <GUID>86A1B6DA418CDB00692BFC604A467AB1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +453,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>950583D229627D239AB1C1087B62808F</GUID>
+      <GUID>583FE6AAC70D6CF3359CB9C7FA875A4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -516,7 +516,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>263973FC9C65979FF885DA743F6C316B</GUID>
+      <GUID>72D3E3EBBF6FE34C16B562DAE967D3EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -747,7 +747,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>07689AE3FB1BC836ED381554507A13C5</GUID>
+      <GUID>6FF33320E1AA0B4A045504FAB9CC0ABF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +810,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF1775318C227D4671D50D177F1EFDE7</GUID>
+      <GUID>B9D933F9A1CE6E35BDD6BE6CFACD0994</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

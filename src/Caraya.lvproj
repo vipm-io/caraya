@@ -94,7 +94,6 @@
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Duplicate Names for Different Assertions.vi" Type="VI" URL="../tests/test-suite/Test Duplicate Names for Different Assertions.vi"/>
 				<Item Name="Test SuiteDestructionError.vi" Type="VI" URL="../tests/test-suite/Test SuiteDestructionError.vi"/>
-				<Item Name="Test Suite Error 7002 Message.vi" Type="VI" URL="../tests/test-suite/Test Suite Error 7002 Message.vi"/>
 				<Item Name="Test Assertion Report Ordering.vi" Type="VI" URL="../tests/test-suite/Test Assertion Report Ordering.vi"/>
 			</Item>
 			<Item Name="batch tester" Type="Folder">
@@ -106,6 +105,7 @@
 				<Item Name="Error Code tests.vi" Type="VI" URL="../tests/test-errorcodes/Error Code tests.vi"/>
 				<Item Name="Test Report Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Report Error Codes.vi"/>
 				<Item Name="Test Runner Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Runner Error Codes.vi"/>
+				<Item Name="Test Suite Error 7002 Message.vi" Type="VI" URL="../tests/test-suite/Test Suite Error 7002 Message.vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
@@ -119,6 +119,9 @@
 		</Item>
 		<Item Name="QD Plugins" Type="Folder">
 			<Item Name="Run Project Unit Tests (Caraya).vi" Type="VI" URL="../qd-plugin/Run Project Unit Tests (Caraya).vi"/>
+		</Item>
+		<Item Name="error-codes" Type="Folder">
+			<Item Name="Caraya-errors.txt" Type="Document" URL="../errors/Caraya-errors.txt"/>
 		</Item>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
 		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>

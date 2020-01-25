@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-21 07:42:28" Creator="Tomi Maila" Comments="" ID="2f3f9c13ad7ea15378e88f05e8ad4264">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-01-24 20:03:50" Creator="Tomi Maila" Comments="" ID="768dcae39be90e284acfc8d5c97a9a43">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.73</Library_Version>
+    <Library_Version>1.0.0.75</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -110,7 +110,7 @@ Sam Taggart (@stagg54)
       </Custom_Probes>
       <Custom_Errors>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;project&gt;\errors\JKI Toolkits\Caraya</Path>
+        <Path>&lt;resource&gt;\errors</Path>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
@@ -222,6 +222,12 @@ Sam Taggart (@stagg54)
       <Destination_Overrides>
         <Path>qd-plugin</Path>
         <Destination>11</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>errors/Caraya-errors.txt</Path>
+        <Destination>3</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -391,7 +397,7 @@ Sam Taggart (@stagg54)
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D9C22F4A3C09945157A99C75352895F</GUID>
+      <GUID>EBF2C65A081594D3B07DDBFAF0E791BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -454,7 +460,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8D418D310FD2C9AFFDA0CAB2B7EF802</GUID>
+      <GUID>5927854425256600F4C03AD5BDBDD927</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -517,7 +523,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08CB763A1F42E820E337132979082285</GUID>
+      <GUID>52244B31ACA1626379C75DD03624A677</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -748,7 +754,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>FFC2F5BC0987045A1842D222C6B536DE</GUID>
+      <GUID>0A5DBD3B281F565C0F935FE94A702EAE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -811,7 +817,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30FA7DA62703C500FD034C2C49AA7A9C</GUID>
+      <GUID>9AC901E7260942ADA3CCE7941E32C1CA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

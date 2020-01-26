@@ -123,6 +123,7 @@
 		<Item Name="error-codes" Type="Folder">
 			<Item Name="Caraya-errors.txt" Type="Document" URL="../errors/Caraya-errors.txt"/>
 		</Item>
+		<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="../menu/Caraya Interactive Menu.rtm"/>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
 		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
 		<Item Name="VI Tree - Caraya.vi" Type="VI" URL="../VI Tree - Caraya.vi"/>

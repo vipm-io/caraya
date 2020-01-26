@@ -34,7 +34,6 @@
 		<Item Name="Custom or Standard Message.vi" Type="VI" URL="../subVIs/Custom or Standard Message.vi"/>
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
 		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
-		<Item Name="Application Menu.rtm" Type="Document" URL="../menu/Application Menu.rtm"/>
 		<Item Name="private_iterator.vi" Type="VI" URL="../subVIs/private_iterator.vi"/>
 		<Item Name="Test Notification.ctl" Type="VI" URL="../subVIs/Test Notification.ctl"/>
 	</Item>

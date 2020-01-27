@@ -15,6 +15,9 @@ Caraya Test Manager: Non-existent User Application Data folder
 <nierror code="7002">
 Caraya Test Manager: Test Suite failed
 </nierror>
+<nierror code="7003">
+Caraya Test Manager: Test Manager shutdown timed out
+</nierror>
 <nierror code="7100">
 Caraya Test Runner: Cannot use the linker info in the Run time engine.
 </nierror>

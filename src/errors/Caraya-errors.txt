@@ -18,6 +18,12 @@ Caraya Test Manager: Test Suite failed
 <nierror code="7003">
 Caraya Test Manager: Test Manager shutdown timed out
 </nierror>
+<nierror code="7004">
+Caraya Test Manager: Cannot find assertion's caller path
+</nierror>
+<nierror code="7005">
+Caraya Test Manager: Cannot open assertion's caller block diagram
+</nierror>
 <nierror code="7100">
 Caraya Test Runner: Cannot use the linker info in the Run time engine.
 </nierror>

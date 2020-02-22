@@ -88,6 +88,7 @@
 				</Item>
 				<Item Name="Test Runner" Type="Folder">
 					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/Unit Tests for Runner.lvclass"/>
+					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-all-asserts/Test Runner.AllAsserts.lvclass"/>
 					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
@@ -110,7 +111,11 @@
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
 		<Item Name="project" Type="Folder">
+			<Item Name="_utilities" Type="Folder">
+				<Item Name="_caraya_renameOperands.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_renameOperands.vi"/>
+			</Item>
 			<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Create Test Report from Template.vi"/>
+			<Item Name="Create New Test Suite.vi" Type="VI" URL="../project/Caraya/Create New Test Suite.vi"/>
 			<Item Name="Caraya Batch Testing.vi" Type="VI" URL="../project/Caraya/Caraya Batch Testing.vi"/>
 			<Item Name="Run Active Project Unit Tests.vi" Type="VI" URL="../project/Caraya/Run Active Project Unit Tests.vi"/>
 		</Item>

@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-02-22 18:14:06" Creator="Tomi Maila" Comments="" ID="4571f89bb22eb6ce6b0c73534cb4133d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-02-22 18:19:49" Creator="Tomi Maila" Comments="" ID="a439d2394e0662f07ed560f9cd1bd89b">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.0.0.79</Library_Version>
@@ -130,7 +130,7 @@ Sam Taggart (@stagg54)
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;project&gt;\Caraya</Path>
+        <Path/>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -203,20 +203,8 @@ Sam Taggart (@stagg54)
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>project/Caraya/Create Test Report from Template.vi</Path>
-        <Destination>7</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>examples/CLI</Path>
         <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>project/Caraya/Caraya Batch Testing.vi</Path>
-        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -229,6 +217,12 @@ Sam Taggart (@stagg54)
       <Destination_Overrides>
         <Path>errors/Caraya-errors.txt</Path>
         <Destination>3</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>project/Caraya</Path>
+        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>

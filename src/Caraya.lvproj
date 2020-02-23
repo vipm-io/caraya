@@ -540,6 +540,8 @@
 				<Item Name="Empty Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array__ogtk.vi"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="Create Test Suite (AllAsserts).vi.vi" Type="VI" URL="../tests/test-all-asserts/Create Test Suite (AllAsserts).vi.vi"/>
+			<Item Name="RunMe (Test Launcher).vi" Type="VI" URL="../tests/test-all-asserts/RunMe (Test Launcher).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test EXE shows Caraya GUI" Type="EXE">

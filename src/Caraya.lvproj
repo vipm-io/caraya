@@ -113,6 +113,7 @@
 		<Item Name="project" Type="Folder">
 			<Item Name="_utilities" Type="Folder">
 				<Item Name="_caraya_renameOperands.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_renameOperands.vi"/>
+				<Item Name="_caraya_updateVInames.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_updateVInames.vi"/>
 			</Item>
 			<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Create Test Report from Template.vi"/>
 			<Item Name="Create New Test Suite.vi" Type="VI" URL="../project/Caraya/Create New Test Suite.vi"/>

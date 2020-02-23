@@ -25,7 +25,7 @@
 	<Item Name="Test Runner.AllAsserts.ctl" Type="Class Private Data" URL="Test Runner.AllAsserts.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Create Test Suite (All Asserts).vi" Type="VI" URL="../Create Test Suite (All Asserts).vi">
+	<Item Name="Create Test Suite (AllAsserts).vi.vi" Type="VI" URL="../Create Test Suite (AllAsserts).vi.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Q!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!A(F2F=X1A5H6O&lt;G6S,E&amp;M&lt;%&amp;T=W6S&gt;(-O&lt;(:D&lt;'&amp;T=Q!!'62F=X1A5H6O&lt;G6S,E&amp;M&lt;%&amp;T=W6S&gt;(-A;7Y!&amp;%!B$UFO&gt;'6S97.U;8:F)#B5+1!11#%,6G6S9G^T:3!I2CE!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Y1(!!(A!!)AR$98*B?7%O&lt;(:M;7)46'6T&gt;#"3:8"P=H1O&lt;(:D&lt;'&amp;T=Q!!#V2F=X1A5G6Q&lt;X*U!%:!=!!?!!!A(F2F=X1A5H6O&lt;G6S,E&amp;M&lt;%&amp;T=W6S&gt;(-O&lt;(:D&lt;'&amp;T=Q!!'F2F=X1A5H6O&lt;G6S,E&amp;M&lt;%&amp;T=W6S&gt;(-A&lt;X6U!!"B!0!!$!!$!!1!"!!&amp;!!1!"A!%!!=!#!!*!!1!#A)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!#!!!!!!!!!!)!!!!#!!!!!A!!!!!!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

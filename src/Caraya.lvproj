@@ -87,8 +87,8 @@
 					<Item Name="Verbosity Test.vi" Type="VI" URL="../tests/test-suite/Test Verbose Failures/Verbosity Test.vi"/>
 				</Item>
 				<Item Name="Test Runner" Type="Folder">
-					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/Unit Tests for Runner.lvclass"/>
-					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-all-asserts/Test Runner.AllAsserts.lvclass"/>
+					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/UnitTest For Runner/Unit Tests for Runner.lvclass"/>
+					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-runner/test-all-asserts/Test Runner.AllAsserts.lvclass"/>
 					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
@@ -581,8 +581,6 @@
 				<Item Name="Delete Recursive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Delete Recursive__ogtk.vi"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="Create Test Suite (AllAsserts).vi.vi" Type="VI" URL="../tests/test-all-asserts/Create Test Suite (AllAsserts).vi.vi"/>
-			<Item Name="RunMe (Test Launcher).vi" Type="VI" URL="../tests/test-all-asserts/RunMe (Test Launcher).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test EXE shows Caraya GUI" Type="EXE">

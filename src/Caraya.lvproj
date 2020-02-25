@@ -80,15 +80,13 @@
 					<Item Name="Level_2.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_2.vi"/>
 					<Item Name="Level_3.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_3.vi"/>
 				</Item>
-				<Item Name="Test Export Reports" Type="Folder">
-					<Item Name="Export JUnit.vi" Type="VI" URL="../tests/test-exports/Export JUnit.vi"/>
-				</Item>
 				<Item Name="Test Verbose Failures" Type="Folder">
 					<Item Name="Verbosity Test.vi" Type="VI" URL="../tests/test-suite/Test Verbose Failures/Verbosity Test.vi"/>
 				</Item>
 				<Item Name="Test Runner" Type="Folder">
 					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/UnitTest For Runner/Unit Tests for Runner.lvclass"/>
 					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-runner/test-all-asserts/Test Runner.AllAsserts.lvclass"/>
+					<Item Name="Test Runner.JUnit.lvclass" Type="LVClass" URL="../tests/test-JUnit/Test Runner.JUnit.lvclass"/>
 					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-02-24 21:50:52" Creator="Tomi Maila" Comments="" ID="23c7008d153dec5536503b38672e0fad">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-03-17 19:01:11" Creator="Tomi Maila" Comments="" ID="e9800637e4ee355e553b42afd41e471c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.86</Library_Version>
+    <Library_Version>1.0.0.87</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -411,7 +411,7 @@ Sam Taggart (@stagg54)
         <Path>Test Runners</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F3B347793AA117BA3CEDE74FEBB3C7F</GUID>
+      <GUID>09B2E2DED356FB6F743F26FD60932D5F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +502,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Suite\Read timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9249EEFA31E12FA1F287B079A200582</GUID>
+      <GUID>463A8949D2D6FB993C3E3B461D2E681E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -565,7 +565,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>459CCB7E6C923EEF62307B4CA25EC9EE</GUID>
+      <GUID>8BFF1574280523AB16A5C08E6EAEE7F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -796,7 +796,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>9B612590BEFC762CC404F429445DE4DB</GUID>
+      <GUID>0D4A9DD4084D613BC4CF434DD65F4C4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -859,7 +859,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA46E1577E86618F3E3EDF748E6C7F87</GUID>
+      <GUID>E133B1B6C2119E9E02F96330B58DC5A1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1020,7 +1020,7 @@ Sam Taggart (@stagg54)
         <Path>Accessors</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>267C0913C56099534B5453924C66CD95</GUID>
+      <GUID>6D024B0C4EFC8B1845B76DF219B19A0F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1195,7 +1195,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Runner\Write Excluded Tests.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00DEF8838743AD496A5319015D9D1699</GUID>
+      <GUID>C401E56635F746F93E61AF0DE2802DE7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

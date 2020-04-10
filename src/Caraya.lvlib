@@ -55,6 +55,7 @@
 		<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
 		<Item Name="Test Runner.Folder.lvclass" Type="LVClass" URL="../classes/Test Runner.Folder/Test Runner.Folder.lvclass"/>
 		<Item Name="Test Runner.Project.lvclass" Type="LVClass" URL="../classes/Test Runner.Project/Test Runner.Project.lvclass"/>
+		<Item Name="Test Runner.Class.lvclass" Type="LVClass" URL="../classes/Test Runner.Class/Test Runner.Class.lvclass"/>
 		<Item Name="Test Runner.Collection.lvclass" Type="LVClass" URL="../classes/Test Runner.Collection/Test Runner.Collection.lvclass"/>
 		<Item Name="Test Runner.Template.lvclass" Type="LVClass" URL="../classes/Test Runner.Template/Test Runner.Template.lvclass"/>
 	</Item>
@@ -63,8 +64,12 @@
 		<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
 		<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
 	</Item>
+	<Item Name="Polymorphic" Type="Folder">
+		<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../Run Test (Scalar Path).vi"/>
+		<Item Name="Run Test (Array Path).vi" Type="VI" URL="../Run Test (Array Path).vi"/>
+		<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../Run Test (ProjectRefnum).vi"/>
+		<Item Name="Run Test (Object).vi" Type="VI" URL="../Run Test (Object).vi"/>
+		<Item Name="Run Test (Object Array).vi" Type="VI" URL="../Run Test (Object Array).vi"/>
+	</Item>
 	<Item Name="Run Tests.vi" Type="VI" URL="../Run Tests.vi"/>
-	<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../Run Test (Scalar Path).vi"/>
-	<Item Name="Run Test (Array Path).vi" Type="VI" URL="../Run Test (Array Path).vi"/>
-	<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../Run Test (ProjectRefnum).vi"/>
 </Library>

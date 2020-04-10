@@ -89,6 +89,9 @@
 					<Item Name="Test Runner.JUnit.lvclass" Type="LVClass" URL="../tests/test-JUnit/Test Runner.JUnit.lvclass"/>
 					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
+				<Item Name="Test Class" Type="Folder">
+					<Item Name="Caraya-TestableClass.lvclass" Type="LVClass" URL="../tests/test-TestableClass/Caraya-TestableClass.lvclass"/>
+				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Duplicate Names for Different Assertions.vi" Type="VI" URL="../tests/test-suite/Test Duplicate Names for Different Assertions.vi"/>
@@ -105,6 +108,15 @@
 				<Item Name="Test Report Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Report Error Codes.vi"/>
 				<Item Name="Test Runner Error Codes.vi" Type="VI" URL="../tests/test-errorcodes/Test Runner Error Codes.vi"/>
 				<Item Name="Test Suite Error 7002 Message.vi" Type="VI" URL="../tests/test-suite/Test Suite Error 7002 Message.vi"/>
+			</Item>
+			<Item Name="polymorphic" Type="Folder">
+				<Item Name="test_pathScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathScalar.vi"/>
+				<Item Name="test_pathArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathArray.vi"/>
+				<Item Name="test_pathProject.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathProject.vi"/>
+				<Item Name="test_refnumProject.vi" Type="VI" URL="../tests/test-polymorphic run/test_refnumProject.vi"/>
+				<Item Name="test_pathClassScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathClassScalar.vi"/>
+				<Item Name="test_objectScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectScalar.vi"/>
+				<Item Name="test_objectArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectArray.vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
@@ -252,6 +264,7 @@
 				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
 				<Item Name="Load &amp; Unload.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Load_Unload/Load &amp; Unload.lvclass"/>
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

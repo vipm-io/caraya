@@ -45,6 +45,9 @@ Caraya Test Runner: Invalid or non-existent path
 <nierror code="7106">
 Caraya Test Runner: Unsupported file type
 </nierror>
+<nierror code="7107">
+Caraya Test Runner: Undefined object
+</nierror>
 <nierror code="7200">
 Caraya Batch Tester: Generic Test Manager error (ex: Unhandled state)
 </nierror>

@@ -38,6 +38,7 @@
 		<Item Name="Test Notification.ctl" Type="VI" URL="../subVIs/Test Notification.ctl"/>
 	</Item>
 	<Item Name="Reporting" Type="Folder">
+		<Item Name="AutoSelect Test Report.vi" Type="VI" URL="../classes/Test Report/AutoSelect Test Report.vi"/>
 		<Item Name="Test Report.lvclass" Type="LVClass" URL="../classes/Test Report/Test Report.lvclass"/>
 		<Item Name="Test Report.Default.lvclass" Type="LVClass" URL="../classes/Test Report.Default/Test Report.Default.lvclass"/>
 		<Item Name="Test Report.JUnit.lvclass" Type="LVClass" URL="../classes/Test Report.JUnit/Test Report.JUnit.lvclass"/>
@@ -50,14 +51,20 @@
 		<Item Name="SearchForAllTests (Folder).vi" Type="VI" URL="../subVIs/SearchForAllTests (Folder).vi"/>
 		<Item Name="Run Tests Programmatically.vi" Type="VI" URL="../subVIs/Run Tests Programmatically.vi"/>
 	</Item>
-	<Item Name="Test Runners" Type="Folder">
+	<Item Name="Runners" Type="Folder">
 		<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
 		<Item Name="Test Runner.Folder.lvclass" Type="LVClass" URL="../classes/Test Runner.Folder/Test Runner.Folder.lvclass"/>
 		<Item Name="Test Runner.Project.lvclass" Type="LVClass" URL="../classes/Test Runner.Project/Test Runner.Project.lvclass"/>
 		<Item Name="Test Runner.Collection.lvclass" Type="LVClass" URL="../classes/Test Runner.Collection/Test Runner.Collection.lvclass"/>
 		<Item Name="Test Runner.Template.lvclass" Type="LVClass" URL="../classes/Test Runner.Template/Test Runner.Template.lvclass"/>
 	</Item>
-	<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
-	<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
-	<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
+	<Item Name="Assertions" Type="Folder">
+		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
+		<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
+		<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
+	</Item>
+	<Item Name="Run Tests.vi" Type="VI" URL="../Run Tests.vi"/>
+	<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../Run Test (Scalar Path).vi"/>
+	<Item Name="Run Test (Array Path).vi" Type="VI" URL="../Run Test (Array Path).vi"/>
+	<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../Run Test (ProjectRefnum).vi"/>
 </Library>

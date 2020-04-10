@@ -39,6 +39,12 @@ Caraya Test Runner: Project reference is invalid
 <nierror code="7104">
 Caraya Test Runner: Function is not available in a real-time target
 </nierror>
+<nierror code="7105">
+Caraya Test Runner: Invalid or non-existent path
+</nierror>
+<nierror code="7106">
+Caraya Test Runner: Unsupported file type
+</nierror>
 <nierror code="7200">
 Caraya Batch Tester: Generic Test Manager error (ex: Unhandled state)
 </nierror>

@@ -114,6 +114,8 @@
 				<Item Name="test_pathArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathArray.vi"/>
 				<Item Name="test_pathProject.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathProject.vi"/>
 				<Item Name="test_refnumProject.vi" Type="VI" URL="../tests/test-polymorphic run/test_refnumProject.vi"/>
+				<Item Name="test_VIRefnumScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_VIRefnumScalar.vi"/>
+				<Item Name="test_VIRefnumArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_VIRefnumArray.vi"/>
 				<Item Name="test_pathClassScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathClassScalar.vi"/>
 				<Item Name="test_objectScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectScalar.vi"/>
 				<Item Name="test_objectArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectArray.vi"/>

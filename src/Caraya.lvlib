@@ -70,6 +70,8 @@
 		<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../Run Test (ProjectRefnum).vi"/>
 		<Item Name="Run Test (Object).vi" Type="VI" URL="../Run Test (Object).vi"/>
 		<Item Name="Run Test (Object Array).vi" Type="VI" URL="../Run Test (Object Array).vi"/>
+		<Item Name="Run Test (VIRefnum Scalar).vi" Type="VI" URL="../Run Test (VIRefnum Scalar).vi"/>
+		<Item Name="Run Test (VIRefnum Array).vi" Type="VI" URL="../Run Test (VIRefnum Array).vi"/>
 	</Item>
 	<Item Name="Run Tests.vi" Type="VI" URL="../Run Tests.vi"/>
 </Library>

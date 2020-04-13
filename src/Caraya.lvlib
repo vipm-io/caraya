@@ -65,13 +65,13 @@
 		<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
 	</Item>
 	<Item Name="Polymorphic" Type="Folder">
-		<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../Run Test (Scalar Path).vi"/>
-		<Item Name="Run Test (Array Path).vi" Type="VI" URL="../Run Test (Array Path).vi"/>
-		<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../Run Test (ProjectRefnum).vi"/>
-		<Item Name="Run Test (Object).vi" Type="VI" URL="../Run Test (Object).vi"/>
-		<Item Name="Run Test (Object Array).vi" Type="VI" URL="../Run Test (Object Array).vi"/>
-		<Item Name="Run Test (VIRefnum Scalar).vi" Type="VI" URL="../Run Test (VIRefnum Scalar).vi"/>
-		<Item Name="Run Test (VIRefnum Array).vi" Type="VI" URL="../Run Test (VIRefnum Array).vi"/>
+		<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../run-tests/Run Test (Scalar Path).vi"/>
+		<Item Name="Run Test (Array Path).vi" Type="VI" URL="../run-tests/Run Test (Array Path).vi"/>
+		<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../run-tests/Run Test (ProjectRefnum).vi"/>
+		<Item Name="Run Test (Object).vi" Type="VI" URL="../run-tests/Run Test (Object).vi"/>
+		<Item Name="Run Test (Object Array).vi" Type="VI" URL="../run-tests/Run Test (Object Array).vi"/>
+		<Item Name="Run Test (VIRefnum Scalar).vi" Type="VI" URL="../run-tests/Run Test (VIRefnum Scalar).vi"/>
+		<Item Name="Run Test (VIRefnum Array).vi" Type="VI" URL="../run-tests/Run Test (VIRefnum Array).vi"/>
 	</Item>
-	<Item Name="Run Tests.vi" Type="VI" URL="../Run Tests.vi"/>
+	<Item Name="Run Tests.vi" Type="VI" URL="../run-tests/Run Tests.vi"/>
 </Library>

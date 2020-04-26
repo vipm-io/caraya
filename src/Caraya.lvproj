@@ -72,6 +72,7 @@
 			</Item>
 			<Item Name="test suite" Type="Folder">
 				<Item Name="Test Report Hierarchy" Type="Folder">
+					<Item Name="Test Call Chain Failure Report.vi" Type="VI" URL="../tests/test-report-hierarchy/Test Call Chain Failure Report.vi"/>
 					<Item Name="TopLevel.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/TopLevel.vi"/>
 					<Item Name="Level_A.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_A.vi"/>
 					<Item Name="Level_B.vi" Type="VI" URL="../tests/test-suite/Test Report Hierarchy/Level_B.vi"/>
@@ -89,7 +90,7 @@
 					<Item Name="Test Runner.JUnit.lvclass" Type="LVClass" URL="../tests/test-JUnit/Test Runner.JUnit.lvclass"/>
 					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
-				<Item Name="Test Class" Type="Folder">
+				<Item Name="Assert Factory" Type="Folder">
 					<Item Name="Caraya-TestableClass.lvclass" Type="LVClass" URL="../tests/test-TestableClass/Caraya-TestableClass.lvclass"/>
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>

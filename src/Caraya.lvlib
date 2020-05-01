@@ -25,6 +25,7 @@
 			<Item Name="Test Event Storage.lvclass" Type="LVClass" URL="../classes/Test Event Storage/Test Event Storage.lvclass"/>
 		</Item>
 		<Item Name="Call Chain To Hash.vi" Type="VI" URL="../subVIs/Call Chain To Hash.vi"/>
+		<Item Name="Call Chain To Hash Hierarchy.vi" Type="VI" URL="../subVIs/Call Chain To Hash Hierarchy.vi"/>
 		<Item Name="VI Name.vi" Type="VI" URL="../subVIs/VI Name.vi"/>
 		<Item Name="Custom or Standard Message.vi" Type="VI" URL="../subVIs/Custom or Standard Message.vi"/>
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>

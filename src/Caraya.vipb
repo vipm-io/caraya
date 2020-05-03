@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-02 18:25:19" Creator="Tomi Maila" Comments="" ID="65c6e06179d721ee71619480aed7c747">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-02 20:01:22" Creator="Tomi Maila" Comments="" ID="bfbb88775d6ea358cb103bb389d225fa">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.99</Library_Version>
+    <Library_Version>1.0.0.100</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -397,7 +397,7 @@ Sam Taggart (@stagg54)
         <Path>VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41A102757529996BB134611CE37320CC</GUID>
+      <GUID>9CC2286AF539C6169B127B347955A189</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -474,7 +474,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Suite\Read timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>027E3E2F6FE5A615B2317FC1DD735AFD</GUID>
+      <GUID>6A81C2EE3737C78344AF596D28C90A5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -537,7 +537,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D3C9E6F8963767C72E53C7A0E20D75A</GUID>
+      <GUID>1FEAEB33CD937992C2EB542FF2AA0FE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -768,7 +768,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>3DF485B5680BB0F8A6CA786570C74681</GUID>
+      <GUID>80D043AEA7544AD53EBA4E6824B1A5EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -831,7 +831,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6F9616E82DD856EEB2889289EA7D748</GUID>
+      <GUID>06564A1D424F72DFA4B89BCAF5904456</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1006,7 +1006,7 @@ Sam Taggart (@stagg54)
         <Path>tests\test-runner\Runner Tests.vi</Path>
         <VI_Title>Example #3 (Collection)</VI_Title>
       </Items_Data>
-      <GUID>EEDF07429ACDDA6F7DE112BB6702F403</GUID>
+      <GUID>E17C45444EC8E50E43E450C75CEDC7ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1209,7 +1209,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA8E781A1DA4234DC0A65ED665E18FD7</GUID>
+      <GUID>71C44BEAEC8ABD7F6907ED597A944BC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1314,7 +1314,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC0BBBFD487B29D5958DDF3D91852399</GUID>
+      <GUID>64D2BF26D10B44DC50985B23374AE760</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1391,7 +1391,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D0F6C8EA4539FD7AAF6327067374D36</GUID>
+      <GUID>E8B3F8CD617B654997D508C8C466AB86</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

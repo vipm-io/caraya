@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-04 18:48:08" Creator="Tomi Maila" Comments="" ID="a92a70d1f089e3e7c5e430a5cea5d307">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-04 19:01:54" Creator="Tomi Maila" Comments="" ID="b54fc3765f6ddc90daaf4d91c6e147eb">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.0.0.107</Library_Version>
@@ -74,25 +74,27 @@ New Features:
 [Feature: 62] Defined error code range (7000-7999) for Caraya framework
 [Feature: 64] Support for QuickDrop plugin to run all unit tests in active project (Ctrl-U)
 [Feature: 78] Support for nested Test Suites through Test Runner class extensions
+[Feature: 87] No Tests Found message added to Test Manager UI when no assertions found
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
 arjen-hiemstra (@arjen-hiemstra)
 Carlo (@carlodri)
 Cyril Gambini (@CygaLV)
-Jim Kring (@jimkring)
-kosist (@kosist)
-Piotr Kruczkowski (@Primary-Key)
-OlivierLabo (@OlivierLabo)
 Matthew Jacobson (@jacobson3)
+Sam Kaley (@skaley)
+kosist (@kosist)
+Jim Kring (@jimkring)
+Piotr Kruczkowski (@Primary-Key)
+laxmanraok (@laxmanraok)
 Tomi Maila (@tmaila)
 Omar Mussa (@omarmussa)
 Francois Normandin (@francois-normandin)
+OlivierLabo (@OlivierLabo)
 Matt Pollock (@pollockm)
 James D. Powell (@drjdpowell)
 Chris Stryker (@ChrisStrykesAgain)
 Sam Taggart (@stagg54)
-
 </Release_Notes>
     </Description>
     <Destinations>

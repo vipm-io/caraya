@@ -58,6 +58,7 @@
 		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 		<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
 		<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
+		<Item Name="New Test (Caraya).vi" Type="VI" URL="../classes/Assert/New Test (Caraya).vi"/>
 	</Item>
 	<Item Name="Polymorphic" Type="Folder">
 		<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../run-tests/Run Test (Scalar Path).vi"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-05 08:02:11" Creator="Tomi Maila" Comments="" ID="b32da3b34ccbdc255bd243d7604fb205">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-19 21:52:44" Creator="Tomi Maila" Comments="" ID="8a3090d78a97bf6bc9b162a688a5e2a0">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.0.112</Library_Version>
+    <Library_Version>1.0.0.114</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,7 +41,9 @@
     <VI_Package_Configuration_File>Caraya.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Caraya Unit Test Framework by JKI</One_Line_Description_Summary>
-      <Description>Caraya Unit Test Framework is a new open source unit testing framework for LabVIEW. It takes a whole new approach to unit testing; your VI is your test. Caraya allows you to convert your manual test VIs you use for debugging into unit test cases with nearly no effort. Even running the tests is easy, just run the test case VI. Caraya significantly lowers the barrier for developers to write unit tests leading into improved overall code quality in real-world projects where developers don’t always have the luxury to write unit test cases first.
+      <Description>Caraya Unit Test Framework is an open source unit testing framework for LabVIEW. It takes a whole new approach to unit testing; your VI is your test. Caraya allows you to convert your manual test VIs you use for debugging into unit test cases with nearly no effort. Even running the tests is easy, just run the test case VI. Caraya significantly lowers the barrier for developers to write unit tests leading into improved overall code quality in real-world projects where developers don’t always have the luxury to write unit test cases first.
+
+It runs on real-time targets and in the run-time engine too!
 
 To learn more visit
 
@@ -399,7 +401,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>A298AD00DFE988395D012A6BC46B8665</GUID>
+      <GUID>B4A1A4697E08A0643DE7FF7424D03DA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -476,7 +478,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Suite\Read timeout.vi</Path>
         <VI_Title>Read timeout</VI_Title>
       </Items_Data>
-      <GUID>5797153B7DA9438ABC409E9FC133AED1</GUID>
+      <GUID>AF25B935D19FE695E8A4EE575EF821CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -539,7 +541,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EB8AD1A4144E97119D8C936E69CB15A</GUID>
+      <GUID>DAB11647CA553EDB80A713D90E5CC202</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -770,7 +772,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>E328B7D5A5A9D3EAFEE2E1E521C6A27D</GUID>
+      <GUID>0B9FB68CA79034D071F8E7017FB86E25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -833,7 +835,7 @@ Sam Taggart (@stagg54)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EAE7FA4963BAF0D961BFE573B52B1560</GUID>
+      <GUID>CD4D7C8C0FC5F68FA292EAEF22F079DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1008,7 +1010,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E0D0C25F3709BA83DE2FE3FC27BB976</GUID>
+      <GUID>E416AB91A40DED15B88965850827C4BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1211,7 +1213,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C9EAE1B0C15718725F61C756928C23C</GUID>
+      <GUID>5D3DBD4DAA52C2FFBB84D2E676C344EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1330,7 +1332,7 @@ Sam Taggart (@stagg54)
         <Path>classes\Assert\New Test (Caraya).vi</Path>
         <VI_Title>New Test</VI_Title>
       </Items_Data>
-      <GUID>E0C3F8124298D49CC0355D35BC702AFC</GUID>
+      <GUID>97B485230F5A18D218C6E358E17C0048</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1407,7 +1409,7 @@ Sam Taggart (@stagg54)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E5699BB796F7F89D7AB661B91276B59</GUID>
+      <GUID>172A4C1CA7E6043AF41D4524BC291A13</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

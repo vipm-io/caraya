@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Caraya Error Codes are referenced in the project's wiki page on GitHub:
+https://github.com/JKISoftware/Caraya/wiki/Caraya-Error-Codes
+<nifamily familyname="Caraya" displayname="Caraya Unit Test Framework">
+</nifamily>
+</nicomment>
+<nierror code="7000">
+Caraya Test Manager: Generic Test Manager error (ex: Unhandled state)
+</nierror>
+<nierror code="7001">
+Caraya Test Manager: Non-existent User Application Data folder
+</nierror>
+<nierror code="7002">
+Caraya Test Manager: Test Suite failed
+</nierror>
+<nierror code="7003">
+Caraya Test Manager: Test Manager shutdown timed out
+</nierror>
+<nierror code="7004">
+Caraya Test Manager: Cannot find assertion's caller path
+</nierror>
+<nierror code="7005">
+Caraya Test Manager: Cannot open assertion's caller block diagram
+</nierror>
+<nierror code="7100">
+Caraya Test Runner: Cannot use the linker info in the Run time engine.
+</nierror>
+<nierror code="7101">
+Caraya Test Runner: At least one test is not in an executable state.
+</nierror>
+<nierror code="7102">
+Caraya Test Runner: At least one test is not in a scope that allows it to be run programmatically.
+</nierror>
+<nierror code="7103">
+Caraya Test Runner: Project reference is invalid
+</nierror>
+<nierror code="7104">
+Caraya Test Runner: Function is not available in a real-time target
+</nierror>
+<nierror code="7105">
+Caraya Test Runner: Invalid or non-existent path
+</nierror>
+<nierror code="7106">
+Caraya Test Runner: Unsupported file type
+</nierror>
+<nierror code="7107">
+Caraya Test Runner: Undefined object
+</nierror>
+<nierror code="7200">
+Caraya Batch Tester: Generic Test Manager error (ex: Unhandled state)
+</nierror>
+<nierror code="7230">
+Caraya Test Report: Generic Test Report error
+</nierror>
+<nierror code="7231">
+Caraya Test Report: Invalid report path
+</nierror>
+<nierror code="7232">
+Caraya Test Report: Report path is empty or relative. Use an absolute path.
+</nierror>
+<nierror code="7233">
+Caraya Test Report: Unexpected file type
+</nierror>
+<nierror code="7234">
+Caraya Test Report: Directory not found.
+</nierror>
+</nidocument>

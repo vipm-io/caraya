@@ -14,7 +14,7 @@ write unit test cases first.
 
 You can download and install Caraya with VI Package Manager.
 
-[Get Caraya](https://www.vipm.io/package/jki_lib_caraya)
+[![image](https://user-images.githubusercontent.com/381432/82577953-93511c00-9b40-11ea-95ca-d338e3954394.png)](https://www.vipm.io/package/jki_lib_caraya)
 
 ## Usage
 Caraya is a LabVIEW toolkit providing a library of assertion VIs to validate run-time constraints of any LabVIEW
@@ -159,3 +159,8 @@ Caraya is an open source project maintained by [JKI](http://jki.net).
 
 Caraya is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code
 and compiled versions of Caraya. See LICENSE.md file for details.
+
+## Get Caraya
+Ready to get started? You can install Caraya with VIPM here:
+
+[![image](https://user-images.githubusercontent.com/381432/82577953-93511c00-9b40-11ea-95ca-d338e3954394.png)](https://www.vipm.io/package/jki_lib_caraya)

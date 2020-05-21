@@ -53,6 +53,7 @@
 		<Item Name="Test Runner.Class.lvclass" Type="LVClass" URL="../classes/Test Runner.Class/Test Runner.Class.lvclass"/>
 		<Item Name="Test Runner.Collection.lvclass" Type="LVClass" URL="../classes/Test Runner.Collection/Test Runner.Collection.lvclass"/>
 		<Item Name="Test Runner.Template.lvclass" Type="LVClass" URL="../classes/Test Runner.Template/Test Runner.Template.lvclass"/>
+		<Item Name="Test Runner.Library.lvclass" Type="LVClass" URL="../classes/Test Runner.Library/Test Runner.Library.lvclass"/>
 	</Item>
 	<Item Name="Assertions" Type="Folder">
 		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>

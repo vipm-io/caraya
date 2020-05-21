@@ -65,6 +65,7 @@
 		<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../run-tests/Run Test (Scalar Path).vi"/>
 		<Item Name="Run Test (Array Path).vi" Type="VI" URL="../run-tests/Run Test (Array Path).vi"/>
 		<Item Name="Run Test (ProjectRefnum).vi" Type="VI" URL="../run-tests/Run Test (ProjectRefnum).vi"/>
+		<Item Name="Run Test (LibraryRefnum).vi" Type="VI" URL="../run-tests/Run Test (LibraryRefnum).vi"/>
 		<Item Name="Run Test (Object).vi" Type="VI" URL="../run-tests/Run Test (Object).vi"/>
 		<Item Name="Run Test (Object Array).vi" Type="VI" URL="../run-tests/Run Test (Object Array).vi"/>
 		<Item Name="Run Test (VIRefnum Scalar).vi" Type="VI" URL="../run-tests/Run Test (VIRefnum Scalar).vi"/>

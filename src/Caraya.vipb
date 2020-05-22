@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-21 21:33:17" Creator="Tomi Maila" Comments="" ID="92459bfbe192474413a998ff9f88c2be">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-21 21:56:52" Creator="Tomi Maila" Comments="" ID="ede6caf340285c507541bf1538eabc17">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.1.114</Library_Version>
+    <Library_Version>1.0.1.115</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -402,7 +402,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>4DAF062095CF6C92E55F08961092E176</GUID>
+      <GUID>6E76EE19B8E2892E81DB435F8859D14B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -479,7 +479,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Suite\Read timeout.vi</Path>
         <VI_Title>Read timeout</VI_Title>
       </Items_Data>
-      <GUID>49184580621D1DD379DDD0A62D24E985</GUID>
+      <GUID>B599DF4B3583C58E6F77AD26E352FED6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -542,7 +542,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1512EE0AEE6970F8747FF7C72AAD468E</GUID>
+      <GUID>232551123D47B9266F3B8785201385E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -773,7 +773,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>21BC6BE969790FC223F568F60A428710</GUID>
+      <GUID>967AA07CB1C7AD194553A520C77FD0CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -836,7 +836,7 @@ Ivan Yakushchenko (@kosist)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44A88FDDAFD632803743107BBF2DDFDC</GUID>
+      <GUID>6A391739A703951FCEEA85D6C7A41A75</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1025,7 +1025,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C65B61CF74B09D97DB49E9FFE33B0E8D</GUID>
+      <GUID>168C0755310C2FBE464C1D22E7F1F420</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1228,7 +1228,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA68B7BFB72BA483AA2FCE0AE61A7C79</GUID>
+      <GUID>7EAA29CFF673E5CF57533A2E56527369</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1347,7 +1347,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\New Test (Caraya).vi</Path>
         <VI_Title>New Test</VI_Title>
       </Items_Data>
-      <GUID>76DCC843454BD2F1F08B2178C1C26D28</GUID>
+      <GUID>803734E2FBE6803A12382AA4D23C1E52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1424,7 +1424,7 @@ Ivan Yakushchenko (@kosist)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FD692DE37594ABF8D6AF2F9274DB114</GUID>
+      <GUID>1E979C4082728FBA3F19DBE3A88D9E5F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

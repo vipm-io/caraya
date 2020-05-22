@@ -115,6 +115,7 @@
 				<Item Name="test_pathArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathArray.vi"/>
 				<Item Name="test_pathProject.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathProject.vi"/>
 				<Item Name="test_refnumProject.vi" Type="VI" URL="../tests/test-polymorphic run/test_refnumProject.vi"/>
+				<Item Name="test_refnumLibrary.vi" Type="VI" URL="../tests/test-polymorphic run/test_refnumLibrary.vi"/>
 				<Item Name="test_VIRefnumScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_VIRefnumScalar.vi"/>
 				<Item Name="test_VIRefnumArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_VIRefnumArray.vi"/>
 				<Item Name="test_pathClassScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_pathClassScalar.vi"/>
@@ -272,7 +273,6 @@
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

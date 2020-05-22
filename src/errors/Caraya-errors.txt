@@ -3,6 +3,7 @@
 <nicomment>
 Caraya Error Codes are referenced in the project's wiki page on GitHub:
 https://github.com/JKISoftware/Caraya/wiki/Caraya-Error-Codes
+
 <nifamily familyname="Caraya" displayname="Caraya Unit Test Framework">
 </nifamily>
 </nicomment>
@@ -47,6 +48,9 @@ Caraya Test Runner: Unsupported file type
 </nierror>
 <nierror code="7107">
 Caraya Test Runner: Undefined object
+</nierror>
+<nierror code="7108">
+Caraya Test Runner: Library reference is invalid
 </nierror>
 <nierror code="7200">
 Caraya Batch Tester: Generic Test Manager error (ex: Unhandled state)

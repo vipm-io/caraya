@@ -122,6 +122,9 @@
 				<Item Name="test_objectScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectScalar.vi"/>
 				<Item Name="test_objectArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectArray.vi"/>
 			</Item>
+			<Item Name="pre-build tests" Type="Folder">
+				<Item Name="AssertOnlyFalse-Issue92.vi" Type="VI" URL="../tests/pre-build-tests/AssertOnlyFalse-Issue92.vi"/>
+			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
 		<Item Name="project" Type="Folder">

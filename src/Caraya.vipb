@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-21 21:56:52" Creator="Tomi Maila" Comments="" ID="ede6caf340285c507541bf1538eabc17">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-23 13:46:23" Creator="Tomi Maila" Comments="" ID="d2e0a2391f983139df2c4027dce8cbe1">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.1.115</Library_Version>
+    <Library_Version>1.0.2.116</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -63,6 +63,7 @@ http://jki.net/tools#caraya</Description>
 [Fix: 65] Restored RT compatibility for Process VI after CLI integration
 [Fix: 68] Fixed an issue where the number of skipped and failed tests in JUnit report were wrong.
 [Fix: 79] Added XML escaping to ensure JUnit parses correctly
+[Fix: 92] Upstream error will skip the following tests (Caraya 1.0.0 bug hotfix)
 
 New Features: 
 
@@ -402,7 +403,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>6E76EE19B8E2892E81DB435F8859D14B</GUID>
+      <GUID>32C9CC70AF21692A11A5FD429AB0FF77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -479,7 +480,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Suite\Read timeout.vi</Path>
         <VI_Title>Read timeout</VI_Title>
       </Items_Data>
-      <GUID>B599DF4B3583C58E6F77AD26E352FED6</GUID>
+      <GUID>8CD632F05E76BF37591DB27BA558C567</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -542,7 +543,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>232551123D47B9266F3B8785201385E8</GUID>
+      <GUID>BEA75E2198481C5130BD1AFF38CCD599</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -773,7 +774,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>967AA07CB1C7AD194553A520C77FD0CF</GUID>
+      <GUID>630D97DD442FD696FA63979FBFDB5B1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -836,7 +837,7 @@ Ivan Yakushchenko (@kosist)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A391739A703951FCEEA85D6C7A41A75</GUID>
+      <GUID>C71EAE0578DBA6A9B7D284BDDDD78F74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1025,7 +1026,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>168C0755310C2FBE464C1D22E7F1F420</GUID>
+      <GUID>BC45D2CC8A97471A3BF7855752EBE470</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1228,7 +1229,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7EAA29CFF673E5CF57533A2E56527369</GUID>
+      <GUID>0833F60E8AC2355D6DF3240D69EC240F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1347,7 +1348,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\New Test (Caraya).vi</Path>
         <VI_Title>New Test</VI_Title>
       </Items_Data>
-      <GUID>803734E2FBE6803A12382AA4D23C1E52</GUID>
+      <GUID>AEE9806ADC803E96BAEC2C6A4EC690AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1424,7 +1425,7 @@ Ivan Yakushchenko (@kosist)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E979C4082728FBA3F19DBE3A88D9E5F</GUID>
+      <GUID>462C2D1AE76ECBCE0CA25D6637D946B3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

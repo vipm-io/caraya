@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-23 13:46:23" Creator="Tomi Maila" Comments="" ID="d2e0a2391f983139df2c4027dce8cbe1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-05-23 17:16:07" Creator="Tomi Maila" Comments="" ID="1ec93e21a0e52063b7f5c134ec5de915">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.0.2.116</Library_Version>
+    <Library_Version>1.0.2.117</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -79,6 +79,7 @@ New Features:
 [Feature: 78] Support for nested Test Suites through Test Runner class extensions
 [Feature: 87] No Tests Found message added to Test Manager UI when no assertions found
 [Feature: 88] Added support for Library Refnum Test Runner
+[Feature: 94] Added a Pre-Build PassFail verification step for package building
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
@@ -403,7 +404,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>32C9CC70AF21692A11A5FD429AB0FF77</GUID>
+      <GUID>7BEED2F7F34B3EBDA15E98F279A7B8CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -480,7 +481,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Suite\Read timeout.vi</Path>
         <VI_Title>Read timeout</VI_Title>
       </Items_Data>
-      <GUID>8CD632F05E76BF37591DB27BA558C567</GUID>
+      <GUID>D42DE75C894FA34B68F0AF7B03AC5B58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -543,7 +544,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEA75E2198481C5130BD1AFF38CCD599</GUID>
+      <GUID>4DDBEDE2039DF5F4006AB3A20C1C19C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -774,7 +775,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>630D97DD442FD696FA63979FBFDB5B1D</GUID>
+      <GUID>2FAB5E6113A0B04C442B4B69359E016A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -837,7 +838,7 @@ Ivan Yakushchenko (@kosist)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C71EAE0578DBA6A9B7D284BDDDD78F74</GUID>
+      <GUID>571DE4C28967C89091FE23893D7D28B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1026,7 +1027,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC45D2CC8A97471A3BF7855752EBE470</GUID>
+      <GUID>A77227CB41C807B34062C9DE904650D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1229,7 +1230,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0833F60E8AC2355D6DF3240D69EC240F</GUID>
+      <GUID>165AA400F20ABEE40779C0C428699BF9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1348,7 +1349,7 @@ Ivan Yakushchenko (@kosist)
         <Path>classes\Assert\New Test (Caraya).vi</Path>
         <VI_Title>New Test</VI_Title>
       </Items_Data>
-      <GUID>AEE9806ADC803E96BAEC2C6A4EC690AF</GUID>
+      <GUID>2CDD49D24408010ADDCE88C33B69F027</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1425,7 +1426,7 @@ Ivan Yakushchenko (@kosist)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>462C2D1AE76ECBCE0CA25D6637D946B3</GUID>
+      <GUID>CA4E0FF78308845E06980309355F39F0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -26,6 +26,7 @@
 			</Item>
 			<Item Name="Test Suite" Type="Folder">
 				<Item Name="Math Test Suite.vi" Type="VI" URL="../examples/suites/Math Test Suite.vi"/>
+				<Item Name="Math Test Suite (Result Event).vi" Type="VI" URL="../examples/suites/Math Test Suite (Result Event).vi"/>
 			</Item>
 			<Item Name="Integer Dictionary" Type="Folder">
 				<Item Name="Tests" Type="Folder">

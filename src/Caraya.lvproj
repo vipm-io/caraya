@@ -26,6 +26,7 @@
 			</Item>
 			<Item Name="Test Suite" Type="Folder">
 				<Item Name="Math Test Suite.vi" Type="VI" URL="../examples/suites/Math Test Suite.vi"/>
+				<Item Name="Math Test Suite (Result Event).vi" Type="VI" URL="../examples/suites/Math Test Suite (Result Event).vi"/>
 			</Item>
 			<Item Name="Integer Dictionary" Type="Folder">
 				<Item Name="Tests" Type="Folder">
@@ -85,8 +86,12 @@
 					<Item Name="Verbosity Test.vi" Type="VI" URL="../tests/test-suite/Test Verbose Failures/Verbosity Test.vi"/>
 				</Item>
 				<Item Name="Test Runner" Type="Folder">
+					<Item Name="Broken Tests" Type="Folder">
+						<Item Name="Broken Test 0001.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/Broken Test 0001.vi"/>
+					</Item>
 					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/UnitTest For Runner/Unit Tests for Runner.lvclass"/>
 					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-runner/test-all-asserts/Test Runner.AllAsserts.lvclass"/>
+					<Item Name="Test Runner.BrokenTest.lvclass" Type="LVClass" URL="../tests/test-runner/test-brokenTests/Test Runner.BrokenTest.lvclass"/>
 					<Item Name="Test Runner.JUnit.lvclass" Type="LVClass" URL="../tests/test-JUnit/Test Runner.JUnit.lvclass"/>
 					<Item Name="Runner Tests.vi" Type="VI" URL="../tests/test-runner/Runner Tests.vi"/>
 				</Item>
@@ -103,6 +108,7 @@
 				<Item Name="All Batch Testing tool tests.vi" Type="VI" URL="../tests/batch-tester/All Batch Testing tool tests.vi"/>
 				<Item Name="Test Read Linker Info.vi" Type="VI" URL="../tests/batch-tester/Test Read Linker Info.vi"/>
 				<Item Name="Test Nested Read Linker Info.vi" Type="VI" URL="../tests/batch-tester/Test Nested Read Linker Info.vi"/>
+				<Item Name="Test Batch Run with Broken Tests.vi" Type="VI" URL="../tests/batch-tester/Test Batch Run with Broken Tests.vi"/>
 			</Item>
 			<Item Name="error codes" Type="Folder">
 				<Item Name="Error Code tests.vi" Type="VI" URL="../tests/test-errorcodes/Error Code tests.vi"/>
@@ -122,6 +128,13 @@
 				<Item Name="test_objectScalar.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectScalar.vi"/>
 				<Item Name="test_objectArray.vi" Type="VI" URL="../tests/test-polymorphic run/test_objectArray.vi"/>
 			</Item>
+			<Item Name="pre-build tests" Type="Folder">
+				<Item Name="test" Type="Folder">
+					<Item Name="AssertOnlyFalse-Issue92.vi" Type="VI" URL="../tests/pre-build-tests/AssertOnlyFalse-Issue92.vi"/>
+				</Item>
+				<Item Name="PreBuildTest(Fail).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Fail).vi"/>
+				<Item Name="PreBuildTest(Pass).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Pass).vi"/>
+			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
 		<Item Name="project" Type="Folder">
@@ -134,7 +147,6 @@
 				<Item Name="Create New Test Suite.vi" Type="VI" URL="../project/Caraya/Advanced/Create New Test Suite.vi"/>
 				<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Advanced/Create Test Report from Template.vi"/>
 			</Item>
-			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../project/Caraya/Run Tests in Active Project.vi"/>
 			<Item Name="Select and Run Tests on Disk.vi" Type="VI" URL="../project/Caraya/Select and Run Tests on Disk.vi"/>
 		</Item>
 		<Item Name="Command Line Support" Type="Folder">
@@ -273,7 +285,6 @@
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
@@ -601,6 +612,7 @@
 				<Item Name="Delete Recursive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Delete Recursive__ogtk.vi"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../project/Caraya/Run Tests in Active Project.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test EXE shows Caraya GUI" Type="EXE">

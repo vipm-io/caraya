@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-11-11 20:27:06" Creator="Tomi Maila" Comments="" ID="993be7adafa336baccc4dfff9d58fc58">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-11-30 22:12:14" Creator="Tomi Maila" Comments="" ID="9b4ee155b3581c6141781c3e7a83e20c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.1.0.118</Library_Version>
+    <Library_Version>1.1.0.119</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -49,11 +49,13 @@ http://jki.net/tools#caraya</Description>
       <Release_Notes>Fixes: 
 
 [Fix: 98] Fixed the error on re-running tests from the Test Manager when called from "Run Tests in Active Project"
-[Fix: 100] Test Event storage now uses Unique Assert ID instead of Test ID.
+[Fix: 100] Test Event storage now uses Test and Assert IDs to update verbose explanations in reports
 [Fix: 101] Broken VIs are now handled properly in the Batch Running all Tests in Active Project
 [Fix: 102] Conditionally disable the "UI: Update Count" frame content on RT targets
 [Fix: 103] OpenG dependencies are now included in the package (and namespaced)
 [Fix: 104] Asserts in SubVIs not appearing as expected in JUnit reports
+[Fix: 109] The Test Name is used instead of VI File Name
+[Fix: 110] Test Event storage now uses Test and Assert IDs to update verbose explanations in reports
 
 New Features: 
 
@@ -73,6 +75,7 @@ Felipe Pinheiro Silva (@felipefoz)
 Chris Stryker (@ChrisStrykesAgain)
 Sam Taggart (@stagg54)
 Antonio Terrazas (@aterrazasl)
+SRM256 (@SRM256)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -392,7 +395,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>6DC56456AA0FD8D3B4A98F98A1C0524A</GUID>
+      <GUID>E84FC03539015637930776D3EA506F5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -497,7 +500,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC05262985842379EA05C62C8B2DC7B5</GUID>
+      <GUID>0C1D2436A119B51D06F0291D8428644B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -574,7 +577,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Test Result\Get All Test Results.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13CA3E648BDD390A1DFB3FECCCF33946</GUID>
+      <GUID>F58ED5F009993DAA180C713CAE61218B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -805,7 +808,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>0AAB1366DDB716F3DE2C53E995621FEF</GUID>
+      <GUID>C68A79F668636D49CD665B9EAE048E2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -868,7 +871,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5005557D71D070E02E85BC41154B5D8B</GUID>
+      <GUID>CD3CD3AA15B1DBDBB7CDEB9F7632471E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1057,7 +1060,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3593E1780D7A9CAA8C2BA65F2A005ECC</GUID>
+      <GUID>405440A0A7AEC2B109AE2B7F4F42C54C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1260,7 +1263,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E8A7FEE52420A50A0A295ED2EA575CC</GUID>
+      <GUID>A2CFD28965AE40AE13204408DD1C0592</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1379,7 +1382,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Assert\New Test (Caraya).vi</Path>
         <VI_Title>New Test</VI_Title>
       </Items_Data>
-      <GUID>369118192CAEC0B5916D1A6874FE34C5</GUID>
+      <GUID>83299E185D840D2AF9B83A145F15C7E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1456,7 +1459,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>931AC625F6A49ECB1EA420350582B903</GUID>
+      <GUID>092B0CB3D9CB5132CC348218E4E0AE47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1533,7 +1536,7 @@ Antonio Terrazas (@aterrazasl)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9DFF0AE77CA7285290C9B55CF8B74C9</GUID>
+      <GUID>A93CA3E156A0C18B0ACD8DBDC7E9084E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

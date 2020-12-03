@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-11-30 22:12:14" Creator="Tomi Maila" Comments="" ID="9b4ee155b3581c6141781c3e7a83e20c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2020-12-01 21:09:48" Creator="Tomi Maila" Comments="" ID="d7f03527dace441cf7f6d15982e17257">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.1.0.119</Library_Version>
+    <Library_Version>1.1.0.120</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -54,7 +54,7 @@ http://jki.net/tools#caraya</Description>
 [Fix: 102] Conditionally disable the "UI: Update Count" frame content on RT targets
 [Fix: 103] OpenG dependencies are now included in the package (and namespaced)
 [Fix: 104] Asserts in SubVIs not appearing as expected in JUnit reports
-[Fix: 109] The Test Name is used instead of VI File Name
+[Fix: 109] The Test Name/Assert Name are used instead of VI File Name (reverted to same behavior as 1.0.2)
 [Fix: 110] Test Event storage now uses Test and Assert IDs to update verbose explanations in reports
 
 New Features: 
@@ -395,7 +395,7 @@ SRM256 (@SRM256)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>E84FC03539015637930776D3EA506F5A</GUID>
+      <GUID>4CAC9F3682CCDF9C00DA4148C05A3639</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -500,7 +500,7 @@ SRM256 (@SRM256)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C1D2436A119B51D06F0291D8428644B</GUID>
+      <GUID>EEF189695B920415FA733B8775C570BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -577,7 +577,7 @@ SRM256 (@SRM256)
         <Path>classes\Test Result\Get All Test Results.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F58ED5F009993DAA180C713CAE61218B</GUID>
+      <GUID>F27A9CD9ED083E7084DCF430DE855B6B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -808,7 +808,7 @@ SRM256 (@SRM256)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>C68A79F668636D49CD665B9EAE048E2A</GUID>
+      <GUID>F611725F39C124A88BDF28CC2DDEC592</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -871,7 +871,7 @@ SRM256 (@SRM256)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD3CD3AA15B1DBDBB7CDEB9F7632471E</GUID>
+      <GUID>17BE9B8DFBAD31B22442F28DFAF9C47B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1060,7 +1060,7 @@ SRM256 (@SRM256)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>405440A0A7AEC2B109AE2B7F4F42C54C</GUID>
+      <GUID>25757321014EB6C743003C7720EF7EFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1263,7 +1263,7 @@ SRM256 (@SRM256)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2CFD28965AE40AE13204408DD1C0592</GUID>
+      <GUID>0B5690E773AC33B10CAB7511BB2304E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1382,7 +1382,7 @@ SRM256 (@SRM256)
         <Path>classes\Assert\New Test (Caraya).vi</Path>
         <VI_Title>New Test</VI_Title>
       </Items_Data>
-      <GUID>83299E185D840D2AF9B83A145F15C7E0</GUID>
+      <GUID>5CDEB9E792DEEF7B8E4EF35E2762E90F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1459,7 +1459,7 @@ SRM256 (@SRM256)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>092B0CB3D9CB5132CC348218E4E0AE47</GUID>
+      <GUID>BE9FE1A9644D975CBEFCA16B389D6465</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1536,7 +1536,7 @@ SRM256 (@SRM256)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A93CA3E156A0C18B0ACD8DBDC7E9084E</GUID>
+      <GUID>AFADA5004A7EB6D1A82AA15B4A833C0B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

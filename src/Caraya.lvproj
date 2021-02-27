@@ -75,6 +75,7 @@
 				<Item Name="Test Assert In SubVI.vi" Type="VI" URL="../tests/asserts/Test Assert In SubVI.vi"/>
 				<Item Name="Test Assert In Assert Wrapper.vi" Type="VI" URL="../tests/asserts/Test Assert In Assert Wrapper.vi"/>
 				<Item Name="Wrapper For Assert True.vi" Type="VI" URL="../tests/asserts/Wrapper For Assert True.vi"/>
+				<Item Name="Wrapper For TypeSpecificAssert.vi" Type="VI" URL="../tests/asserts/Wrapper For TypeSpecificAssert.vi"/>
 				<Item Name="Assert Test SubVI.vi" Type="VI" URL="../tests/asserts/Assert Test SubVI.vi"/>
 				<Item Name="test-lvlib.lvlib" Type="Library" URL="../tests/test-lvlib/test-lvlib.lvlib"/>
 			</Item>
@@ -292,7 +293,6 @@
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

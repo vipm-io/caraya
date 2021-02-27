@@ -143,6 +143,10 @@
 				<Item Name="PreBuildTest(Fail).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Fail).vi"/>
 				<Item Name="PreBuildTest(Pass).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Pass).vi"/>
 			</Item>
+			<Item Name="124-report-duplicates" Type="Folder">
+				<Item Name="124-Inner Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Inner Test.vi"/>
+				<Item Name="124-Outer Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Outer Test.vi"/>
+			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
 		<Item Name="project" Type="Folder">

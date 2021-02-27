@@ -170,6 +170,7 @@
 		<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="../menu/Caraya Interactive Menu.rtm"/>
 		<Item Name="Caraya.lvlib" Type="Library" URL="../Caraya.lvlib"/>
 		<Item Name="Test Runner Pre-build action.vi" Type="VI" URL="../Test Runner Pre-build action.vi"/>
+		<Item Name="New Test (Caraya).vi" Type="VI" URL="../classes/Assert/New Test (Caraya).vi"/>
 		<Item Name="VI Tree - Caraya.vi" Type="VI" URL="../VI Tree - Caraya.vi"/>
 		<Item Name="Advanced VI Tree - Caraya.vi" Type="VI" URL="../Advanced VI Tree - Caraya.vi"/>
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
@@ -668,7 +669,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Caraya PPL</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EF7066DA-3E06-4527-BD27-1C3B3C2C80BA}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Caraya.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Caraya PPL/Caraya.lvlibp</Property>
@@ -678,7 +679,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Caraya PPL</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{07F82B22-A7DD-446A-A5F6-80B4466EE5DB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{33AD8008-278C-44F1-9261-0456048EAD3F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Caraya.lvlib</Property>
@@ -690,13 +691,12 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Test Runner Pre-build action.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Hiller Measurements</Property>
+				<Property Name="TgtF_companyName" Type="Str">JKI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Caraya PPL</Property>
 				<Property Name="TgtF_internalName" Type="Str">Caraya PPL</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Hiller Measurements</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright (c) 2015-2021, JKI </Property>
 				<Property Name="TgtF_productName" Type="Str">Caraya PPL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5769B97D-A1D3-45ED-8A1C-BDA753948D7D}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Caraya.lvlibp</Property>

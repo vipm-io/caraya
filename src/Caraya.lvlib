@@ -45,6 +45,7 @@
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="SearchForAllTests (Folder).vi" Type="VI" URL="../subVIs/SearchForAllTests (Folder).vi"/>
 		<Item Name="Run Tests Programmatically.vi" Type="VI" URL="../subVIs/Run Tests Programmatically.vi"/>
+		<Item Name="Run Tests (Project).vi" Type="VI" URL="../subVIs/Run Tests (Project).vi"/>
 		<Item Name="Get Caraya Library Information.vi" Type="VI" URL="../Get Caraya Library Information.vi"/>
 		<Item Name="Caraya Library Info.ctl" Type="VI" URL="../subVIs/Caraya Library Info.ctl"/>
 	</Item>

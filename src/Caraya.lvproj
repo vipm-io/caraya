@@ -154,10 +154,12 @@
 				<Item Name="_caraya_renameOperands.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_renameOperands.vi"/>
 				<Item Name="_caraya_updateVInames.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_updateVInames.vi"/>
 				<Item Name="_caraya_updateLibraryIcon.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_updateLibraryIcon.vi"/>
+				<Item Name="_caraya_updatePPLbuildspec.vi" Type="VI" URL="../project/Caraya/_utilities/_caraya_updatePPLbuildspec.vi"/>
 			</Item>
 			<Item Name="Advanced" Type="Folder">
 				<Item Name="Create New Test Suite.vi" Type="VI" URL="../project/Caraya/Advanced/Create New Test Suite.vi"/>
 				<Item Name="Create Test Report from Template.vi" Type="VI" URL="../project/Caraya/Advanced/Create Test Report from Template.vi"/>
+				<Item Name="Build Caraya to PPL.vi" Type="VI" URL="../project/Caraya/Advanced/Build Caraya to PPL.vi"/>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../project/Caraya/Run Tests in Active Project.vi"/>
 			<Item Name="Select and Run Tests on Disk.vi" Type="VI" URL="../project/Caraya/Select and Run Tests on Disk.vi"/>
@@ -299,6 +301,9 @@
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="GetTargetBuildSpecs (project reference).vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs (project reference).vi"/>
+				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
+				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-02-28 18:54:57" Creator="Tomi Maila" Comments="" ID="00e3cd3fb524b382471b5f5c7aec22d6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-03-01 19:46:25" Creator="Tomi Maila" Comments="" ID="c7f9d156528fcffbfca9b7b461784da9">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.2.0.122</Library_Version>
+    <Library_Version>1.2.0.123</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -377,7 +377,7 @@ Name (@alias)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>D35A974EBA795885D43BE1770178C6E5</GUID>
+      <GUID>2ED6662711E5A4661001795640F66B53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -482,7 +482,7 @@ Name (@alias)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60EB68643E1ADF4C1F935D5650FCD7BC</GUID>
+      <GUID>90BE4E3B5E2F26B90539C594BE270F91</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -573,7 +573,7 @@ Name (@alias)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2474922B533D11A78640E3C4E896D3BB</GUID>
+      <GUID>997407ACD2CD231DBF78E8142121C194</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -804,7 +804,7 @@ Name (@alias)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>CABC4232CD8024534177E0B75291707C</GUID>
+      <GUID>1DE72B8A3FDBB7052D565F3DC0D63081</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -867,7 +867,7 @@ Name (@alias)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC08C088971D8572966F09267B687C64</GUID>
+      <GUID>D126275DDA661E05076EA78F365A018D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1056,7 +1056,7 @@ Name (@alias)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA9C10E5D2530FBFAD8B6105291D255A</GUID>
+      <GUID>48107785322A5C90AF2527B686F8B05D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1259,7 +1259,7 @@ Name (@alias)
         <Path>classes\Test Runner\Write ApplicationRef.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F01837104709F38CE17EE027C11A355A</GUID>
+      <GUID>EADE596663DFDF6DD56D9F2082B483ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1392,7 +1392,7 @@ Name (@alias)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDBBD0A4FD1178E9DED5E0999426EA85</GUID>
+      <GUID>0726CA87A22E26EBA382826AF92109DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1469,7 +1469,7 @@ Name (@alias)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC2B5E85424E23E5BB3A284173126A86</GUID>
+      <GUID>05AE34CF4EA92FD7EDB62F0F28A84E31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1546,7 +1546,7 @@ Name (@alias)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD27B5AE606988AFEEC81D2DB98E45C9</GUID>
+      <GUID>92345F6AFE0712D5F7DA5F2CBBFF6390</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-06-13 08:51:08" Creator="Tomi Maila" Comments="" ID="04e60e521b99a3d7c367a56f59a7677a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-06-13 11:57:55" Creator="Tomi Maila" Comments="" ID="c6586098347636398685f5b04455239c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.2.0.123</Library_Version>
@@ -46,21 +46,36 @@ http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>**********  THIS IS A PRE-ALPHA (!!!) RELEASE FOR TESTING PURPOSES ONLY *********
-
+      <Release_Notes>
 Fixes: 
 
-[Fix: nn] Fix description
+[Issue: 56] Added a geometrically increasing delay on Interactive UI assert result refreshes.
+[Fix:120] Run Tests in Active Project is now functionality that is part of Caraya library.
+[Fix: 124] Caraya report now does not have duplicated test results after Test Manager uses TestID instead of Call Chain to extract results from datastore.
+[Fix: 127] Caraya is now buildable into a PPL directly from the Caraya project.
+[Fix: 131] Almost equal now reports a verbose UTF-8 compatible string
+[Fix: 133] Handling of linker info errors during test discovery step in Test Runners.
 
 New Features: 
 
-[Feature: nn] Feature description
-
+[Feature: 112] Added Test Result to the "Run Tests.vi" method.
+[Feature: 117] Added ability to wrap test assertions without redefining tests.
+[Feature: 121] Expose Caraya Library Information publicly
+[Feature: 122] Enabled Ctrl-C to copy test tree results directly from interactive UI
+[Feature: 123] Added an example to demonstrate support for specific type assertions
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
-Name (@alias)
-
+Tanner Blair (@tannerblair)
+Henrik Dueholm (@HenrikDueholm)
+Christopher Field (@volks73)
+Andrew Heim (@AndrewHeim)
+Jim Kring (@jimkring)
+Philip Lundeen (@plundeen)
+Stephen Loftus-Mercer (@SRM256)
+Blake Mitchell (@bmitc)
+Francois Normandin (@francois-normandin)
+Felipe Pinheiro Silva (@felipefoz)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -380,7 +395,7 @@ Name (@alias)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>D6A683CD97FC17C049BB741D5F3315CD</GUID>
+      <GUID>D015AD5828293002F7E6B3448455E200</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -485,7 +500,7 @@ Name (@alias)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D792487C0E90E3A62CFDC3A46BD2DC9C</GUID>
+      <GUID>85F5EC410F574BB25A5786B57AD1F6E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -576,7 +591,7 @@ Name (@alias)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EC8EF2EC8B9B3D1E64C667ADABC43E6</GUID>
+      <GUID>6DAA8FACBFEC3E2FD7DCE03AA4F7FCFE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -807,7 +822,7 @@ Name (@alias)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>F73899E70436706F468694D34D012B01</GUID>
+      <GUID>F191AED4B04177EEE21EBF6FEF8289EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -870,7 +885,7 @@ Name (@alias)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A3BEC65F06A467772F7AD12AC36AAC4</GUID>
+      <GUID>7B44A06CA6FA0CFE5B55CDE48F6C91DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1059,7 +1074,7 @@ Name (@alias)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>76BA5385B7C03F558B82A51F07FB5179</GUID>
+      <GUID>B02BB87E2A65F2A047B0FE4C91C8D570</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1290,7 +1305,7 @@ Name (@alias)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BFFEEA77A9A2DD688AAFB44DFE058567</GUID>
+      <GUID>B693045CF7D9048D7A4F760D1294352E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1423,7 +1438,7 @@ Name (@alias)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8E6CF535559C6EB3778FA93376D392E</GUID>
+      <GUID>796B5ABBB834BDF257FCED3D50690C52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1500,7 +1515,7 @@ Name (@alias)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92D1925006D26EC028C43B55F93A1C80</GUID>
+      <GUID>51C9984282EF15225F8D1745478F02E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1577,7 +1592,7 @@ Name (@alias)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E9E9D951C4B271606328D833FF720F3</GUID>
+      <GUID>E416C45598D7D2D9BE84C72D599C3C0F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

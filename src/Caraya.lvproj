@@ -96,6 +96,7 @@
 				<Item Name="Test Runner" Type="Folder">
 					<Item Name="Broken Tests" Type="Folder">
 						<Item Name="Broken Test 0001.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/Broken Test 0001.vi"/>
+						<Item Name="MoreRecentLVVersion Test 0002.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/MoreRecentLVVersion Test 0002.vi"/>
 					</Item>
 					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/UnitTest For Runner/Unit Tests for Runner.lvclass"/>
 					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-runner/test-all-asserts/Test Runner.AllAsserts.lvclass"/>

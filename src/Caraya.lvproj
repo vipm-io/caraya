@@ -99,6 +99,9 @@
 						<Item Name="Broken Test 0001.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/Broken Test 0001.vi"/>
 						<Item Name="MoreRecentLVVersion Test 0002.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/MoreRecentLVVersion Test 0002.vi"/>
 					</Item>
+					<Item Name="Library Under Test" Type="Folder">
+						<Item Name="library-under-test.lvlib" Type="Library" URL="../tests/library-under-test/library-under-test.lvlib"/>
+					</Item>
 					<Item Name="Unit Tests for Runner.lvclass" Type="LVClass" URL="../tests/test-runner/UnitTest For Runner/Unit Tests for Runner.lvclass"/>
 					<Item Name="Test Runner.AllAsserts.lvclass" Type="LVClass" URL="../tests/test-runner/test-all-asserts/Test Runner.AllAsserts.lvclass"/>
 					<Item Name="Test Runner.BrokenTest.lvclass" Type="LVClass" URL="../tests/test-runner/test-brokenTests/Test Runner.BrokenTest.lvclass"/>

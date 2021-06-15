@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-06-13 12:50:28" Creator="Tomi Maila" Comments="" ID="9a8a73130bc97b4737dd94f159b1ae3e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-06-15 07:12:34" Creator="Tomi Maila" Comments="" ID="4094d813cff4b714a673a1d3a9eb1e5a">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.2.0.125</Library_Version>
+    <Library_Version>1.2.0.127</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -46,15 +46,7 @@ http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>
-Fixes: 
-
-[Issue: 56] Added a geometrically increasing delay on Interactive UI assert result refreshes.
-[Fix:120] Run Tests in Active Project is now functionality that is part of Caraya library.
-[Fix: 124] Caraya report now does not have duplicated test results after Test Manager uses TestID instead of Call Chain to extract results from datastore.
-[Fix: 127] Caraya is now buildable into a PPL directly from the Caraya project.
-[Fix: 131] Almost equal now reports a verbose UTF-8 compatible string
-[Fix: 133] Handling of linker info errors during test discovery step in Test Runners.
+      <Release_Notes>This release includes features to build into PPL, provides Caraya library information and ability to wrap assert methods without redefining the test (as a result, the extension of Caraya Assertion API is now simple and straightforward)
 
 New Features: 
 
@@ -63,6 +55,15 @@ New Features:
 [Feature: 121] Expose Caraya Library Information publicly
 [Feature: 122] Enabled Ctrl-C to copy test tree results directly from interactive UI
 [Feature: 123] Added an example to demonstrate support for specific type assertions
+
+Fixes: 
+
+[Issue: 56] Added a geometrically increasing delay on Interactive UI assert result refreshes.
+[Fix:120] Run Tests in Active Project is now functionality that is part of Caraya library.
+[Fix: 124] Caraya report now does not have duplicated test results after Test Manager uses TestID instead of Call Chain to extract results from datastore.
+[Fix: 127] Caraya is now buildable into a PPL directly from the Caraya project.
+[Fix: 131] Almost equal now reports a verbose UTF-8 compatible string
+[Fix: 133] Handling of linker info errors during test discovery step in Test Runners.
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
@@ -392,7 +393,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>2B9338FF1783EA68E9493B50503D6E25</GUID>
+      <GUID>55E2D56F53291EDAAF9CD41F35055AA0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -497,7 +498,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C136F5E7D76495186D68820E10E9175E</GUID>
+      <GUID>40B36A981CB7981688AFEED2E5A6A012</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -588,7 +589,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>886B249EACEDF44AC0049769BAC66C47</GUID>
+      <GUID>ED6F515D8F1668A81320CE9E0660D167</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -819,7 +820,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>641E15B50C8923F5CC8C15323F3CDE50</GUID>
+      <GUID>300D765FCA56E65A77722F1A6813B52F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -882,7 +883,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F39D632AD5462EC24BED1912F95ADAB7</GUID>
+      <GUID>072B57622C108ACB5D096532D1AB7F96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1071,7 +1072,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64A25A61851AD8A7E0A584362C3BD178</GUID>
+      <GUID>D3C2C1B201FA250CC3F19F1F679F1275</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1302,7 +1303,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1A22EF3024D47C3295D92853DF1094A</GUID>
+      <GUID>ED92027611C50670735704AD02204370</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1435,7 +1436,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15063DF7C633FBF742DFA7AACF88F5A1</GUID>
+      <GUID>95DAEAF159B63711C4934E44E1B9B955</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1512,7 +1513,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>143912FCB281DDD530546FEA366867B7</GUID>
+      <GUID>C75149E0DC1DD27D0F9316DF7C65546B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1589,7 +1590,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9556C4EBB3D2C8D2E6B66135940FA948</GUID>
+      <GUID>B17CF53FCE6E44305131E3588F3F9505</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

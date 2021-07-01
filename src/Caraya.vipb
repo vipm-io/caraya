@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-06-15 07:12:34" Creator="Tomi Maila" Comments="" ID="4094d813cff4b714a673a1d3a9eb1e5a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-07-01 16:56:54" Creator="Tomi Maila" Comments="" ID="0f74189e564db3da842ee5160d65ee76">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.2.0.127</Library_Version>
+    <Library_Version>1.2.0.129</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -64,6 +64,7 @@ Fixes:
 [Fix: 127] Caraya is now buildable into a PPL directly from the Caraya project.
 [Fix: 131] Almost equal now reports a verbose UTF-8 compatible string
 [Fix: 133] Handling of linker info errors during test discovery step in Test Runners.
+[Fix: 135] Caraya library path now resolves for PPLs, EXE and project-specific installs
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
@@ -224,9 +225,6 @@ Felipe Pinheiro Silva (@felipefoz)
       </Namespace_Overrides>
       <Exclusions>
         <Path>Caraya.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Test Runner Pre-build action.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>tests/test-runner/test-brokenTests/Broken Tests/MoreRecentLVVersion Test 0002.vi</Path>
@@ -393,7 +391,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>55E2D56F53291EDAAF9CD41F35055AA0</GUID>
+      <GUID>7A6EA7FE656C5047E270CB1B55093CD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -498,7 +496,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40B36A981CB7981688AFEED2E5A6A012</GUID>
+      <GUID>48A63BC0D5BA7A6530D10EA66FE78B01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -589,7 +587,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED6F515D8F1668A81320CE9E0660D167</GUID>
+      <GUID>637C33E452FF108EC4015B24D0873385</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -820,7 +818,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>300D765FCA56E65A77722F1A6813B52F</GUID>
+      <GUID>B4E5CE344798A3029589B4267C56895C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -883,7 +881,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>072B57622C108ACB5D096532D1AB7F96</GUID>
+      <GUID>5E698AFBABF6325CCB6C340FD3BD2CB2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1072,7 +1070,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3C2C1B201FA250CC3F19F1F679F1275</GUID>
+      <GUID>0CFE532E1F5E6732506FFB7D400F9EBC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1303,7 +1301,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED92027611C50670735704AD02204370</GUID>
+      <GUID>3813191DB749B19366819BFE64C4ED71</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1436,7 +1434,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95DAEAF159B63711C4934E44E1B9B955</GUID>
+      <GUID>72DBDE1EF134F554CAB52068740908AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1513,7 +1511,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C75149E0DC1DD27D0F9316DF7C65546B</GUID>
+      <GUID>BA805067E77EB967B6C87C5762506E42</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1590,7 +1588,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B17CF53FCE6E44305131E3588F3F9505</GUID>
+      <GUID>72F5863C45D489CC1D820C4DBF89B6A7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

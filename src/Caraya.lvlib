@@ -43,8 +43,15 @@
 		<Item Name="Test Result.lvclass" Type="LVClass" URL="../classes/Test Result/Test Result.lvclass"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="LibPath" Type="Folder">
+			<Item Name="FindLibPath.vi" Type="VI" URL="../subVIs/FindLibPath.vi"/>
+		</Item>
 		<Item Name="SearchForAllTests (Folder).vi" Type="VI" URL="../subVIs/SearchForAllTests (Folder).vi"/>
 		<Item Name="Run Tests Programmatically.vi" Type="VI" URL="../subVIs/Run Tests Programmatically.vi"/>
+		<Item Name="Run Tests (Project).vi" Type="VI" URL="../subVIs/Run Tests (Project).vi"/>
+		<Item Name="Get Caraya Namespace.vi" Type="VI" URL="../subVIs/Get Caraya Namespace.vi"/>
+		<Item Name="Get Caraya Library Information.vi" Type="VI" URL="../subVIs/Get Caraya Library Information.vi"/>
+		<Item Name="Caraya Library Info.ctl" Type="VI" URL="../subVIs/Caraya Library Info.ctl"/>
 	</Item>
 	<Item Name="Runners" Type="Folder">
 		<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
@@ -59,7 +66,7 @@
 		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 		<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>
 		<Item Name="Test Suite.lvclass" Type="LVClass" URL="../classes/Test Suite/Test Suite.lvclass"/>
-		<Item Name="New Test (Caraya).vi" Type="VI" URL="../classes/Assert/New Test (Caraya).vi"/>
+		<Item Name="Run Tests.vi" Type="VI" URL="../run-tests/Run Tests.vi"/>
 	</Item>
 	<Item Name="Polymorphic" Type="Folder">
 		<Item Name="Run Test (Scalar Path).vi" Type="VI" URL="../run-tests/Run Test (Scalar Path).vi"/>
@@ -71,5 +78,4 @@
 		<Item Name="Run Test (VIRefnum Scalar).vi" Type="VI" URL="../run-tests/Run Test (VIRefnum Scalar).vi"/>
 		<Item Name="Run Test (VIRefnum Array).vi" Type="VI" URL="../run-tests/Run Test (VIRefnum Array).vi"/>
 	</Item>
-	<Item Name="Run Tests.vi" Type="VI" URL="../run-tests/Run Tests.vi"/>
 </Library>

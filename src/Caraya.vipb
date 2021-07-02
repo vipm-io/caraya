@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-07-01 16:56:54" Creator="Tomi Maila" Comments="" ID="0f74189e564db3da842ee5160d65ee76">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-07-02 15:11:51" Creator="Tomi Maila" Comments="" ID="d85321d4baabbf27a1b7926426f49772">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.2.0.129</Library_Version>
+    <Library_Version>1.2.0.130</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -391,7 +391,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>7A6EA7FE656C5047E270CB1B55093CD6</GUID>
+      <GUID>6FDFC78D4E77399F459FAE7DD8889A65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -496,7 +496,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48A63BC0D5BA7A6530D10EA66FE78B01</GUID>
+      <GUID>616CC3D30518FF28A2B2AE5D3A68FD16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -587,7 +587,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>637C33E452FF108EC4015B24D0873385</GUID>
+      <GUID>5C3586AE5AA34E6126875E245F299B90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -818,7 +818,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>B4E5CE344798A3029589B4267C56895C</GUID>
+      <GUID>83CE6FD200D7B1A814F52CD244265924</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -881,7 +881,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E698AFBABF6325CCB6C340FD3BD2CB2</GUID>
+      <GUID>61C3083BEA5D78BB3D482C96BC464469</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1070,7 +1070,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CFE532E1F5E6732506FFB7D400F9EBC</GUID>
+      <GUID>9568691324D21F22FAFD4722E8434A4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1301,7 +1301,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3813191DB749B19366819BFE64C4ED71</GUID>
+      <GUID>7B25E10730BD7710225C830B83309BF1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1434,7 +1434,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72DBDE1EF134F554CAB52068740908AC</GUID>
+      <GUID>2A9BADC4B394E2E6B707628ECDF5AE2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1511,7 +1511,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA805067E77EB967B6C87C5762506E42</GUID>
+      <GUID>A8841B9DF5533902EE0018C382DE9DCD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1588,7 +1588,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72F5863C45D489CC1D820C4DBF89B6A7</GUID>
+      <GUID>CDB67DA7A5AB84D6869E3EADFBD0DC56</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

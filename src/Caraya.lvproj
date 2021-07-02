@@ -153,6 +153,9 @@
 				<Item Name="124-Inner Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Inner Test.vi"/>
 				<Item Name="124-Outer Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Outer Test.vi"/>
 			</Item>
+			<Item Name="ppl" Type="Folder">
+				<Item Name="135-lvlib-p_path.vi" Type="VI" URL="../tests/test-ppls/135-lvlib-p_path.vi"/>
+			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
 		<Item Name="project" Type="Folder">

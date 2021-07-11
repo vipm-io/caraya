@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-07-02 15:11:51" Creator="Tomi Maila" Comments="" ID="d85321d4baabbf27a1b7926426f49772">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2021-07-11 12:07:17" Creator="Tomi Maila" Comments="" ID="6b241154290e1f54d3fe3f3011cfd1a1">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.2.0.130</Library_Version>
+    <Library_Version>1.2.1.132</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -46,7 +46,10 @@ http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>This release includes features to build into PPL, provides Caraya library information and ability to wrap assert methods without redefining the test (as a result, the extension of Caraya Assertion API is now simple and straightforward)
+      <Release_Notes>This is a patch to resolve a bug in the application context for running Caraya tests through VI Server. Thanks Pascal Neuperger (@logmanoriginal) for the patches.
+
+Cumulative update 1.2.0 and 1.2.1:
+This release includes features to build into PPL, provides Caraya library information and ability to wrap assert methods without redefining the test (as a result, the extension of Caraya Assertion API is now simple and straightforward)
 
 New Features: 
 
@@ -65,6 +68,8 @@ Fixes:
 [Fix: 131] Almost equal now reports a verbose UTF-8 compatible string
 [Fix: 133] Handling of linker info errors during test discovery step in Test Runners.
 [Fix: 135] Caraya library path now resolves for PPLs, EXE and project-specific installs
+[Fix: 137] Fixes the context in which TestRunner is executing
+[Fix: 138] Fixes the incorrect re-run of last test in Test Manager UI when no tests found
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
@@ -76,8 +81,10 @@ Jim Kring (@jimkring)
 Philip Lundeen (@plundeen)
 Stephen Loftus-Mercer (@SRM256)
 Blake Mitchell (@bmitc)
+Pascal Neuperger (@logmanoriginal)
 Francois Normandin (@francois-normandin)
 Felipe Pinheiro Silva (@felipefoz)
+
 </Release_Notes>
     </Description>
     <Destinations>
@@ -391,7 +398,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>6FDFC78D4E77399F459FAE7DD8889A65</GUID>
+      <GUID>88835D4809382E068844BF8507D84D15</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -496,7 +503,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>616CC3D30518FF28A2B2AE5D3A68FD16</GUID>
+      <GUID>A6CC2F49220F957F6500A4AFB05B58DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -587,7 +594,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C3586AE5AA34E6126875E245F299B90</GUID>
+      <GUID>C10EA1897B15A36B7DB58E0BE7D2A2B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -818,7 +825,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>83CE6FD200D7B1A814F52CD244265924</GUID>
+      <GUID>72BF0975EFFC3BBDC5F9C4DCB9683F2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -881,7 +888,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61C3083BEA5D78BB3D482C96BC464469</GUID>
+      <GUID>2FDFEEA44BE379C7131AFDBD5D3F8753</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1070,7 +1077,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9568691324D21F22FAFD4722E8434A4D</GUID>
+      <GUID>99C1DAB4C732C9CF35FD531391944A75</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1301,7 +1308,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B25E10730BD7710225C830B83309BF1</GUID>
+      <GUID>9B70F46B3B70F63E712C56E4732FDF16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1434,7 +1441,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A9BADC4B394E2E6B707628ECDF5AE2B</GUID>
+      <GUID>F3A3C8DC4F76014EC453C14DAB4DB5D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1511,7 +1518,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8841B9DF5533902EE0018C382DE9DCD</GUID>
+      <GUID>D8195D8D9273163BC1EE8270FDEE1F0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1588,7 +1595,7 @@ Felipe Pinheiro Silva (@felipefoz)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDB67DA7A5AB84D6869E3EADFBD0DC56</GUID>
+      <GUID>2A0E0F5D8BC00B4D12FC841BBC69A4CD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -141,7 +141,7 @@ You can also join the [Caraya Community Discussion Forums](https://forums.jki.ne
 
 ## Contributing
 
-First, please complete the [JKI Contributor License Agreement](https://cla-assistant.io/JKISoftware/) form, which is required for JKI to include any of your contributions into the project.
+First, please complete the [JKI Contributor License Agreement](https://cla-assistant.io/JKISoftware/Caraya) form, which is required for JKI to include any of your contributions into the project.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

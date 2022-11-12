@@ -1,3 +1,5 @@
+[![Image](https://www.vipm.io/package/jki_lib_caraya/badge.svg?metric=installs)](https://www.vipm.io/package/jki_lib_caraya/) [![Image](https://www.vipm.io/package/jki_lib_caraya/badge.svg?metric=stars)](https://www.vipm.io/package/jki_lib_caraya/)
+
 *Do you have Caraya or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [Caraya Community Discussion Forums](https://forums.jki.net/forum/65-caraya-unit-tester/).*
 
 ![Caraya](https://github.com/JKISoftware/caraya/raw/master/img/caraya-logo.png)

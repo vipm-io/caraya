@@ -47,6 +47,10 @@
 				<Item Name="Test ACME Value Extension.vi" Type="VI" URL="../examples/assert-extension/Test ACME Value Extension.vi"/>
 				<Item Name="Test ACME SubTest.vi" Type="VI" URL="../examples/assert-extension/Test ACME SubTest.vi"/>
 			</Item>
+			<Item Name="Properties" Type="Folder">
+				<Item Name="Test Properties Report.vi" Type="VI" URL="../examples/assert-properties/Test Properties Report.vi"/>
+				<Item Name="Test Assert Properties.vi" Type="VI" URL="../examples/assert-properties/Test Assert Properties.vi"/>
+			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="asserts" Type="Folder">
@@ -149,12 +153,18 @@
 				<Item Name="PreBuildTest(Fail).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Fail).vi"/>
 				<Item Name="PreBuildTest(Pass).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Pass).vi"/>
 			</Item>
-			<Item Name="124-report-duplicates" Type="Folder">
-				<Item Name="124-Inner Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Inner Test.vi"/>
-				<Item Name="124-Outer Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Outer Test.vi"/>
-			</Item>
 			<Item Name="ppl" Type="Folder">
 				<Item Name="135-lvlib-p_path.vi" Type="VI" URL="../tests/test-ppls/135-lvlib-p_path.vi"/>
+			</Item>
+			<Item Name="bug-fixes" Type="Folder">
+				<Item Name="124-report-duplicates" Type="Folder">
+					<Item Name="124-Inner Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Inner Test.vi"/>
+					<Item Name="124-Outer Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Outer Test.vi"/>
+				</Item>
+				<Item Name="160-prepended-space-label" Type="Folder">
+					<Item Name="160-Inner Test.vi" Type="VI" URL="../tests/test-issue160/160-Inner Test.vi"/>
+					<Item Name="160-Outer Test.vi" Type="VI" URL="../tests/test-issue160/160-Outer Test.vi"/>
+				</Item>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
@@ -274,7 +284,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>

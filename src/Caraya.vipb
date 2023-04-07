@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-03-27 22:12:58" Creator="Tomi Maila" Comments="" ID="a5890db32dc56ba73cf868ef3efd7364">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-03-27 22:25:26" Creator="Tomi Maila" Comments="" ID="ace9d625a9c5c146a46124258610669b">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.3.0.137</Library_Version>
+    <Library_Version>1.3.0.138</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -59,7 +59,7 @@ http://jki.net/tools#caraya</Description>
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
-Adam Fluck (@agluck28)
+Adam Gluck (@agluck28)
 Jörg Hampel (@joerghampel)
 Francois Normandin (@francois-normandin)
 
@@ -377,7 +377,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>C49C1ACC55BC6C92B45A019CA8491A7B</GUID>
+      <GUID>14D305E45FD1C88385949F7B3308D205</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -482,7 +482,7 @@ Francois Normandin (@francois-normandin)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9A7947EC85C4B4BC587CADEF727C277</GUID>
+      <GUID>0D2AB9AEE969FF138EA16ECFC457CB44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -573,7 +573,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3665382FB59BEEE658D9797499614C88</GUID>
+      <GUID>D6ADC6E1A80385F2C8BB199EE88B63B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -804,7 +804,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>0A6AD934659098D0B9FACAACE9850754</GUID>
+      <GUID>BC052D26758A91D8886B8EE4B9E793E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -867,7 +867,7 @@ Francois Normandin (@francois-normandin)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E355EA63B335EBFFBB07E34AF356322</GUID>
+      <GUID>6CFCB6A3402ADAFD7BCF95C89A41FECD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1056,7 +1056,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D14AABF18FD52CFA23F9A9A75B8F8357</GUID>
+      <GUID>A3D2D58032E10F64DB85FBABA6833770</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1287,7 +1287,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F78B8D2BBBFCD8A7DDBA6C468A1D074</GUID>
+      <GUID>1AFA9C2D59B8A7FA01B0B085B00F8917</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1420,7 +1420,7 @@ Francois Normandin (@francois-normandin)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28C24819243947091055DE147815832A</GUID>
+      <GUID>078DDFF60E38E885D0FDBEBA43BF4ED0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1497,7 +1497,7 @@ Francois Normandin (@francois-normandin)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E44AAA2F3F6DC6382F754871FB09A71</GUID>
+      <GUID>9A4B3832CEE3633E86D3BB827BF1F4E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1574,7 +1574,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9A7D88218B186906E629E31A973C98B</GUID>
+      <GUID>F9369FA4987DB40AB88D0DF198268CCD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

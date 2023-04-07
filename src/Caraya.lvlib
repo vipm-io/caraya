@@ -62,6 +62,22 @@
 		<Item Name="Test Runner.Collection.lvclass" Type="LVClass" URL="../classes/Test Runner.Collection/Test Runner.Collection.lvclass"/>
 		<Item Name="Test Runner.Template.lvclass" Type="LVClass" URL="../classes/Test Runner.Template/Test Runner.Template.lvclass"/>
 	</Item>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Properties.lvclass" Type="LVClass" URL="../classes/Properties/Properties.lvclass"/>
+		<Item Name="Properties.Suite.lvclass" Type="LVClass" URL="../classes/Properties.Suite/Properties.Suite.lvclass"/>
+		<Item Name="Properties.Test.lvclass" Type="LVClass" URL="../classes/Properties.Test/Properties.Test.lvclass"/>
+		<Item Name="Properties.Assert.lvclass" Type="LVClass" URL="../classes/Properties.Assert/Properties.Assert.lvclass"/>
+	</Item>
+	<Item Name="TestManager Messages" Type="Folder">
+		<Item Name="MsgSerializer.lvclass" Type="LVClass" URL="../classes/MsgSerializer/MsgSerializer.lvclass"/>
+		<Item Name="TestManagerMsg.lvclass" Type="LVClass" URL="../classes/Test Manager Message/TestManagerMsg.lvclass"/>
+		<Item Name="TestManagerMsg.KVP.lvclass" Type="LVClass" URL="../classes/Test Manager Message KVP/TestManagerMsg.KVP.lvclass"/>
+		<Item Name="TestManagerMsg.Verbose.lvclass" Type="LVClass" URL="../classes/Test Manager Message Verbose/TestManagerMsg.Verbose.lvclass"/>
+		<Item Name="TestManagerMsg.Measurement.lvclass" Type="LVClass" URL="../classes/Test Manager Message Measurement/TestManagerMsg.Measurement.lvclass"/>
+		<Item Name="TestManagerMsg.CompleteSuite.lvclass" Type="LVClass" URL="../classes/Test Manager Message Complete Suite/TestManagerMsg.CompleteSuite.lvclass"/>
+		<Item Name="TestManagerMsg.Test.lvclass" Type="LVClass" URL="../classes/Test Manager Message Test/TestManagerMsg.Test.lvclass"/>
+		<Item Name="TestManagerMsg.Assertion.lvclass" Type="LVClass" URL="../classes/Test Manager Message Assertion/TestManagerMsg.Assertion.lvclass"/>
+	</Item>
 	<Item Name="Assertions" Type="Folder">
 		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>
 		<Item Name="Test.lvclass" Type="LVClass" URL="../classes/Test/Test.lvclass"/>

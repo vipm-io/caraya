@@ -48,4 +48,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="SerializeMessage.vi" Type="VI" URL="../SerializeMessage.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!#Q!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!1!#!!-*:8*S&lt;X)A&lt;X6U!"R!-0````]35W6S;7&amp;M;8JF:#".:8.T97&gt;F!!!]1(!!(A!!*!R$98*B?7%O&lt;(:M;7)648.H5W6S;7&amp;M;8JF=CZM&gt;G.M98.T!!!.48.H5W6S;7&amp;M;8JF=A!A1&amp;!!!Q!"!!)!!R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q6797RV:1")1(!!(A!!+1R$98*B?7%O&lt;(:M;7);6'6T&gt;%VB&lt;G&amp;H:8*.=W=O3V:1,GRW9WRB=X-!&amp;62F=X2.97ZB:W6S48.H,EN75#"J&lt;A"5!0!!$!!!!!1!!!!&amp;!!!!!!!!!!9!!!!(!!A!#1-!!(A!!!!!!!!.#1!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!I!!!!)!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+	</Item>
 </LVClass>

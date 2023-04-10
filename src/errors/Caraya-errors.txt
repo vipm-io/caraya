@@ -71,3 +71,23 @@ Caraya Test Report: Unexpected file type
 Caraya Test Report: Directory not found.
 </nierror>
 </nidocument>
+<nierror code="7240">
+Caraya Test Message: Key is empty.
+</nierror>
+</nidocument>
+<nierror code="7241">
+Caraya Test Message: Attempting to override an existing property without the overwrite flag.
+</nierror>
+</nidocument>
+<nierror code="7242">
+Caraya Test Message: Measurement label is empty.
+</nierror>
+</nidocument>
+<nierror code="7243">
+Caraya Test Message: Attempting to override an existing measurement without the overwrite flag.
+</nierror>
+</nidocument>
+<nierror code="7244">
+Caraya Test Message: Unsupported type serialization.
+</nierror>
+</nidocument>

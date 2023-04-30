@@ -35,6 +35,7 @@
 		<Item Name="AutoSelect Test Report.vi" Type="VI" URL="../classes/Test Report/AutoSelect Test Report.vi"/>
 		<Item Name="Test Report.lvclass" Type="LVClass" URL="../classes/Test Report/Test Report.lvclass"/>
 		<Item Name="Test Report.Default.lvclass" Type="LVClass" URL="../classes/Test Report.Default/Test Report.Default.lvclass"/>
+		<Item Name="Test Report.Event.lvclass" Type="LVClass" URL="../classes/Test Report.Event/Test Report.Event.lvclass"/>
 		<Item Name="Test Report.JUnit.lvclass" Type="LVClass" URL="../classes/Test Report.JUnit/Test Report.JUnit.lvclass"/>
 		<Item Name="Test Report.Template.lvclass" Type="LVClass" URL="../classes/Test Report.Template/Test Report.Template.lvclass"/>
 	</Item>
@@ -52,6 +53,7 @@
 		<Item Name="Get Caraya Library Information.vi" Type="VI" URL="../subVIs/Get Caraya Library Information.vi"/>
 		<Item Name="Caraya Library Info.ctl" Type="VI" URL="../subVIs/Caraya Library Info.ctl"/>
 		<Item Name="Path to Common String.vi" Type="VI" URL="../subVIs/Path to Common String.vi"/>
+		<Item Name="guid_generator.vi" Type="VI" URL="../subVIs/guid_generator.vi"/>
 	</Item>
 	<Item Name="Runners" Type="Folder">
 		<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
@@ -71,6 +73,7 @@
 	<Item Name="Serializer" Type="Folder">
 		<Item Name="MsgSerializer.lvclass" Type="LVClass" URL="../classes/MsgSerializer/MsgSerializer.lvclass"/>
 		<Item Name="MsgSerializer.XML.lvclass" Type="LVClass" URL="../classes/MsgSerializer.XML/MsgSerializer.XML.lvclass"/>
+		<Item Name="MsgSerializer.JSON.lvclass" Type="LVClass" URL="../classes/MsgSerializer.JSON/MsgSerializer/MsgSerializer.JSON.lvclass"/>
 	</Item>
 	<Item Name="TestManager Messages" Type="Folder">
 		<Item Name="TestManagerMsg.lvclass" Type="LVClass" URL="../classes/Test Manager Message/TestManagerMsg.lvclass"/>

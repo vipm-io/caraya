@@ -168,6 +168,8 @@
 			</Item>
 			<Item Name="serializer" Type="Folder">
 				<Item Name="serialize-xml.vi" Type="VI" URL="../tests/serializer/serialize-xml.vi"/>
+				<Item Name="serialize-xml-variant-attributes.vi" Type="VI" URL="../tests/serializer/serialize-xml-variant-attributes.vi"/>
+				<Item Name="Test Properties Report (XML).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (XML).vi"/>
 			</Item>
 			<Item Name="properties" Type="Folder"/>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
@@ -204,7 +206,7 @@
 		<Item Name="Advanced VI Tree - Caraya.vi" Type="VI" URL="../Advanced VI Tree - Caraya.vi"/>
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
 		<Item Name="Caraya.vipc" Type="Document" URL="../Caraya.vipc"/>
-		<Item Name="serialize-xml-variant-attributes.vi" Type="VI" URL="../tests/serializer/serialize-xml-variant-attributes.vi"/>
+		<Item Name="_test_formattingJUnitFromResult__2.vi" Type="VI" URL="../classes/Test Report.JUnit/_test_formattingJUnitFromResult__2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>

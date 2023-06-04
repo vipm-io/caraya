@@ -170,6 +170,8 @@
 				<Item Name="serialize-xml.vi" Type="VI" URL="../tests/serializer/serialize-xml.vi"/>
 				<Item Name="serialize-xml-variant-attributes.vi" Type="VI" URL="../tests/serializer/serialize-xml-variant-attributes.vi"/>
 				<Item Name="Test Properties Report (XML).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (XML).vi"/>
+				<Item Name="Test Properties Report (Default).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (Default).vi"/>
+				<Item Name="Test Properties Report (Events).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (Events).vi"/>
 			</Item>
 			<Item Name="properties" Type="Folder"/>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
@@ -206,7 +208,6 @@
 		<Item Name="Advanced VI Tree - Caraya.vi" Type="VI" URL="../Advanced VI Tree - Caraya.vi"/>
 		<Item Name="Caraya.vipb" Type="Document" URL="../Caraya.vipb"/>
 		<Item Name="Caraya.vipc" Type="Document" URL="../Caraya.vipc"/>
-		<Item Name="_test_formattingJUnitFromResult__2.vi" Type="VI" URL="../classes/Test Report.JUnit/_test_formattingJUnitFromResult__2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
@@ -643,6 +644,9 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="MissingDependencies_Issue163.vi" Type="VI" URL="../tests/test-runner/UnitTest For Runner/support files/MissingDependencies_Issue163.vi"/>
+			<Item Name="__deleted_vi__.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/__deleted_vi__.vi"/>
+			<Item Name="Disabled Test 0003.vi" Type="VI" URL="../tests/test-runner/UnitTest For Runner/support files/Disabled Test 0003.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test EXE shows Caraya GUI" Type="EXE">

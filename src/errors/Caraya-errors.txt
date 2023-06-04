@@ -52,6 +52,9 @@ Caraya Test Runner: Undefined object
 <nierror code="7108">
 Caraya Test Runner: Library reference is invalid
 </nierror>
+<nierror code="7109">
+Caraya Test Runner: At least one test is saved in a more recent version
+</nierror>
 <nierror code="7200">
 Caraya Batch Tester: Generic Test Manager error (ex: Unhandled state)
 </nierror>

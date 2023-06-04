@@ -52,6 +52,9 @@ Caraya Test Runner: Undefined object
 <nierror code="7108">
 Caraya Test Runner: Library reference is invalid
 </nierror>
+<nierror code="7109">
+Caraya Test Runner: At least one test is saved in a more recent version
+</nierror>
 <nierror code="7200">
 Caraya Batch Tester: Generic Test Manager error (ex: Unhandled state)
 </nierror>
@@ -69,5 +72,25 @@ Caraya Test Report: Unexpected file type
 </nierror>
 <nierror code="7234">
 Caraya Test Report: Directory not found.
+</nierror>
+</nidocument>
+<nierror code="7240">
+Caraya Test Message: Key is empty.
+</nierror>
+</nidocument>
+<nierror code="7241">
+Caraya Test Message: Attempting to override an existing property without the overwrite flag.
+</nierror>
+</nidocument>
+<nierror code="7242">
+Caraya Test Message: Measurement label is empty.
+</nierror>
+</nidocument>
+<nierror code="7243">
+Caraya Test Message: Attempting to override an existing measurement without the overwrite flag.
+</nierror>
+</nidocument>
+<nierror code="7244">
+Caraya Test Message: Unsupported type serialization.
 </nierror>
 </nidocument>

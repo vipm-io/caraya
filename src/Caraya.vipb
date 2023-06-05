@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-06-04 11:59:49" Creator="Tomi Maila" Comments="" ID="de5eef1b1eb5da54af69d774bedc7b70">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-06-04 17:17:35" Creator="Tomi Maila" Comments="" ID="630af940b8707bf402df7cdc37dc9567">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.3.0.138</Library_Version>
+    <Library_Version>1.4.0.138</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -46,21 +46,26 @@ http://jki.net/tools#caraya</Description>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
       <Release_Notes>[Fix: 166] Test Runner linkage info now errors on invalid/broken test during discovery
+[Fix: 164] Inverted inputs in Assert Almost Equal are now consistent with other assertions
 [Fix: 163] Linkage Info now skips conditionally disabled methods
 [Feature: 161] XML JUnit can now be localized (defaults to system's regional settings)
 [Fix: 160] Space character in test label now has no impact on result tree location
 [Feature: 158] Verbose explanations can now be forced even for tests that assert
+[Fix: 155] Conditionally disabled methods do not produce bad linkage in Test Runners
+[Feature: 152] Test manager generates event as each individual tests and assertions are processed
 [Feature: 151] Verbose explanations can now be added to any assertion
-
+[Feature: 148] Failure descriptions can now be added to any report, including JUnit
 
 
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
 
-Adam Gluck (@agluck28)
-Jörg Hampel (@joerghampel)
+Tanner Blair (@tannerblair)
+Sébastien Michaud (@SebMichaud)
+Ajay MV (@digiajay)
 Francois Normandin (@francois-normandin)
-
-</Release_Notes>
+Roberto Olea (@Robbie20)
+Hunter Smith (@HunterJKI)
+(@phollyni)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -374,7 +379,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>234FC3D15C54DFC5ED9CFBABEC72BEBF</GUID>
+      <GUID>66E3301A79C0D4B4FD2A7F07D0B89EA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -479,7 +484,7 @@ Francois Normandin (@francois-normandin)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E63D0021DA78C5724577300B502FF70</GUID>
+      <GUID>3B871443526A24E6C3D71DBF744B1FB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -570,7 +575,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Result\Get Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AA4ECBAF979E951D2091865C046B59E</GUID>
+      <GUID>CB73C475340184D969F281E2F9C2D643</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -801,7 +806,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>BA6F4C77CC32746880ED1736D89E0341</GUID>
+      <GUID>2B393EB714321A80EE45FBE256887A18</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -864,7 +869,7 @@ Francois Normandin (@francois-normandin)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F610EAA4B038C896F4544F4F0CB95613</GUID>
+      <GUID>D33BF7503AD30657E7C148530CC8B693</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1053,7 +1058,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF985171423DDFE09CDEC3AEF4DD6574</GUID>
+      <GUID>C9172E39C5E69CD8122561DD75BF3D7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1284,7 +1289,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C25ABB3470D28361B3437B819BF4959</GUID>
+      <GUID>CCA14C587F720CE42F9730F863635E03</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1417,7 +1422,7 @@ Francois Normandin (@francois-normandin)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A25902DD5C70217C11D0B8E473065D52</GUID>
+      <GUID>5E4B81A70D8B8BF71405F20F15391661</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1494,7 +1499,7 @@ Francois Normandin (@francois-normandin)
         <Path>Advanced Reporting</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>646B91CCD9A3CCDCB9978E40C4A13020</GUID>
+      <GUID>BEDCF388D173E9426BA7AD786047E9B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1571,7 +1576,7 @@ Francois Normandin (@francois-normandin)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7D8CF3E80C9A2754508936E8F436420</GUID>
+      <GUID>3D4BBB1A0D658964803D1854078BC0B4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

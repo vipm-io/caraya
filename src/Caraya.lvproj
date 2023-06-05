@@ -173,7 +173,6 @@
 				<Item Name="Test Properties Report (Default).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (Default).vi"/>
 				<Item Name="Test Properties Report (Events).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (Events).vi"/>
 			</Item>
-			<Item Name="properties" Type="Folder"/>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
 		<Item Name="project" Type="Folder">

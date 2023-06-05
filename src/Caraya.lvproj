@@ -643,9 +643,6 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="MissingDependencies_Issue163.vi" Type="VI" URL="../tests/test-runner/UnitTest For Runner/support files/MissingDependencies_Issue163.vi"/>
-			<Item Name="__deleted_vi__.vi" Type="VI" URL="../tests/test-runner/test-brokenTests/Broken Tests/__deleted_vi__.vi"/>
-			<Item Name="Disabled Test 0003.vi" Type="VI" URL="../tests/test-runner/UnitTest For Runner/support files/Disabled Test 0003.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test EXE shows Caraya GUI" Type="EXE">

@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-06-04 18:36:08" Creator="Tomi Maila" Comments="" ID="dbb22930625c6044ca9a67683da2a949">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-06-17 07:53:59" Creator="Tomi Maila" Comments="" ID="3cf901e247558bc4a558c951f7dfd57c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.4.0.138</Library_Version>
+    <Library_Version>1.4.0.140</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..</Library_Output_Folder>
+    <Library_Output_Folder>..\_built_packages</Library_Output_Folder>
     <Company_Name>JKI</Company_Name>
     <Library_Summary/>
     <Library_License>New BSD</Library_License>
@@ -45,7 +45,8 @@ http://jki.net/tools#caraya</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/Caraya</URL>
-      <Release_Notes>[Fix: 166] Test Runner linkage info now errors on invalid/broken test during discovery
+      <Release_Notes>[Fix: 169] Test Runner now filters the Excluded VI List when dscovering tests
+[Fix: 166] Test Runner linkage info now errors on invalid/broken test during discovery
 [Fix: 164] Inverted inputs in Assert Almost Equal are now consistent with other assertions
 [Fix: 163] Linkage Info now skips conditionally disabled methods
 [Feature: 161] XML JUnit can now be localized (defaults to system's regional settings)
@@ -223,7 +224,7 @@ Hunter Smith (@HunterJKI)
         <Path>tests/test-runner/test-brokenTests</Path>
       </Exclusions>
       <Exclusions>
-        <Path>tests/test-runner/UnitTest For Runner/support files/MissingDependencies_Issue163.vi</Path>
+        <Path>tests/test-runner/UnitTest For Runner/support files/Disabled Test 0003.vi</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>tests/test-runner/test-brokenTests/Broken Tests/MoreRecentLVVersion Test 0002.vi</Path>
@@ -385,7 +386,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>EDD1444D0B02BC2B1307FF70841F004C</GUID>
+      <GUID>2D93CF6383FD037D24E5BD5154F1C5DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -490,7 +491,7 @@ Hunter Smith (@HunterJKI)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41F3917F15AEEB6B0AFCD4D9EA3D4399</GUID>
+      <GUID>04A61FF74F7FF11B21DA7ECB6ECBD09E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -595,7 +596,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Result</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5753EFB2C0D0E70E66537FAE8520F923</GUID>
+      <GUID>FDE232AA4CF062B1E6D343651A789815</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -826,7 +827,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>2759AE53C6875C1BCD5DFD5757B74C7E</GUID>
+      <GUID>3B5BC96F8F379902EF86754C6B6A9F76</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -889,7 +890,7 @@ Hunter Smith (@HunterJKI)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08B5229718CB85CF3AE84D0C8F23EC23</GUID>
+      <GUID>0F414000678923363D6C4144FC047E79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1078,7 +1079,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF5BFD3D3B4E2C5B5FF2A77A68839392</GUID>
+      <GUID>31E1DDC1FF5F19ED797869AC833BE1F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1309,7 +1310,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F33BFB11D499BD1EB4DDB98CCF384BC8</GUID>
+      <GUID>9C7C7B8E34863B7C4C985AD07F50E3B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1442,7 +1443,7 @@ Hunter Smith (@HunterJKI)
         <Path>Advanced VI Tree - Caraya.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F48052C1B9CA6D07EB5C96E449C82CB8</GUID>
+      <GUID>A07B4E02C18074FDD1D88D9549D88E35</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1533,7 +1534,7 @@ Hunter Smith (@HunterJKI)
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A2B3E584D4FFC78CABB27440DD33567</GUID>
+      <GUID>F52517CCCD20544F1455ADD3DE6CD49E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1610,7 +1611,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4652E2977682ECFF37A49D1DA80F4321</GUID>
+      <GUID>248E28516C069E0211A4AFF9A155A80B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1855,7 +1856,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Result\Test Assert Update Event to JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22426466B84A8B367B8297B5F01B9458</GUID>
+      <GUID>83CEAECA09833DC710A5D9EB40564D19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1918,7 +1919,7 @@ Hunter Smith (@HunterJKI)
         <Path>examples\assert-properties\Test Properties Report (XML).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDB6B92C96127AB41415B9CAD67ADFDA</GUID>
+      <GUID>B518A418BCC343C1D379E1A646494A20</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

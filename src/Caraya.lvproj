@@ -47,6 +47,10 @@
 				<Item Name="Test ACME Value Extension.vi" Type="VI" URL="../examples/assert-extension/Test ACME Value Extension.vi"/>
 				<Item Name="Test ACME SubTest.vi" Type="VI" URL="../examples/assert-extension/Test ACME SubTest.vi"/>
 			</Item>
+			<Item Name="Properties" Type="Folder">
+				<Item Name="Test Properties Report.vi" Type="VI" URL="../examples/assert-properties/Test Properties Report.vi"/>
+				<Item Name="Test Assert Properties.vi" Type="VI" URL="../examples/assert-properties/Test Assert Properties.vi"/>
+			</Item>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="asserts" Type="Folder">
@@ -113,6 +117,7 @@
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 				<Item Name="Test Report UTF8 Compatibility.vi" Type="VI" URL="../tests/test-suite/Test Report UTF8 Compatibility.vi"/>
+				<Item Name="Test Status Update Bug.vi" Type="VI" URL="../tests/test-suite/Test Status Update Bug.vi"/>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Duplicate Names for Different Assertions.vi" Type="VI" URL="../tests/test-suite/Test Duplicate Names for Different Assertions.vi"/>
 				<Item Name="Test SuiteDestructionError.vi" Type="VI" URL="../tests/test-suite/Test SuiteDestructionError.vi"/>
@@ -149,12 +154,25 @@
 				<Item Name="PreBuildTest(Fail).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Fail).vi"/>
 				<Item Name="PreBuildTest(Pass).vi" Type="VI" URL="../tests/pre-build-tests/PreBuildTest(Pass).vi"/>
 			</Item>
-			<Item Name="124-report-duplicates" Type="Folder">
-				<Item Name="124-Inner Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Inner Test.vi"/>
-				<Item Name="124-Outer Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Outer Test.vi"/>
-			</Item>
 			<Item Name="ppl" Type="Folder">
 				<Item Name="135-lvlib-p_path.vi" Type="VI" URL="../tests/test-ppls/135-lvlib-p_path.vi"/>
+			</Item>
+			<Item Name="bug-fixes" Type="Folder">
+				<Item Name="124-report-duplicates" Type="Folder">
+					<Item Name="124-Inner Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Inner Test.vi"/>
+					<Item Name="124-Outer Test.vi" Type="VI" URL="../tests/test-reporting-duplicate/124-Outer Test.vi"/>
+				</Item>
+				<Item Name="160-prepended-space-label" Type="Folder">
+					<Item Name="160-Inner Test.vi" Type="VI" URL="../tests/test-issue160/160-Inner Test.vi"/>
+					<Item Name="160-Outer Test.vi" Type="VI" URL="../tests/test-issue160/160-Outer Test.vi"/>
+				</Item>
+			</Item>
+			<Item Name="serializer" Type="Folder">
+				<Item Name="serialize-xml.vi" Type="VI" URL="../tests/serializer/serialize-xml.vi"/>
+				<Item Name="serialize-xml-variant-attributes.vi" Type="VI" URL="../tests/serializer/serialize-xml-variant-attributes.vi"/>
+				<Item Name="Test Properties Report (XML).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (XML).vi"/>
+				<Item Name="Test Properties Report (Default).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (Default).vi"/>
+				<Item Name="Test Properties Report (Events).vi" Type="VI" URL="../examples/assert-properties/Test Properties Report (Events).vi"/>
 			</Item>
 			<Item Name="All Tests.vi" Type="VI" URL="../tests/All Tests.vi"/>
 		</Item>
@@ -193,7 +211,6 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -274,10 +291,8 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
@@ -306,6 +321,8 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TD_Get MDT Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get MDT Information.vi"/>
+				<Item Name="TD_MDTFlavor.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_MDTFlavor.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
@@ -313,6 +330,8 @@
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Type Descriptor I16 Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16 Array.ctl"/>
+				<Item Name="Type Descriptor I16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16.ctl"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offsets -- enum.ctl"/>
@@ -617,6 +636,7 @@
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Unwrap VVariant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Unwrap VVariant__ogtk.vi"/>
 				<Item Name="Valid Path - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Array__ogtk.vi"/>
 				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
 				<Item Name="Valid Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path__ogtk.vi"/>

@@ -30,12 +30,12 @@
 		<Item Name="Get Library Info.vi" Type="VI" URL="../subVIs/Get Library Info.vi"/>
 		<Item Name="Library Info Constant.vi" Type="VI" URL="../subVIs/Library Info Constant.vi"/>
 		<Item Name="private_iterator.vi" Type="VI" URL="../subVIs/private_iterator.vi"/>
-		<Item Name="Test Notification.ctl" Type="VI" URL="../subVIs/Test Notification.ctl"/>
 	</Item>
 	<Item Name="Reporting" Type="Folder">
 		<Item Name="AutoSelect Test Report.vi" Type="VI" URL="../classes/Test Report/AutoSelect Test Report.vi"/>
 		<Item Name="Test Report.lvclass" Type="LVClass" URL="../classes/Test Report/Test Report.lvclass"/>
 		<Item Name="Test Report.Default.lvclass" Type="LVClass" URL="../classes/Test Report.Default/Test Report.Default.lvclass"/>
+		<Item Name="Test Report.Event.lvclass" Type="LVClass" URL="../classes/Test Report.Event/Test Report.Event.lvclass"/>
 		<Item Name="Test Report.JUnit.lvclass" Type="LVClass" URL="../classes/Test Report.JUnit/Test Report.JUnit.lvclass"/>
 		<Item Name="Test Report.Template.lvclass" Type="LVClass" URL="../classes/Test Report.Template/Test Report.Template.lvclass"/>
 	</Item>
@@ -52,6 +52,8 @@
 		<Item Name="Get Caraya Namespace.vi" Type="VI" URL="../subVIs/Get Caraya Namespace.vi"/>
 		<Item Name="Get Caraya Library Information.vi" Type="VI" URL="../subVIs/Get Caraya Library Information.vi"/>
 		<Item Name="Caraya Library Info.ctl" Type="VI" URL="../subVIs/Caraya Library Info.ctl"/>
+		<Item Name="Path to Common String.vi" Type="VI" URL="../subVIs/Path to Common String.vi"/>
+		<Item Name="guid_generator.vi" Type="VI" URL="../subVIs/guid_generator.vi"/>
 	</Item>
 	<Item Name="Runners" Type="Folder">
 		<Item Name="Test Runner.lvclass" Type="LVClass" URL="../classes/Test Runner/Test Runner.lvclass"/>
@@ -61,6 +63,26 @@
 		<Item Name="Test Runner.Class.lvclass" Type="LVClass" URL="../classes/Test Runner.Class/Test Runner.Class.lvclass"/>
 		<Item Name="Test Runner.Collection.lvclass" Type="LVClass" URL="../classes/Test Runner.Collection/Test Runner.Collection.lvclass"/>
 		<Item Name="Test Runner.Template.lvclass" Type="LVClass" URL="../classes/Test Runner.Template/Test Runner.Template.lvclass"/>
+	</Item>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Properties.lvclass" Type="LVClass" URL="../classes/Properties/Properties.lvclass"/>
+		<Item Name="Properties.Suite.lvclass" Type="LVClass" URL="../classes/Properties.Suite/Properties.Suite.lvclass"/>
+		<Item Name="Properties.Test.lvclass" Type="LVClass" URL="../classes/Properties.Test/Properties.Test.lvclass"/>
+		<Item Name="Properties.Assert.lvclass" Type="LVClass" URL="../classes/Properties.Assert/Properties.Assert.lvclass"/>
+	</Item>
+	<Item Name="Serializer" Type="Folder">
+		<Item Name="MsgSerializer.lvclass" Type="LVClass" URL="../classes/MsgSerializer/MsgSerializer.lvclass"/>
+		<Item Name="MsgSerializer.XML.lvclass" Type="LVClass" URL="../classes/MsgSerializer.XML/MsgSerializer.XML.lvclass"/>
+		<Item Name="MsgSerializer.JSON.lvclass" Type="LVClass" URL="../classes/MsgSerializer.JSON/MsgSerializer/MsgSerializer.JSON.lvclass"/>
+	</Item>
+	<Item Name="TestManager Messages" Type="Folder">
+		<Item Name="TestManagerMsg.lvclass" Type="LVClass" URL="../classes/Test Manager Message/TestManagerMsg.lvclass"/>
+		<Item Name="TestManagerMsg.KVP.lvclass" Type="LVClass" URL="../classes/Test Manager Message KVP/TestManagerMsg.KVP.lvclass"/>
+		<Item Name="TestManagerMsg.Verbose.lvclass" Type="LVClass" URL="../classes/Test Manager Message Verbose/TestManagerMsg.Verbose.lvclass"/>
+		<Item Name="TestManagerMsg.Measurement.lvclass" Type="LVClass" URL="../classes/Test Manager Message Measurement/TestManagerMsg.Measurement.lvclass"/>
+		<Item Name="TestManagerMsg.CompleteSuite.lvclass" Type="LVClass" URL="../classes/Test Manager Message Complete Suite/TestManagerMsg.CompleteSuite.lvclass"/>
+		<Item Name="TestManagerMsg.Test.lvclass" Type="LVClass" URL="../classes/Test Manager Message Test/TestManagerMsg.Test.lvclass"/>
+		<Item Name="TestManagerMsg.Assertion.lvclass" Type="LVClass" URL="../classes/Test Manager Message Assertion/TestManagerMsg.Assertion.lvclass"/>
 	</Item>
 	<Item Name="Assertions" Type="Folder">
 		<Item Name="Assert.lvclass" Type="LVClass" URL="../classes/Assert/Assert.lvclass"/>

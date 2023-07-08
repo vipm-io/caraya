@@ -6,5 +6,6 @@ src/*.lvlps
 src/*.aliases
 .src/
 builds/
+_built_packages/
 *.lvlps
 *.aliases

@@ -117,6 +117,7 @@
 				</Item>
 				<Item Name="Test Report Generation.vi" Type="VI" URL="../tests/test-suite/Test Report Generation.vi"/>
 				<Item Name="Test Report UTF8 Compatibility.vi" Type="VI" URL="../tests/test-suite/Test Report UTF8 Compatibility.vi"/>
+				<Item Name="Test Status Update Bug.vi" Type="VI" URL="../tests/test-suite/Test Status Update Bug.vi"/>
 				<Item Name="Sample Test.vi" Type="VI" URL="../tests/test-suite/Sample Test.vi"/>
 				<Item Name="Test Duplicate Names for Different Assertions.vi" Type="VI" URL="../tests/test-suite/Test Duplicate Names for Different Assertions.vi"/>
 				<Item Name="Test SuiteDestructionError.vi" Type="VI" URL="../tests/test-suite/Test SuiteDestructionError.vi"/>

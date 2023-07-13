@@ -166,6 +166,9 @@
 					<Item Name="160-Inner Test.vi" Type="VI" URL="../tests/test-issue160/160-Inner Test.vi"/>
 					<Item Name="160-Outer Test.vi" Type="VI" URL="../tests/test-issue160/160-Outer Test.vi"/>
 				</Item>
+				<Item Name="177-malformed-xml-attributes" Type="Folder">
+					<Item Name="177-MalformedXmlAttribute.vi" Type="VI" URL="../tests/test-issue177/177-MalformedXmlAttribute.vi"/>
+				</Item>
 			</Item>
 			<Item Name="serializer" Type="Folder">
 				<Item Name="serialize-xml.vi" Type="VI" URL="../tests/serializer/serialize-xml.vi"/>

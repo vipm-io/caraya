@@ -169,6 +169,9 @@
 				<Item Name="177-malformed-xml-attributes" Type="Folder">
 					<Item Name="177-MalformedXmlAttribute.vi" Type="VI" URL="../tests/test-issue177/177-MalformedXmlAttribute.vi"/>
 				</Item>
+				<Item Name="178-xml time value" Type="Folder">
+					<Item Name="178-malformedtimeAttribute.vi" Type="VI" URL="../tests/test-issue178/178-malformedtimeAttribute.vi"/>
+				</Item>
 			</Item>
 			<Item Name="serializer" Type="Folder">
 				<Item Name="serialize-xml.vi" Type="VI" URL="../tests/serializer/serialize-xml.vi"/>

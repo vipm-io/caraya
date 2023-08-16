@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-07-23 17:35:26" Creator="Tomi Maila" Comments="" ID="5852dbb366f9705d694ad76c6a631f88">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-08-16 07:41:48" Creator="Tomi Maila" Comments="" ID="41bcf79cf01437f9efe2c9da8b9a4b91">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
-    <Library_Version>1.4.2.145</Library_Version>
+    <Library_Version>1.4.2.146</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\_built_packages</Library_Output_Folder>
@@ -17,6 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.2.0.6</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
@@ -347,7 +349,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>9826CF17B9FBBC15338C7AE72184F3E4</GUID>
+      <GUID>6F5E6E4759BBD91F42FD512D9C3C1BA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -452,7 +454,7 @@ Hunter Smith (@HunterJKI)
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7702C2B7091DC4BD486F9AA87B851D9</GUID>
+      <GUID>9B2BB4ADA1E3B0A91EFFEB98AC29D509</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -557,7 +559,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Result</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93C324BC316D09226BDC24D1C581A14B</GUID>
+      <GUID>E49F4D02BDFEA6EF14EF2F5F8885B4DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -788,7 +790,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>5C85F6926B225023D179F99380EB7608</GUID>
+      <GUID>D44E2D739DB0F5E8A294419C14317958</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -851,7 +853,7 @@ Hunter Smith (@HunterJKI)
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C98CB92452C1CD7D1AFF042229092AA3</GUID>
+      <GUID>BCCE7F8B3C9A5A6B41DC152E3B89D525</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1040,7 +1042,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6418AA01E8CCFB79696688497677191F</GUID>
+      <GUID>4BC649FDD4A3FEF741F1FFADFFF71B84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1271,7 +1273,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>21871009F1E944DB6355C1463CAE4D87</GUID>
+      <GUID>1BA8EB88FD3FA65FB8285D627173774A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1432,7 +1434,7 @@ Hunter Smith (@HunterJKI)
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6E00D0DE629987151291DF5A43135B3</GUID>
+      <GUID>4EAB4EB69136E549E34AE0982E33D65F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1551,7 +1553,7 @@ Hunter Smith (@HunterJKI)
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30527162C64BA6FD65BCE5C428D228B1</GUID>
+      <GUID>6AB72C84799A1D7B5A425E5BD6A8463A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1628,7 +1630,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69D31A6F8D14B94C1F1B97ECC29ABE2E</GUID>
+      <GUID>306A0DDBBFBC64D141D8456238CDD10C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1873,7 +1875,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Result\Test Assert Update Event to JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85876867553C4B55CA8CC431BF511DCD</GUID>
+      <GUID>7596E5C8B57B3F43C39F51E91B475EB5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1936,7 +1938,7 @@ Hunter Smith (@HunterJKI)
         <Path>examples\assert-properties\Test Properties Report (XML).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D81A49AB108F657DEFD60309442F8A1A</GUID>
+      <GUID>4F96646000A6892B77F4EF03428AAE47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2027,7 +2029,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Properties\Add hyperlink.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>344A57284A6FB3E2AF904993DCB0B859</GUID>
+      <GUID>258AA2F62B06EEBFA638653304965DAB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2132,7 +2134,7 @@ Hunter Smith (@HunterJKI)
         <Path>examples\assert-properties\Test Properties Report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F84D92A7BC3D6B60AD88C1CA8585E34</GUID>
+      <GUID>D4B9F61AA4911FAE59D16BD24B816E5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2237,7 +2239,7 @@ Hunter Smith (@HunterJKI)
         <Path>classes\Test Report\Read MsgSerializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F20D2E6060A167479840137FB7C8ABB4</GUID>
+      <GUID>09EF2EA57997FCECC1430BD5EAB3F405</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

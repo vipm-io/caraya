@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2024-04-07 16:56:31" Creator="Tomi Maila" Comments="" ID="907f50e35a07b430dea52a925f183187">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2024-04-10 07:39:52" Creator="Tomi Maila" Comments="" ID="11e8e8d25e9bacd74d026ab034301570">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>2.0.0.149</Library_Version>
@@ -20,11 +20,11 @@
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.2.0.6</Direct_Dependencies>
-      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
-      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
-      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-5.0.0.27</Direct_Dependencies>
-      <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-6.0.1.20</Direct_Dependencies>
+      <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
+      <Direct_Dependencies>oglib_file-6.0.2.28</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-6.0.0.45</Direct_Dependencies>
+      <Direct_Dependencies>oglib_string-6.0.2.35</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build Custom Action.vi</Pre-Build_VI>
@@ -325,7 +325,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>E081D42F190A081D971C98AE1BC31118</GUID>
+      <GUID>0D3534BDF5D4FB77E15931B627F238E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -430,7 +430,7 @@ http://jki.net/tools#caraya</Description>
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6365BE2C274F08BD0B59E96AD1D829F8</GUID>
+      <GUID>596BE22BFD835B2A4F9593126CFE4B1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -535,7 +535,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Result</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E796B2352E4CDB220D49F9BF9E487293</GUID>
+      <GUID>5821D7321BF9EE6B6DEB1EBDE3BA1D3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -766,7 +766,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>4312A1904B5B3B84BD31F0345D7A617E</GUID>
+      <GUID>637FB06EBD6242740BC3AB53F8AD2BC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -829,7 +829,7 @@ http://jki.net/tools#caraya</Description>
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98D0EF98B58CF67A577447888DFC18BE</GUID>
+      <GUID>71208D36A611129B1B03A0C4D1A185C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1018,7 +1018,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4E2C17CC5519B6712DA96142E2D328A</GUID>
+      <GUID>99FA47D6C099CC1D013B77579A6069A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1249,7 +1249,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B85BBCBF5F7AD32ED7E41F7F13F4BB7E</GUID>
+      <GUID>4F9C7D124C05EC730946B4FB2391F602</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1410,7 +1410,7 @@ http://jki.net/tools#caraya</Description>
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4317F1592C0EA0013073C649F20F3C0</GUID>
+      <GUID>879CE01A4ED9E955F015686C3F9DAE0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1529,7 +1529,7 @@ http://jki.net/tools#caraya</Description>
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86258F0F07FAD8F90B2E5E60BEA0C5F7</GUID>
+      <GUID>251F4E282E344C87327C863A4AC2069B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1606,7 +1606,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65646E91B8B20AE327B83CA6713F61EB</GUID>
+      <GUID>EE403C7C791C3B60275F38B69F1A2201</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1851,7 +1851,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Result\Test Assert Update Event to JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>978306FD667C66B9DFEBCD51EECEF8F3</GUID>
+      <GUID>D177147C6A95F517778AFD5D731CC6F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1914,7 +1914,7 @@ http://jki.net/tools#caraya</Description>
         <Path>examples\assert-properties\Test Properties Report (XML).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E895A45E962318F075F276881BC913DA</GUID>
+      <GUID>84425632C2C244C23379C70BCE24A6DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2005,7 +2005,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Properties\Add hyperlink.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34C830DE49440C1A8DC4E1105D7277A0</GUID>
+      <GUID>AE6E524FBD14350AFA551F5AD48F29CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2110,7 +2110,7 @@ http://jki.net/tools#caraya</Description>
         <Path>examples\assert-properties\Test Properties Report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>007B384BE7EA85359BFBB39D22EA9366</GUID>
+      <GUID>2D1BC1D6FC66C5C00B8E23CE015D4A6B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2215,7 +2215,7 @@ http://jki.net/tools#caraya</Description>
         <Path>classes\Test Report\Read MsgSerializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9471AC4EAF5ECCF604EF95625757C9DE</GUID>
+      <GUID>52C3234D1D409FE24D2C237883353DD4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

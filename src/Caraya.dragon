@@ -1,0 +1,15 @@
+[project]
+labview-version = 2013
+vipc = "Caraya.vipc"
+
+[nipm]
+
+[vipm]
+
+[vipm.dependencies]
+oglib_array = "4.1.1.14"
+oglib_file = "4.0.1.22"
+oglib_lvdata = "5.0.0.27"
+oglib_string = "5.0.0.25"
+jki_lib_state_machine = "2018.0.7.45"
+labview_open_source_lib_epoch_datetime = "1.2.0.6"

@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2023-12-31 18:37:08" Creator="Tomi Maila" Comments="" ID="af0ea65a3437f8f062f15f88207912e4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2025-05-03 16:02:44" Creator="Tomi Maila" Comments="" ID="6121c6e364be89df6fbe5c3813ffad1b">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.4.3.148</Library_Version>
@@ -17,9 +17,15 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.3.0.8</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
+      <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.2.0.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.3.0.8</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
@@ -171,6 +177,9 @@ Francois Normandin (@francois-normandin)</Release_Notes>
       </Exclusions>
       <Exclusions>
         <Path>tests/test-runner/UnitTest For Runner/support files/Disabled Test 0003.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.dragon</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>tests/test-runner/test-brokenTests/Broken Tests/MoreRecentLVVersion Test 0002.vi</Path>
@@ -332,7 +341,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>35676DC753A00496BBA2BAED62F96DEE</GUID>
+      <GUID>CBB075445751C0A0EECD6657C08E4206</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -437,7 +446,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12B313B470E71EAAA64D00A19FBA68BA</GUID>
+      <GUID>9EB1246DCA974F6F195EEFDA4E664827</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -542,7 +551,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Test Result</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D58771FAE3E00932D8DE9521AB2A49E9</GUID>
+      <GUID>3C19A6CD54BB6D4C81877AAC2F077786</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -773,7 +782,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Assert\Assert Not Equal Type_Variant.vi</Path>
         <VI_Title>Assert Not Equal Type</VI_Title>
       </Items_Data>
-      <GUID>D95B82714156ACF32D8A1CE70D5FB9B1</GUID>
+      <GUID>02033876793EEA184D30D8CACEE86305</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -836,7 +845,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBEAE3955FB67C974A1AB8E82CC4FAE2</GUID>
+      <GUID>9DA0C0E07126FB00D2BF186C14B81D11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1025,7 +1034,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68A066E4D4EDAABA0FACBDEE3C85F4B1</GUID>
+      <GUID>75158F07E4714093C6F4E00DB16033FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1256,7 +1265,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>087C9922A94656AF60FEC15F1CAA286E</GUID>
+      <GUID>8AF75A0A4DAA92924DA9424909837248</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1417,7 +1426,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC15C6E1DE89128D27D6353D55CE9104</GUID>
+      <GUID>4D576D8EEB02B6660D95DBD13209DB3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1536,7 +1545,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7D2B524D378E074941F4A44F74878D4</GUID>
+      <GUID>6B4821A698AEC2006520397B5EB7C9F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1613,7 +1622,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E96BB22F2D1555DFC1AB7D17CDF844A0</GUID>
+      <GUID>90C7609F571D052CC261A33B9B623EAB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1858,7 +1867,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Test Result\Test Assert Update Event to JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>354A9A99A5EA353E90F79C86192EB4F8</GUID>
+      <GUID>42806652F5AD43AF51BBD477FC3E5354</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1921,7 +1930,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>examples\assert-properties\Test Properties Report (XML).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AD39CB6D6496C3AEFDB832E327B248A</GUID>
+      <GUID>64C745F09171DD7372F4CAD3C3067B70</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2012,7 +2021,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Properties\Add hyperlink.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D234ED0B04C6BF981EEB46807B2D591</GUID>
+      <GUID>45E70C7034920209D2AE7287E0B71920</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2117,7 +2126,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>examples\assert-properties\Test Properties Report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D11DEA5DA18E2F87A5B9745C5334C6F6</GUID>
+      <GUID>14B0E852E4B9D8447C223E89DC45D231</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2222,7 +2231,7 @@ Francois Normandin (@francois-normandin)</Release_Notes>
         <Path>classes\Test Report\Read MsgSerializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B4120436C47553B52CC832CE363B949</GUID>
+      <GUID>2659F7A7D66091ED1A8988AF90886C10</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

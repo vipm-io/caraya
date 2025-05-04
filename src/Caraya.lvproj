@@ -75,6 +75,8 @@
 				<Item Name="Test Assert Greater Or Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Greater Or Equal.vi"/>
 				<Item Name="Test Assert Less.vi" Type="VI" URL="../tests/asserts/Test Assert Less.vi"/>
 				<Item Name="Test Assert Less Or Equal.vi" Type="VI" URL="../tests/asserts/Test Assert Less Or Equal.vi"/>
+				<Item Name="Test Assert Error Code.vi" Type="VI" URL="../tests/asserts/Test Assert Error Code.vi"/>
+				<Item Name="Test Assert Not Error Code.vi" Type="VI" URL="../tests/asserts/Test Assert Not Error Code.vi"/>
 				<Item Name="Test Asserts.vi" Type="VI" URL="../classes/Assert/Test Asserts.vi"/>
 				<Item Name="Test Assert In SubVI.vi" Type="VI" URL="../tests/asserts/Test Assert In SubVI.vi"/>
 				<Item Name="Test Assert In Assert Wrapper.vi" Type="VI" URL="../tests/asserts/Test Assert In Assert Wrapper.vi"/>

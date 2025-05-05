@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2025-05-04 19:38:22" Creator="Tomi Maila" Comments="" ID="073c04c707fee2e2251052ebf55abf34">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-09-12 17:10:15" Modified_Date="2025-05-05 15:14:03" Creator="Tomi Maila" Comments="" ID="163455cf10ac309f2af59772f782014d">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_caraya</Package_File_Name>
     <Library_Version>1.4.4.149</Library_Version>
@@ -335,7 +335,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Assert\Assert.vi</Path>
         <VI_Title>Assert</VI_Title>
       </Items_Data>
-      <GUID>6BC1650B05993F02C951D24527ED8AF1</GUID>
+      <GUID>6B92C3D936B0D32DBFFF25C689C6C742</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -440,7 +440,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>Test Results</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98C99FF2C47D814588D7AF1185F039E2</GUID>
+      <GUID>5552918FD4D8985F460AB655E06F3C18</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -545,7 +545,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Test Result</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F155F7D5410F6FA7FB9D83623991EFE</GUID>
+      <GUID>9F860E67ACFFC66DCB05210EE37AFE11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -804,7 +804,35 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Assert\Assert Not Error Code.vi</Path>
         <VI_Title>Assert Not Error Code</VI_Title>
       </Items_Data>
-      <GUID>0810279B9F402BC0BBBFD719B63D7CD8</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert In Range.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>classes\Assert\Assert In Range.vi</Path>
+        <VI_Title>Assert In Range</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert Not In Range.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>classes\Assert\Assert Not In Range.vi</Path>
+        <VI_Title>Assert Not In Range</VI_Title>
+      </Items_Data>
+      <GUID>C286F39FD9F4AFF7BD623A8BA9D16BAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -867,7 +895,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>subVIs\Run Tests Programmatically.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DF877323DFAE238BC82638514F4333A</GUID>
+      <GUID>ABD468B20107E4E370667487C8398D6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1056,7 +1084,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Test Runner.Class\Setup TestRunner ClassInstance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A23E304EE224DD9B827C4FBE50CB536F</GUID>
+      <GUID>9CE076546954DF50E551A86D49ED6624</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1287,7 +1315,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Test Runner\Write Linkage Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9688F9099D5D46F32250ADAFB4BFEB88</GUID>
+      <GUID>FE8AE1522D7DAAC049A5268E15CD3163</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1448,7 +1476,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6AEC780BA2C10F1D73A2457C22E9CD2</GUID>
+      <GUID>5E9EF0EB95930A559565415734CB8029</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1567,7 +1595,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>examples\assert-properties</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>036646F20A1A1F1F830A143F96E4088F</GUID>
+      <GUID>194447EC345C971331461DC84ED1DEEF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1644,7 +1672,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Test Result\Get Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1ADCA2FCA85EC560700C6ACC0115B534</GUID>
+      <GUID>ADC5F3ADE82609018624B7F316065AA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1889,7 +1917,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Test Result\Test Assert Update Event to JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EBAE5BC3AE1CCB81945C21BB9FE7F50</GUID>
+      <GUID>37DD116BFD50DD5B8B23428C6C5C0D9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1952,7 +1980,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>examples\assert-properties\Test Properties Report (XML).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31E08A7E0FCF8921B94CB22A90DF7CDE</GUID>
+      <GUID>E0B2FB3624A319D4A967327B257399F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2043,7 +2071,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Properties\Add hyperlink.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CB464C3A790A9C8BEFBD86A4DB3CB0B</GUID>
+      <GUID>3A71BEAD0E98A7C2C290EEF02AFA72A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2148,7 +2176,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>examples\assert-properties\Test Properties Report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A3E1A1D7C28D01791D1DF3FFCA471C8</GUID>
+      <GUID>93A236F7DAF0C21B7664364431F238B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -2253,7 +2281,7 @@ Pascal Neuperger (@logmanoriginal)</Release_Notes>
         <Path>classes\Test Report\Read MsgSerializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67882B4B02B5C628786593FE44AAFC17</GUID>
+      <GUID>B0BED8359A2EC073DAB0A58AD1ED2696</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

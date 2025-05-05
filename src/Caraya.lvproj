@@ -79,6 +79,8 @@
 				<Item Name="Test Assert Not Error Code.vi" Type="VI" URL="../tests/asserts/Test Assert Not Error Code.vi"/>
 				<Item Name="Test Assert In Range.vi" Type="VI" URL="../tests/asserts/Test Assert In Range.vi"/>
 				<Item Name="Test Assert Not In Range.vi" Type="VI" URL="../tests/asserts/Test Assert Not In Range.vi"/>
+				<Item Name="Test Assert Valid Refnum.vi" Type="VI" URL="../tests/asserts/Test Assert Valid Refnum.vi"/>
+				<Item Name="Test Assert Not Valid Refnum.vi" Type="VI" URL="../tests/asserts/Test Assert Not Valid Refnum.vi"/>
 				<Item Name="Test Asserts.vi" Type="VI" URL="../classes/Assert/Test Asserts.vi"/>
 				<Item Name="Test Assert In SubVI.vi" Type="VI" URL="../tests/asserts/Test Assert In SubVI.vi"/>
 				<Item Name="Test Assert In Assert Wrapper.vi" Type="VI" URL="../tests/asserts/Test Assert In Assert Wrapper.vi"/>

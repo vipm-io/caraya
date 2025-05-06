@@ -81,6 +81,12 @@
 				<Item Name="Test Assert Not In Range.vi" Type="VI" URL="../tests/asserts/Test Assert Not In Range.vi"/>
 				<Item Name="Test Assert Valid Refnum.vi" Type="VI" URL="../tests/asserts/Test Assert Valid Refnum.vi"/>
 				<Item Name="Test Assert Not Valid Refnum.vi" Type="VI" URL="../tests/asserts/Test Assert Not Valid Refnum.vi"/>
+				<Item Name="Test Assert String Contains.vi" Type="VI" URL="../tests/asserts/Test Assert String Contains.vi"/>
+				<Item Name="Test Assert String Not Contains.vi" Type="VI" URL="../tests/asserts/Test Assert String Not Contains.vi"/>
+				<Item Name="Test Assert String Ends With.vi" Type="VI" URL="../tests/asserts/Test Assert String Ends With.vi"/>
+				<Item Name="Test Assert String Not Ends With.vi" Type="VI" URL="../tests/asserts/Test Assert String Not Ends With.vi"/>
+				<Item Name="Test Assert String Starts With.vi" Type="VI" URL="../tests/asserts/Test Assert String Starts With.vi"/>
+				<Item Name="Test Assert String Not Starts With.vi" Type="VI" URL="../tests/asserts/Test Assert String Not Starts With.vi"/>
 				<Item Name="Test Asserts.vi" Type="VI" URL="../classes/Assert/Test Asserts.vi"/>
 				<Item Name="Test Assert In SubVI.vi" Type="VI" URL="../tests/asserts/Test Assert In SubVI.vi"/>
 				<Item Name="Test Assert In Assert Wrapper.vi" Type="VI" URL="../tests/asserts/Test Assert In Assert Wrapper.vi"/>

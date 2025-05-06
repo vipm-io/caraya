@@ -87,6 +87,13 @@
 				<Item Name="Test Assert String Not Ends With.vi" Type="VI" URL="../tests/asserts/Test Assert String Not Ends With.vi"/>
 				<Item Name="Test Assert String Starts With.vi" Type="VI" URL="../tests/asserts/Test Assert String Starts With.vi"/>
 				<Item Name="Test Assert String Not Starts With.vi" Type="VI" URL="../tests/asserts/Test Assert String Not Starts With.vi"/>
+				<Item Name="Test Assert Array Count.vi" Type="VI" URL="../tests/asserts/Test Assert Array Count.vi"/>
+				<Item Name="Test Assert Array Contains.vi" Type="VI" URL="../tests/asserts/Test Assert Array Contains.vi"/>
+				<Item Name="Test Assert Array Not Contains.vi" Type="VI" URL="../tests/asserts/Test Assert Array Not Contains.vi"/>
+				<Item Name="Test Assert Array Distinct.vi" Type="VI" URL="../tests/asserts/Test Assert Array Distinct.vi"/>
+				<Item Name="Test Assert Array Empty.vi" Type="VI" URL="../tests/asserts/Test Assert Array Empty.vi"/>
+				<Item Name="Test Assert Array Not Empty.vi" Type="VI" URL="../tests/asserts/Test Assert Array Not Empty.vi"/>
+				<Item Name="Test Assert Array Equivalent.vi" Type="VI" URL="../tests/asserts/Test Assert Array Equivalent.vi"/>
 				<Item Name="Test Asserts.vi" Type="VI" URL="../classes/Assert/Test Asserts.vi"/>
 				<Item Name="Test Assert In SubVI.vi" Type="VI" URL="../tests/asserts/Test Assert In SubVI.vi"/>
 				<Item Name="Test Assert In Assert Wrapper.vi" Type="VI" URL="../tests/asserts/Test Assert In Assert Wrapper.vi"/>

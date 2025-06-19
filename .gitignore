@@ -9,3 +9,6 @@ builds/
 _built_packages/
 *.lvlps
 *.aliases
+.venv/
+__pycache__/
+.dragon/
